@@ -1,0 +1,42 @@
+#tinymce h3 {
+	font-size: 1.5rem;
+}
+
+#tinymce h4 {
+	font-size: 1.25rem;
+}
+
+#tinymce h5 {
+	font-size: 1rem;
+}
+
+
+#tinymce p.lead {
+	font-size: 1.4em;
+}
+
+#tinymce span.text-overline {
+	font-size: 1.15rem!important;
+	font-weight: bold!important;
+}
+
+#tinymce span.text-phone {
+	font-size: 1.25rem!important;
+	color: #009260!important;
+	font-weight: bold!important;
+}
+
+#tinymce .text-collapse {
+	background: #F4F4F4;
+	border: 1px dashed #a8a8a8;
+	padding: 10px;
+}
+
+#tinymce .text-collapse:after,
+#tinymce .text-collapse:before {
+	content: "Collapsed";
+	color: #a8a8a8;
+	font-family: 'helvetica';
+	text-align: center;
+	font-size: 0.8rem;
+}

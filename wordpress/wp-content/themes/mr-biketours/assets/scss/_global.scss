@@ -1,0 +1,221 @@
+
+/* Fonts imports */
+@font-face {
+    font-family: "Avenir Next LT W01 Condensed";
+    src: url("../Fonts/33869979-5b35-4fed-831b-d47a15fc2384.woff2") format("woff2"),
+        url("../Fonts/87141b08-88b3-4b7d-9593-f65b2b04e615.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Avenir Next LT W01 Medium Cond";
+    src: url("../Fonts/c41ef769-1f86-49f7-8413-ba737e39810e.woff2") format("woff2"),
+        url("../Fonts/3f0a7e1c-611a-46d1-a033-1b45479ff69f.woff") format("woff");
+}
+@font-face {
+    font-family: "Avenir Next LT W01 Demi Cond";
+    src: url("../Fonts/b7685a6f-f731-4069-920b-b81b365f185e.woff2") format("woff2"),
+        url("../Fonts/f4427400-5d2b-4f21-bd63-15da06e70684.woff") format("woff");
+}
+@font-face {
+    font-family: "Avenir Next LT W01 Bold Cond";
+    src: url("../Fonts/66039c64-be67-4488-9771-2ba3e9cc646e.woff2") format("woff2"),
+        url("../Fonts/1c68e51a-8221-4588-b806-410bf7467ff5.woff") format("woff");
+}
+@font-face{
+    font-family:"Avenir Next LT W01 Demi Cond I";
+    src:url("../Fonts/f6b0e14b-0e6f-453f-8423-bb801b8ad9db.woff2") format("woff2"),
+    url("../Fonts/fea3cb89-84a6-40ce-9b7d-cee483f236df.woff") format("woff");
+}
+
+.AvenirRegular {
+    font-family: "Avenir Next LT W01 Condensed";
+}
+
+.AvenirMedium {
+    font-family: "Avenir Next LT W01 Medium Cond";
+}
+.AvenirDemi{
+    font-family: "Avenir Next LT W01 Demi Cond";
+
+}
+.AvenirBold {
+    font-family: "Avenir Next LT W01 Bold Cond";
+}
+.AvenirItalic {
+    font-family:"Avenir Next LT W01 Demi Cond I";
+}
+
+
+/* Custom Properties */
+
+:root {
+    /* colors */
+    --color-white: #ffffff;
+    --color-light: #f4f4f4;
+    --color-lightGray: #cccccc;
+    --color-softCyan: #c3e8ea;
+    --color-gray: #999999;
+    --color-darkGrayishBlue: #8b8f95;
+    --color-darkGrayishBLue2: #686d75;
+    --color-lightBlack: #19202c;
+    --color-black: #000000;
+    --color-vividOrange: #ff6b24;
+    --color-orange: #f76b25;
+    --color-softYellow: #fcd44f;
+    --color-moderateCyan: #43b6bc;
+    --color-peachOrange: #F5BF91;
+    
+}
+.black{
+    color: var(--color-black);
+}
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/* Reset Margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+label,
+input,
+li,
+a {
+    font-family: "Avenir Next LT W01 Condensed";
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+
+
+/* make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    /* display: block; */
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.letter-spacing-2 {
+    letter-spacing: 2.7px;
+}
+
+
+
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+    font-family: "Avenir Next LT W01 Condensed";
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* === Navbar === */
+.skip-to-content {
+    position: absolute;
+    z-index: 999;
+    background: hsl(var(--color-white));
+    color: hsl(var(--color-dark));
+    padding: 0.5em 1em;
+    margin-inline: auto;
+    transform: translateY(-100%);
+    transition: transform 250ms ease-in;
+}
+
+.skip-to-content:focus {
+    transform: translateY(0);
+}
+
+
+
+
+.underlineonHover{
+    position: relative;
+}
+.underlineonHover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-orange);
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.underlineonHover:hover::after,
+.underlineonHover:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+}
+
+/* Slide in */
+.underlineonHover {
+    overflow: hidden;
+}
+
+.underlineonHover::after {
+    opacity: 1;
+    transform: translate3d(-105%, 0, 0);
+}
+
+.underlineonHover:hover::after,
+.underlineonHover:focus::after {
+    transform: translate3d(0, 0, 0);
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.mb5{
+    margin-bottom: 5px;
+}

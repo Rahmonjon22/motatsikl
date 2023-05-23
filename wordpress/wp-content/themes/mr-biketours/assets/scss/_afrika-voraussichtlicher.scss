@@ -1,0 +1,291 @@
+.voraussichtlicher-section {
+    margin: 30rem 0 0 0;
+
+    h1 {
+        color: var(--color-black);
+        font-size: 54px;
+        line-height: 74px;
+        letter-spacing: -0.54px;
+        text-align: center;
+        margin: 4rem 0;
+    }
+
+    .voraussichtlicher-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        .left-voraussichtlicher {
+            float: left;
+            background-image: url(../images/map-example.png);
+            // background-position: center;
+            background-repeat: no-repeat;
+            // background-size: contain;
+            width: 818px;
+            height: 657px;
+        }
+
+        .right-voraussichtlicher {
+            float: right;
+            width: 785px;
+            height: 657px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+
+            .back-img {
+                background-image: url(../images/lasvegas.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 363px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+
+                .left-texts {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    padding: 0 0 10px 20px;
+
+                    p {
+                        font-family: "Avenir Next LT W01 Demi Cond";
+                        font-size: 21px;
+                        line-height: 34px;
+                        letter-spacing: -0.54px;
+                        text-align: center;
+                    }
+
+                    h2 {
+                        font-family: "Avenir Next LT W01 Demi Cond";
+                        font-size: 33px;
+                        line-height: 44px;
+                        letter-spacing: -0.54px;
+                        text-align: center;
+                    }
+                }
+
+                p {
+                    padding: 0 20px 10px 0;
+                    font-family: "Avenir Next LT W01 Demi Cond";
+                    font-size: 33px;
+                    line-height: 44px;
+                    letter-spacing: -0.54px;
+                    text-align: center;
+                }
+            }
+
+            .text-container {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+                padding: 0 15px 0 15px;
+                height: 290px;
+
+                p {
+                    color: var(--color-black);
+                    font-size: 20px;
+                    line-height: 30px;
+                    letter-spacing: -0.4px;
+                    font-family: "Avenir Next LT W01 Condensed";
+                }
+
+                .swiper {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: row;
+                    width: 100%;
+                    p {
+                        color: var(--color-black);
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: -0.4px;
+                        font-family: "Avenir Next LT W01 Condensed";
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        svg {
+                            width: 47px;
+                            height: 47px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .right-swipe {
+                        svg {
+                            margin-left: .7rem;
+                         
+                        }
+                    }
+
+                    .left-swipe {
+                        svg {
+                            margin-right: .7rem;
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/* === Tablets === */
+@media screen and (max-width: 1340px) {
+    .voraussichtlicher-section {
+        margin: 20rem 0 0 0;
+
+        .voraussichtlicher-container {
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+/* === Mobile === */
+@media screen and (max-width: 845px) {
+    .voraussichtlicher-section {
+        margin: 15rem 0 0 0;
+
+        h1 {
+            font-size: 34px;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+        }
+
+        .voraussichtlicher-container {
+            .left-voraussichtlicher {
+                float: none;
+                width: 600px;
+                height: 357px;
+            }
+
+            .right-voraussichtlicher {
+                float: none;
+                width: 100%;
+
+                .back-img {
+                    .left-texts {
+                        padding: 0 0 10px 20px;
+
+                        p {
+                            font-size: 18px;
+                            line-height: normal;
+                            letter-spacing: normal;
+                        }
+
+                        h2 {
+                            font-size: 20px;
+                            line-height: normal;
+                            letter-spacing: normal;
+                        }
+                    }
+
+                    p {
+                        font-size: 20px;
+                        line-height: normal;
+                        letter-spacing: normal;
+                    }
+                }
+
+                .text-container {
+                    height: 270px;
+
+                    .swiper {
+
+                        p {
+                            line-height: normal;
+                            letter-spacing: normal;
+
+                            svg {
+                                width: 27px;
+                                height: 27px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+/* === Mobile === */
+@media screen and (max-width: 450px) {
+    .voraussichtlicher-section {
+        margin: 0 0 0 0;
+
+        h1 {
+            font-size: 28px;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+        }
+
+        .voraussichtlicher-container {
+            .left-voraussichtlicher {
+                float: none;
+                width: 320px;
+                height: 250px;
+            }
+
+            .right-voraussichtlicher {
+                float: none;
+                width: 100%;
+                height: auto;
+
+                .back-img {
+                    .left-texts {
+                        padding: 0 0 10px 20px;
+
+                        p {
+                            font-size: 14px;
+                        }
+
+                        h2 {
+                            font-size: 16px;
+                        }
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+
+                .text-container {
+                    height: 200px;
+
+                    p {
+                        font-size: 16px;
+                        line-height: normal;
+                        letter-spacing: normal;
+                    }
+
+                    .swiper {
+                        margin-bottom: 20px;
+
+                        p {
+                            font-size: 18px;
+
+                            svg {
+                                width: 22px;
+                                height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

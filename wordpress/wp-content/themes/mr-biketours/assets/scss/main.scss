@@ -1,0 +1,569 @@
+@import "./global";
+@import "./navbar";
+@import "./motortour-section";
+@import "./destination-section";
+@import "./specialTrip-section";
+@import "./lastminute-section";
+@import "./gallery-section";
+@import "./footer";
+// USA Trip page bellow
+@import "./usa-motorradreise";
+@import "./usa-beeindruckend";
+@import "./usa-specialoffer";
+@import "./usa-livedream";
+// SüdAfrika bike tour bellow
+@import "./afrika-header";
+@import "./afrika-atemberaubende";
+@import "./afrika-reiseübersicht";
+@import "./afrika-voraussichtlicher";
+@import "./afrika-destination";
+// bikes.html bellow
+@import "./bikes-rental";
+@import "./bikes-fan-articles";
+@import "./bikes-accordion";
+// Anmelden.html bellow
+@import "./anmelden";
+// Members.html bellow
+@import "./members";
+
+/* === Header-container === */
+.index-header {
+    background-image: url(../images/bridgebgheader.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    .left-side {
+        width: 50%;
+        float: left;
+        position: relative;
+
+        .destination-tourism-box {
+            margin-top: 0.1rem;
+            left: 5rem;
+            bottom: -20px;
+            overflow: hidden;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            padding: 2rem;
+            width: 526px;
+            height: 432px;
+            opacity: 1;
+            background: var(--unnamed-color-19202c) 0% 0% no-repeat padding-box;
+            background: #19202c 0% 0% no-repeat padding-box;
+
+            .destination-country {
+                color: var(--color-orange);
+                text-transform: uppercase;
+                font-family: "Avenir Next LT W01 Bold Cond";
+                font-size: 21px;
+                letter-spacing: -0.42px;
+                opacity: 1;
+            }
+
+            .discovery {
+                padding: 0.3em 0 0.3em 0;
+                text-transform: uppercase;
+                font-family: "Avenir Next LT W01 Bold Cond";
+                letter-spacing: -0.72px;
+                opacity: 1;
+                font-size: 36px;
+            }
+
+            .lorem {
+                padding-bottom: 1em;
+                text-align: left;
+                font-family: "Avenir Next LT W01 Condensed";
+                letter-spacing: -0.42px;
+                font-size: 21px;
+            }
+
+            .tourismInKm {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .days {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    padding: 0 1rem 1rem 0;
+
+                    img {
+                        padding-bottom: 1rem;
+                    }
+
+                    h2 {
+                        letter-spacing: -0.42px;
+                        font-size: 21px;
+                        opacity: 1;
+                        font-family: "Avenir Next LT W01 Medium Cond";
+                    }
+                }
+            }
+
+            .price-order {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+                width: 100%;
+
+                .price-info {
+                    .properson {
+                        opacity: 1;
+                        letter-spacing: -0.32px;
+                        font-family: "Avenir Next LT W01 Medium Cond";
+                        font-size: 16px;
+                    }
+
+                    p {
+                        font-family: "Avenir Next LT W01 Bold Cond";
+                        font-size: 16px;
+                        letter-spacing: -0.32px;
+                        opacity: 1;
+
+                        .priceflight {
+                            font-size: 32px;
+                            letter-spacing: -0.64px;
+                            font-family: "Avenir Next LT W01 Bold Cond";
+                            padding-left: 5px;
+                        }
+                    }
+
+                }
+
+
+                .order-button {
+                    border: none;
+                    border-radius: 2rem;
+                    background-color: var(--color-moderateCyan);
+                    padding: 0.5em 2em 0.5em 2em;
+                    font-size: 21px;
+                    letter-spacing: -0.42px;
+                    font-family: "Avenir Next LT W01 Medium Cond";
+                    opacity: 1;
+                    cursor: pointer;
+                    &:hover{
+                        transition: .4s ease-in-out;
+                        background-color: var(--color-orange);
+                    }
+                }
+            }
+        }
+    }
+
+    .right-side {
+        width: 50%;
+        float: right;
+        position: relative;
+
+        .quoto-box {
+            background-color: var(--color-black);
+            border: none;
+            width: 188px;
+            height: 188px;
+            border-radius: 100%;
+            right: 28rem;
+            top: 222px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                width: 157px;
+                font-size: 28px;
+                text-align: center;
+                word-wrap: break-word;
+                letter-spacing: -0.56px;
+                text-transform: uppercase;
+                opacity: 1;
+                font-family: "Avenir Next LT W01 Demi Cond I";
+            }
+        }
+
+
+        .travel-month {
+            right: 15rem;
+            top: 299px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            border: none;
+            width: 269px;
+            height: 269px;
+            border-radius: 100%;
+            background-color: var(--color-softYellow);
+
+            h1,
+            p {
+                padding: 0 1.5rem 0 1.5rem;
+                color: var(--color-black);
+                font-size: 44px;
+                text-align: center;
+                word-wrap: break-word;
+                letter-spacing: 0.76px;
+                text-transform: uppercase;
+                font-family: "Avenir Next LT W01 Bold Cond";
+                font-weight: bold;
+            }
+
+            p {
+                font-family: "Avenir Next LT W01 Bold Cond";
+                text-align: center;
+                font-size: 1em;
+                letter-spacing: -0.42px;
+            }
+        }
+
+        .animation {
+            -webkit-animation: fadein 2s;
+            /* Safari, Chrome and Opera > 12.1 */
+            -moz-animation: fadein 2s;
+            /* Firefox < 16 */
+            -ms-animation: fadein 2s;
+            /* Internet Explorer */
+            -o-animation: fadein 2s;
+            /* Opera < 12.1 */
+            animation: fadein 2s;
+        }
+
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Firefox < 16 */
+        @-moz-keyframes fadein {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Safari, Chrome and Opera > 12.1 */
+        @-webkit-keyframes fadein {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Internet Explorer */
+        @-ms-keyframes fadein {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Opera < 12.1 */
+        @-o-keyframes fadein {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+    }
+}
+
+
+/* === Tablets === */
+@media screen and (max-width: 1400px) {
+
+    /* === Header-container === */
+    .index-header {
+        height: 100vh;
+    }
+
+    .header-container {
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: row;
+        height: auto;
+        height: 85vh;
+
+        .left-side {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 1rem;
+
+            .destination-tourism-box {
+                margin-top: auto;
+                left: auto;
+                bottom: 0;
+                overflow: hidden;
+                position: relative;
+            }
+        }
+
+        .right-side {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            // flex-direction: column;
+            width: 50%;
+            height: 100%;
+            margin-top: 0 ;
+            float: none;
+            position: relative;
+
+            .quoto-box {
+                right: 15rem;
+                top: 18rem;
+                position: absolute;
+            }
+
+            .travel-month {
+                right: 3.5rem;
+                top: 23rem;
+                position: absolute;
+            }
+        }
+    }
+}
+/* === Tablets === */
+@media screen and (max-width: 1000px) {
+
+    /* === Header-container === */
+    .index-header {
+        height: 100vh;
+    }
+
+    .header-container {
+        justify-content:space-around;
+        align-items: flex-end;
+        flex-direction: row;
+        height: auto;
+        height: 80vh;
+
+        .left-side {
+            width: auto;
+            display: flex;
+            // justify-content: space-around;
+            flex-direction: row;
+            margin-top: initial;
+
+            .destination-tourism-box {
+                margin-top: auto;
+                left: auto;
+                bottom: 0;
+                overflow: hidden;
+                position: relative;
+            }
+        }
+
+        .right-side {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            flex-direction: column;
+            width: auto;
+            margin-top: initial ;
+            float: none;
+
+            .quoto-box {
+                border-radius: 10px;
+                position: relative;
+                top: initial;
+                right: initial;
+            }
+    
+    
+            .travel-month {
+                position: relative;
+                top: initial;
+                right: initial;
+                border-radius: 10px;
+                h1,
+                p {
+                    padding: 0 1rem 0 1rem;
+                }
+    
+            }
+        }
+
+        
+    }
+}
+
+
+
+
+/* === Mobile === */
+@media screen and (max-width: 800px) {
+    header {
+        height: 100vh;
+    }
+
+    .header-container {
+        justify-content:space-around;
+        .left-side {
+            flex-direction: column;
+
+            .destination-tourism-box {
+                padding: 1rem;
+                width: 400px;
+                height: 380px;
+
+                .destination-country {
+                    font-size: 21px;
+                }
+
+                .discovery {
+                    font-size: 21px;
+                }
+
+                .price-order {
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+
+                    .order-button {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+
+        .right-side {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-top: 5rem;
+
+            .quoto-box {
+                height: auto;
+                border-radius: 0%;
+                width: auto;
+                padding: 1rem;
+
+                h1 {
+                    width: auto;
+                    height: auto;
+                    font-size: 21px;
+                }
+            }
+
+            .travel-month {
+                flex-wrap: wrap;
+                border: none;
+                width: auto;
+                height: auto;
+                border-radius: 0%;
+                padding: 1rem;
+
+                h1,
+                p {
+                    font-size: 29px;
+                }
+
+                p {
+                    font-size: 21px;
+                    letter-spacing: -0.42px;
+                }
+            }
+        }
+    }
+}
+/* === Mobile === */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+
+        .header-container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 75vh;
+      
+        .left-side {
+            flex-direction: column;
+
+            .destination-tourism-box {
+                position: relative;
+                padding: 1rem;
+                width: auto;
+                height: auto;
+                margin: 0 15px;
+
+                .destination-country, .discovery, .lorem {
+                    font-size: 21px;
+                    text-align: center;
+                    width: 100%;
+                }
+
+                // .discovery {
+                //     font-size: 21px;
+                //     text-align: center;
+                //     width: 100%;
+                // }
+
+                .price-order {
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+
+                    .order-button {
+                        width: 100%;
+                        margin: 0 29px;
+                        text-align: center;
+                        align-self: center;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+
+        .right-side {
+           display: none;
+        }
+    }
+    }
+
+    
+}
+
+@media screen and (min-width: 1600px) {
+    body, 
+    nav {
+        max-width: 1650px;
+        margin: 0 auto;
+    }
+    
+}

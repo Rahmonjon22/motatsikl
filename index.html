@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>MR Biketours</title>
+    <!-- Fonts are here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Css & Js -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/Javascript/main.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-to-content" href="#main">Skip to content</a>
+    <header class="index-header">
+        <nav class="navbar">
+            <ul id="navbar" class="nav-links  ">
+                <div class="left-nav-links ">
+                    <li class="dropdown" data-dropdown>
+                        <a class="dropdownlink link" data-dropdown-button href="#">Motorradreisen
+                            <img class="arrowdown" data-dropdown-button src="./assets/images/svgs/arrow-down.svg"
+                                alt="arrow-down">
+                            <svg class="mobile-arrowdown" data-dropdown-button xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="none" stroke="#FE6B24" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-down">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-container">
+                                <div class="dropdown-travel">
+                                    <div class="mobile-dropdown-texts">
+                                        <a class="back-btn" href="#">
+                                            <svg class="back-btn-arrow" data-dropdown-button
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                                stroke="#f05409" stroke-width="3" stroke-linecap="round"
+                                                stroke-linejoin="round" class="feather feather-chevron-down">
+                                                <polyline points="6 9 12 15 18 9"></polyline>
+                                            </svg>
+                                            Zurück
+                                        </a>
+                                        <div class="vertical-line"></div>
+                                        <h2 class="dropdown-name">Motorradreisen</h2>
+                                    </div>
+
+                                    <a href="./usa-biketour.html">
+                                        <div class="dropdown-destination usa">
+                                            <p style="text-transform: uppercase;">Usa</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <a href="./index.html">
+                                        <div class="dropdown-destination kanada">
+                                            <p>Kanada</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <a href="#careers">
+                                        <div class="dropdown-destination mexiko">
+                                            <p>Mexiko</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <a href="./sudafrika-biketour.html">
+                                        <div class="dropdown-destination afrika">
+                                            <p>Südafrika</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <div class="contact-dropdown">
+                                        <a href="mailto:info@mr-biketours.de" class="email-dropdown">
+                                            <div class="img-container">
+                                                <img src="./assets/images/svgs/phone-dropdown.svg" alt="">
+                                            </div>
+
+                                            info@mr-biketours.de
+                                        </a>
+                                        <a href="tel:+4957188286" class="phone-dropdown">
+                                            <div class="img-container">
+                                                <img src="./assets/images/svgs/email-dropdown.svg" alt="">
+                                            </div>
+                                            +49 (0) 571 882 86
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="#kalendar" class="dropdown-travelYear">Motorradreisen Kalendar 2022/23</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="mobile"><a href="#">Last minute</a></li>
+                    <li class="mobile"><a href="#">motorräder</a></li>
+                    <li class="mobile"><a class="dropdownlink" href="#">Gut zu wissen <img class="arrowdown "
+                                src="./assets/images/svgs/arrow-down.svg" alt="arrow-down">
+                            <svg class="mobile-arrowdown" data-dropdown-button xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="none" stroke="#FE6B24" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-down">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg></a></li>
+                </div>
+                <div class="middle-nav-logo">
+                    <a class="headerlogo" href="#"><img class="headerlogo-img" src="./assets/images/svgs/Logo.svg"
+                            alt="logo"></a>
+                </div>
+                <div class="right-nav-links">
+                    <li class="mobile"><a href="#">Gift Shop</a></li>
+                    <li class="mobile"><a href="#">Über uns</a></li>
+                    <li class="mobile"><a href="#">kontakt</a></li>
+                    <li class="mobile"><a href="#">
+                            <img class="arrowdown" src="./assets/images/svgs/heart.svg" alt="">
+                            <img class="heart" src="./assets/images/svgs/heart.svg" alt="">
+                            <span class="mobile-only">Kundenkonto</span>
+                        </a>
+                    </li>
+                    <li class="anmelden mobile"><a class="anmelden1" href="./anmelden.html">
+                            <svg class="user" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="white">
+                                <title />
+                                <g id="User">
+                                    <path
+                                        d="M41.2452,33.0349a16,16,0,1,0-18.49,0A26.0412,26.0412,0,0,0,4,58a2,2,0,0,0,2,2H58a2,2,0,0,0,2-2A26.0412,26.0412,0,0,0,41.2452,33.0349ZM20,20A12,12,0,1,1,32,32,12.0137,12.0137,0,0,1,20,20ZM8.09,56A22.0293,22.0293,0,0,1,30,36h4A22.0293,22.0293,0,0,1,55.91,56Z" />
+                                </g>
+                            </svg>
+                            <span>anmelden</span> </a>
+                    </li>
+                </div>
+            </ul>
+            <div class="mobile-menu-main">
+                <div class="burger-lines">
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <h2 class="burger-title AvenirRegular">Menü</h2>
+                </div>
+                <a class="mobilelogo" href="./index.html">
+                    <img src="./assets/images/svgs/Logo.svg" alt="logo">
+                </a>
+
+                <a class="userimg" href="./anmelden.html">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="white">
+                        <title />
+                        <g id="User">
+                            <path
+                                d="M41.2452,33.0349a16,16,0,1,0-18.49,0A26.0412,26.0412,0,0,0,4,58a2,2,0,0,0,2,2H58a2,2,0,0,0,2-2A26.0412,26.0412,0,0,0,41.2452,33.0349ZM20,20A12,12,0,1,1,32,32,12.0137,12.0137,0,0,1,20,20ZM8.09,56A22.0293,22.0293,0,0,1,30,36h4A22.0293,22.0293,0,0,1,55.91,56Z" />
+                        </g>
+                    </svg>
+                </a>
+            </div>
+
+        </nav>
+        <!-- **** Header Container **** -->
+        <div class="header-container">
+            <div class="left-side">
+                <div class="destination-tourism-box">
+                    <h3 class="destination-country">Usa</h3>
+                    <h2 class="discovery">North west discovery</h2>
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, corrupti.
+                    </p>
+                    <div class="tourismInKm">
+                        <div class="days">
+                            <img src="./assets/images/svgs/icon_clock.svg" alt="questionInBox">
+                            <h2>16 Tage</h2>
+                        </div>
+                        <div class="days">
+                            <img src="./assets/images/svgs/icon_road.svg" alt="questionInBox">
+                            <h2>3050km</h2>
+                        </div>
+                        <div class="days">
+                            <img src="./assets/images/svgs/Path 11659.svg" alt="questionInBox">
+                            <h2>Max 12 Bikes</h2>
+                        </div>
+                    </div>
+                    <div class="price-order">
+                        <div class="price-info">
+                            <p class="properson">ink.Flug pro Person</p>
+                            <p>ab <span class="priceflight">€ 1.568</span></p>
+                        </div>
+                        <a class="order-button" href="order">Jetzt entdecken</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="quoto-box animation">
+                    <h1>"Don't dream it, Do it!"</h1>
+                </div>
+                <div class="travel-month animation">
+                    <p>Beliebtes Reiseziel</p>
+                    <h1>Wenige Plätze frei</h1>
+                    <p>September 2022</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- motortour Section start -->
+        <section class="motortour-section">
+            <div class="fs-img-container">
+                <a href="#destination-section" class="fs-arrow-box">
+                    <img class="fs-arrowdown" src="./assets/images/svgs/arrow-down.svg" alt="arrowdown">
+                </a>
+            </div>
+            <div class="fs-text-container">
+                <h1>DEIN SPEZIALIST FÜR MOTORRADREISEN</h1>
+                <h3>Geführte Motorradreisen - USA | Kanada | Mexiko | Südafrika</h3>
+            </div>
+        </section>
+        <!-- destination Section start -->
+        <section id="destination-section" class="destination-section">
+            <div class="destination-container">
+                <div class="destination-box">
+                    <h1 class=" main-title">Destination</h1>
+                </div>
+            </div>
+            <div class="tabContainer">
+                <div class="btnContainer ">
+                    <button class="btnContainer-btn " onclick="showPanel(0)"><span class="btn-span">ALLE</span>
+                    </button>
+                    <button class="btnContainer-btn " onclick="showPanel(1)"><span class="btn-span">USA</span></button>
+                    <button class="btnContainer-btn " onclick="showPanel(2)"><span
+                            class="btn-span">KANADA</span></button>
+                    <button class="btnContainer-btn " onclick="showPanel(3)"><span
+                            class="btn-span">MEXIKO</span></button>
+                    <button class="btnContainer-btn " onclick="showPanel(4)"><span
+                            class="btn-span">SÜDAFRIKA</span></button>
+                </div>
+                <!-- *********** Destination STARTS HERE ************* -->
+                <div class="tabPanel">
+                    <div href="usa-biketour.html" class="card-tourisim">
+                        <a class="card-container">
+                            <img src="./assets/images/lasvegas.png" alt="lasvegas">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Usa</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise USA</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="usa-biketour.html" class="card-container">
+                            <img src="./assets/images/desertCanyon.png" alt="desertCanyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Usa</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise USA</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="sudafrika-biketour.html" class="card-container">
+                            <img src="./assets/images/sudafrika.png" alt="sudafrika">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">SüdAfrika</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">Johannesburg Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise SüdAfrika</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card-container">
+                            <img src="./assets/images/desertroad.png" alt="arizona-canyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Usa</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise USA</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card-container">
+                            <img src="./assets/images/desertCanyon.png" alt="desertCanyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Usa</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise USA</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card-container">
+                            <img src="./assets/images/lasvegas.png" alt="lasvegas">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Usa</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise USA</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <a class="ss-button" href=""><button class="dropdown-travelYear">Entdecke weitere
+                            Touren</button></a>
+
+                </div>
+                <!-- *********** BIKE RENTAL ENDS HERE ************* -->
+
+                <div class="tabPanel">
+                    <div href="usa-biketour.html" class="card-tourisim">
+                        <a class="card-container">
+                            <img src="./assets/images/lasvegas.png" alt="lasvegas">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Usa</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise USA</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="usa-biketour.html" class="card-container">
+                            <img src="./assets/images/desertCanyon.png" alt="desertCanyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Usa</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise USA</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a class="card-container">
+                            <img src="./assets/images/desertroad.png" alt="arizona-canyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Usa</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise USA</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card-container">
+                            <img src="./assets/images/desertCanyon.png" alt="desertCanyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Usa</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise USA</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card-container">
+                            <img src="./assets/images/lasvegas.png" alt="lasvegas">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Usa</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise USA</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <a class="ss-button" href=""><button class="dropdown-travelYear">Entdecke weitere
+                            Touren</button></a>
+                </div>
+                <div class="tabPanel">
+                    <div href="usa-biketour.html" class="card-tourisim">
+                        <a class="card-container">
+                            <img src="./assets/images/lasvegas.png" alt="lasvegas">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Kanada</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise Kanada</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="usa-biketour.html" class="card-container">
+                            <img src="./assets/images/desertCanyon.png" alt="desertCanyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Kanada</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise Kanada</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a class="card-container">
+                            <img src="./assets/images/desertroad.png" alt="arizona-canyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Kanada</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise Kanada</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card-container">
+                            <img src="./assets/images/desertCanyon.png" alt="desertCanyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Kanada</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise Kanada</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card-container">
+                            <img src="./assets/images/lasvegas.png" alt="lasvegas">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Kanada</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Toronto</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise Kanada</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <a class="ss-button" href=""><button class="dropdown-travelYear">Entdecke weitere
+                            Touren</button></a>
+                </div>
+                <div class="tabPanel">
+                    <div href="usa-biketour.html" class="card-tourisim">
+                        <a class="card-container">
+                            <img src="./assets/images/lasvegas.png" alt="lasvegas">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Mexiko</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Mexiko</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise Mexiko</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="usa-biketour.html" class="card-container">
+                            <img src="./assets/images/desertCanyon.png" alt="desertCanyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Mexiko</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise Mexiko</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a class="card-container">
+                            <img src="./assets/images/desertroad.png" alt="arizona-canyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Mexiko</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise Mexiko</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card-container">
+                            <img src="./assets/images/desertCanyon.png" alt="desertCanyon">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">Mexiko</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">North West Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise Mexiko</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                       
+                    </div>
+
+                    <a class="ss-button" href=""><button class="dropdown-travelYear">Entdecke weitere
+                            Touren</button></a>
+                </div>
+                <div class="tabPanel">
+                    <div href="usa-biketour.html" class="card-tourisim">
+                        <a href="sudafrika-biketour.html" class="card-container">
+                            <img src="./assets/images/sudafrika.png" alt="sudafrika">
+                            <div class="card-text-container">
+                                <h2 class="uppercase">SüdAfrika</h2>
+                                <div class="card-firsttext">
+                                    <h1 class="AvenirBold">Johannesburg Discovery</h1>
+                                    <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                                </div>
+                                <div class="card-firsttext">
+                                    <h3>Motorradreise SüdAfrika</h3>
+                                    <h3 class="tage">14 Tage</h3>
+                                </div>
+                            </div>
+                        </a>
+                       
+                    </div>
+                    <a class="ss-button" href=""><button class="dropdown-travelYear">Entdecke weitere
+                            Touren</button></a>
+               
+                </div>
+            </div>
+     
+        </section>
+        <!-- Third section -->
+        <section class="specialTrip-section">
+            <h1 class="ths-title">Sonderreise.</h1>
+            <p class="ths-paragraph">Im September sind noch Plätze frei. Jetzt buchen und Vorfreunde sichern!</p>
+            <div class="ths-container">
+                <div class="ths-card-container">
+                    <div class="destination-tourism-container">
+                        <h3 class="destination-country">Usa</h3>
+                        <h1 class="discovery">North west discovery</h1>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        </p>
+                        <div class="tourismInKm">
+                            <div class="days">
+                                <img src="./assets/images/svgs/icon_clock.svg" alt="questionInBox">
+                                <h2>16 Tage</h2>
+                            </div>
+                            <div class="days">
+                                <img src="./assets/images/svgs/icon_road.svg" alt="questionInBox">
+                                <h2>3050km</h2>
+                            </div>
+                            <div class="days">
+                                <img src="./assets/images/svgs/Path 11659.svg" alt="questionInBox">
+                                <h2>Max 12 Bikes</h2>
+                            </div>
+                        </div>
+                        <div class="price-order">
+                            <div class="price-info">
+                                <p class="properson">ink.Flug pro Person</p>
+                                <p>ab <span class="priceflight">¢ 4.599</span></p>
+                            </div>
+                            <a class="order-button" href="order">Jetzt entdecken</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ths-image-container"><img src="./assets/images/bixbybridge-california.jpeg" alt=""></div>
+            </div>
+        </section>
+        <!-- Fourth section -->
+        <section class="lastminute-section">
+            <div class="frs-container">
+                <div class="frs-leftcontainer">
+                    <h1>Last minute.</h1>
+                    <p>Im September sind noch Plätze frei. Jetzt buchen und Vorfreunde sichern!</p>
+                    <p class="proPerson">inkl. Flug pro Person</p>
+                    <p class="price">ab <span>€ 4.599 </span></p>
+                    <button>Jetzt entdecken</button>
+                </div>
+                <div class="frs-rightcontainer">
+                    <a class="frs-box1">
+                        <h3>Merchandising Shop</h3><img src="./assets/images/svgs/arrow-right.svg" alt="arrowright">
+                    </a>
+                    <a class="frs-box2" href="bikes.html">
+                        <h3>Merchandising Shop</h3><img src="./assets/images/svgs/arrow-right.svg" alt="arrowright">
+                    </a>
+                    <a class="frs-box3">
+                        <h3>Motorradreisen Katalog</h3><img src="./assets/images/svgs/arrow-right.svg" alt="arrowright">
+                    </a>
+                    <a class="frs-box4">
+                        <h3>Mietmotorräder</h3><img src="./assets/images/svgs/arrow-right.svg" alt="arrowright">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- gallery section -->
+        <section class="gallery-section">
+            <a href="#" class="image-box1">
+                <h1>USA</h1>
+                <hr>
+                <img src="./assets/images/svgs/Path 11659.svg" alt="motorbike-svg">
+            </a>
+            <div href="#" class="image-box2">
+            </div>
+            <a href="#" class="image-box3">
+                <h1>Mexiko</h1>
+                <hr>
+                <img src="./assets/images/svgs/Path 11659.svg" alt="motorbike-svg">
+            </a>
+            <a href="#" class="image-box4">
+            </a>
+        </section>
+    </main>
+    <!--FOOTER -->
+    <footer>
+        <div class="footer-mainpart">
+            <div class="footer-info-container">
+                <div class="footer-leftside">
+                    <div class="footer-kundensupport">
+                        <h2>KUNDENSUPPORT</h2>
+                        <p>+49 (0) 571 882 86</p>
+                        <p>info@mr-biketours.de</p>
+                        <p>Katalog anfordem</p>
+                    </div>
+                    <div class="footer-uberuns">
+                        <h2>Über uns</h2>
+                        <p>Über MR Biketours</p>
+                        <p>Unser Team</p>
+                    </div>
+                </div>
+                <div class="footer-rightside">
+                    <div class="footer-newsletter">
+                        <h1>Newsletter abonnieren</h1>
+                        <div class="footer-input">
+                            <input type="text" placeholder="Ihre E-Mail-Adresse">
+                            <a href="#"><img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-group-image">
+                <img src="./assets/images/Group 42.png" alt="group">
+            </div>
+        </div>
+
+        <div class="footer-Impressum-container">
+            <div class="footer-impressum">
+                <h3>© 2022 MR Biketours, Obermarktstr. 28-30, D 32423 Minden</h3>
+                <h4>Impressum</h4>
+                <hr class="footer-vertical">
+                <h4>DatenSchutz</h4>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon-holder">
+                    <img src="./assets/images/svgs/facebook.svg" alt="Facebook">
+                </div>
+                <div class="icon-holder">
+                    <img src="./assets/images/svgs/instagram.svg" alt="Instagram">
+                </div>
+                <div class="icon-holder">
+                    <img src="./assets/images/svgs/youtube.svg" alt="youtube">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

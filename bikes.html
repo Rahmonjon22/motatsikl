@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Bikes</title>
+    <!-- Fonts are here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Css & Js -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+</head>
+
+<body class="bikes-body">
+    <a class="skip-to-content" href="#main">Skip to content</a>
+    <header class="bikes-header" style="height: 0vh;">
+        <nav class="navbar">
+            <ul id="navbar" class="nav-links  ">
+                <div class="left-nav-links ">
+                    <li class="dropdown" data-dropdown>
+                        <a class="dropdownlink link" data-dropdown-button href="#">Motorradreisen
+                            <img class="arrowdown" data-dropdown-button src="./assets/images/svgs/arrow-down.svg"
+                                alt="arrow-down">
+                            <svg class="mobile-arrowdown" data-dropdown-button xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="none" stroke="#FE6B24" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-down">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-container">
+                                <div class="dropdown-travel">
+                                    <div class="mobile-dropdown-texts">
+                                        <a class="back-btn" href="#">
+                                            <svg class="back-btn-arrow" data-dropdown-button
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                                stroke="#f05409" stroke-width="3" stroke-linecap="round"
+                                                stroke-linejoin="round" class="feather feather-chevron-down">
+                                                <polyline points="6 9 12 15 18 9"></polyline>
+                                            </svg>
+                                            Zurück
+                                        </a>
+                                        <div class="vertical-line"></div>
+                                        <h2 class="dropdown-name">Motorradreisen</h2>
+                                    </div>
+
+                                    <a href="./usa-biketour.html">
+                                        <div class="dropdown-destination usa">
+                                            <p style="text-transform: uppercase;">Usa</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <a href="./index.html">
+                                        <div class="dropdown-destination kanada">
+                                            <p>Kanada</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <a href="#careers">
+                                        <div class="dropdown-destination mexiko">
+                                            <p>Mexiko</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <a href="./sudafrika-biketour.html">
+                                        <div class="dropdown-destination afrika">
+                                            <p>Südafrika</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <div class="contact-dropdown">
+                                        <a href="mailto:info@mr-biketours.de" class="email-dropdown">
+                                            <div class="img-container">
+                                                  <img src="./assets/images/svgs/phone-dropdown.svg" alt="">
+                                            </div>
+                                               
+                                            info@mr-biketours.de
+                                        </a>
+                                        <a href="tel:+4957188286" class="phone-dropdown">
+                                            <div class="img-container">
+                                                <img src="./assets/images/svgs/email-dropdown.svg" alt="">
+                                          </div>
+                                            +49 (0) 571 882 86
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="#kalendar" class="dropdown-travelYear">Motorradreisen Kalendar 2022/23</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="mobile"><a href="#">Last minute</a></li>
+                    <li class="mobile"><a href="#">motorräder</a></li>
+                    <li class="mobile"><a class="dropdownlink" href="#">Gut zu wissen <img class="arrowdown "
+                                src="./assets/images/svgs/arrow-down.svg" alt="arrow-down">
+                            <svg class="mobile-arrowdown" data-dropdown-button xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="none" stroke="#FE6B24" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-down">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg></a></li>
+                </div>
+                <div class="middle-nav-logo">
+                    <a class="headerlogo" href="#"><img class="headerlogo-img" src="./assets/images/svgs/Logo.svg"
+                            alt="logo"></a>
+                </div>
+                <div class="right-nav-links">
+                    <li class="mobile"><a href="#">Gift Shop</a></li>
+                    <li class="mobile"><a href="#">Über uns</a></li>
+                    <li class="mobile"><a href="#">kontakt</a></li>
+                    <li class="mobile"><a href="#">
+                            <img class="arrowdown" src="./assets/images/svgs/heart.svg" alt="">
+                            <img class="heart" src="./assets/images/svgs/heart.svg" alt="">
+                            <span class="mobile-only">Kundenkonto</span>
+                        </a>
+                    </li>
+                    <li class="anmelden mobile"><a class="anmelden1" href="./anmelden.html">
+                            <svg class="user" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"  fill="white">
+                                <title />
+                                <g id="User">
+                                    <path
+                                        d="M41.2452,33.0349a16,16,0,1,0-18.49,0A26.0412,26.0412,0,0,0,4,58a2,2,0,0,0,2,2H58a2,2,0,0,0,2-2A26.0412,26.0412,0,0,0,41.2452,33.0349ZM20,20A12,12,0,1,1,32,32,12.0137,12.0137,0,0,1,20,20ZM8.09,56A22.0293,22.0293,0,0,1,30,36h4A22.0293,22.0293,0,0,1,55.91,56Z" />
+                                </g>
+                            </svg>
+                            <span>anmelden</span> </a>
+                        </li>
+                </div>
+            </ul>
+            <div class="mobile-menu-main">
+                <div class="burger-lines">
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <h2 class="burger-title AvenirRegular">Menü</h2>
+                </div>
+                <a class="mobilelogo" href="./index.html">
+                    <img src="./assets/images/svgs/Logo.svg" alt="logo">
+                </a>
+
+                <a class="userimg" href="./anmelden.html">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="white">
+                        <title />
+                        <g id="User">
+                            <path
+                                d="M41.2452,33.0349a16,16,0,1,0-18.49,0A26.0412,26.0412,0,0,0,4,58a2,2,0,0,0,2,2H58a2,2,0,0,0,2-2A26.0412,26.0412,0,0,0,41.2452,33.0349ZM20,20A12,12,0,1,1,32,32,12.0137,12.0137,0,0,1,20,20ZM8.09,56A22.0293,22.0293,0,0,1,30,36h4A22.0293,22.0293,0,0,1,55.91,56Z" />
+                        </g>
+                    </svg>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+    <main class="bikes">
+        <!-- Mietmotorräder - Verfügbare Modelle START -->
+
+        <section class="section-rental">
+            <div class="bike-rental-container">
+                <h1 class="bike-title AvenirBold">
+                    Mietmotorräder - Verfügbare Modelle
+                </h1>
+                <p class="bike-subtitle AvenirRegular">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                </p>
+                <div class="tabContainer">
+                    <div class="btnContainer">
+                        <button class="btnContainer-btn " onclick="showPanel(0)"><span class="btn-span">USA, KANADA,
+                                MEXIKO</span>
+                        </button>
+                        <button class="btnContainer-btn " onclick="showPanel(1)"><span
+                                class="btn-span">SÜDAFRIKA</span></button>
+                    </div>
+                        <!-- *********** BIKE RENTAL STARTS HERE ************* -->
+                    <div class="tabPanel">
+                        <h2 class="bikeTP-title ">Mietmotorräder im Reisepreis enthalten</h2>
+                        <p class="bikeTP-subtitle">Eingeschränkte Modell-Verfügbarkeit an einigen Mietstationen</p>
+                        <div class="bikeTP-motors-container">
+                            <div class="bikeTP-bg-img">
+                                <div class="bg-img-bikeTP"></div>
+                            </div>
+                            <div class="bikeTP-grid-motors">                          
+                                <div class="motors-container">
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img ">
+                                                <h4 class="mt-size-class AvenirDemi">A
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">HD Street Glide®</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="motors-container">
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike2">
+                                                <h4 class="mt-size-class AvenirDemi">A
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">HD Street Glide®</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="motors-container">
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike3">
+                                                <h4 class="mt-size-class AvenirDemi">A
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">HD Road Glide®</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="motors-container">
+
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike4">
+                                                <h4 class="mt-size-class AvenirDemi">A
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">HD Heritage Softail®</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="motors-container">
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike5">
+                                                <h4 class="mt-size-class AvenirDemi">A
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">HD Road King®</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="motors-container">
+                                    <div class="motorsssss mobilenone" style="visibility: hidden;">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike2">
+                                                <h4 class="mt-size-class AvenirDemi">A
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">HD Street Glide®</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="motors-container">
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike6">
+                                                <h4 class="mt-size-class AvenirDemi">A
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">Yamaha® Bolt</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="motors-container">
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike7">
+                                                <h4 class="mt-size-class AvenirDemi">A
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">Yamaha MT-07®</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="motors-container">
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike8">
+                                                <h4 class="mt-size-class AvenirDemi">A
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">Yamaha Super Ténéré®</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <h2 class="bikeTP-title " style="margin-top: 40px;">Modelle auf Anfrage gegen Aufpreis</h2>
+                        <p class="bikeTP-subtitle"><span class="bikeTP-subtitle-span">ab € 30,-</span> pro Fahrtag</p>
+                        <div class="bikeTP-motors-container">
+                            <div class="bikeTP-motors-bg-image"></div>
+                            <div class="bikeTP-grid-motors">
+                                <div class="motors-container">
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike8">
+                                                <h4 class="mt-size-class AvenirDemi">B
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">HD Ultra Limited®</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="motors-container">
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike6">
+                                                <h4 class="mt-size-class AvenirDemi">B
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">BMW® R1200 GS</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="motors-container">
+                                    <div class="motorsssss ">
+                                        <div class="motor-box">
+                                            <div class="motors-img bike7">
+                                                <h4 class="mt-size-class AvenirDemi">B
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                    <img class="size-class-svg" src="./assets/images/svgs/person.svg"
+                                                        alt="person">
+                                                </h4>
+                                            </div>
+                                            <h4 class="mt-type-class AvenirDemi">BMW® R1200 RT</h4>
+                                        </div>
+                                        <div class="motor-hidden-box">
+                                            <p class="hidden-paragraph">Milwaukee-Eight® 107, 1.746 ccm, 90 PS,
+                                                6-Gang-Getriebe, 22,7l Tank, </p>
+                                            <p class="hidden-paragraph">Sitzhöhe 663 mm, Bodenfreiheit 135 mm, ca. 376
+                                                kg, GPS,</p>
+                                            <p class="hidden-paragraph">GPS, USB, Bluetooth, Lautsprecher,
+                                                Geschwindigkeitsregelung, ABS</p>
+                                            <button class="hidden-button"><a class="hidden-hypertext" href="#">Wichtige
+                                                    Informationen zur Vermietung</a></button>
+                                        </div>
+                                        <button class="hide-show">
+                                            <p class="mt-more-info AvenirMedium underlineonHover">Technische Daten
+                                                <svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>arrow_forward_ios</title>
+                                                    <desc>Created with Sketch.</desc>
+                                                    <g id="Icons" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g id="Rounded"
+                                                            transform="translate(-345.000000, -3434.000000)">
+                                                            <g id="Navigation"
+                                                                transform="translate(100.000000, 3378.000000)">
+                                                                <g id="-Round-/-Navigation-/-arrow_forward_ios"
+                                                                    transform="translate(238.000000, 54.000000)">
+                                                                    <g>
+                                                                        <polygon id="Path" opacity="0.87"
+                                                                            points="24 24 0 24 0 0 24 0"></polygon>
+                                                                        <path
+                                                                            d="M7.38,21.01 C7.87,21.5 8.66,21.5 9.15,21.01 L17.46,12.7 C17.85,12.31 17.85,11.68 17.46,11.29 L9.15,2.98 C8.66,2.49 7.87,2.49 7.38,2.98 C6.89,3.47 6.89,4.26 7.38,4.75 L14.62,12 L7.37,19.25 C6.89,19.73 6.89,20.53 7.38,21.01 Z"
+                                                                            id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                            <i class="fa-solid fa-x"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                       <!-- *********** BIKE RENTAL ENDS HERE ************* -->
+                   
+                    <div class="tabPanel">Tab 2:Content
+                         <!-- HERE YOU CAN ADD NEXT TAB PANEL CHAPTER -->
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+        </section>
+        <!-- Mietmotorräder - Verfügbare Modelle ENDS -->
+        <section class="accordion-section">
+            <div class="accordion-container">
+                <h1 class="accordion-title AvenirBold">
+                    Motorrad Mietinformationen
+                </h1>
+                <div class="tabContainer1">
+                    <div class="btnContainer1">
+                        <button class="btnContainer-btn1 " onclick="showPanel1(0)"><span class="btn1-span">ZUR
+                                BEACHTUNG</span>
+                        </button>
+                        <button class="btnContainer-btn1 " onclick="showPanel1(1)"><span class="btn1-span">FÜHRERSCHEIN
+                                INFORMATIONEN</span></button>
+                        <button class="btnContainer-btn1 " onclick="showPanel1(2)"><span
+                                class="btn1-span">ZUSATZVERSICHERUNG</span></button>
+                    </div>
+                    <div class="tabPanel1">
+                        <!-- ================ -->
+                        <div class="faqs-container">
+                            <h2 class="faqs-title AvenirDemi">Zur Beachtung</h2>
+                            <div class="faq active">
+                                <h3 class="faq-title">
+                                    Motorrad-Wunschverfahren
+                                </h3>
+                                <div class="faq-text">
+                                    <p>
+                                        you need to fill your text inside p-paragraph
+                                        in order to get space between texts
+                                    </p>
+                                </div>
+                                <button class="faq-toggle">
+                                    <i class="fa-solid fa-plus"></i>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                            </div>
+
+                            <div class="faq">
+                                <h3 class="faq-title">
+                                    Im Falle eines Unfalles und Beschädigung
+                                </h3>
+                                <div class="faq-text">
+                                    <p>
+                                        Der Veranstalter übernimmt die Mietkosten für die Motorräder, für alle weiteren
+                                        Ereignisse wie Beschädigung, Diebstahl, Verkehrsverstöße, Zusatzversicherungen
+                                        usw.
+                                        ist der Fahrer selbst verantwortlich. Bei Diebstahl und Schäden am Mietmotorrad,
+                                        die
+                                        durch Unfall, Vandalismus oder Feuer verursacht oder entstanden sind, haftet der
+                                        Mieter selbst.
+                                    </p>
+                                    <p>
+                                        Im Falle eines Unfalles und Beschädigung des Motorrades sehen die AGB
+                                        der Vermieter vor, dass kein Ersatzmotorrad gestellt wird und der Vertrag damit
+                                        ohne
+                                        Rückerstattung abgewickelt ist, es sei denn der Mieter weist durch den
+                                        Unfallaufnahmebericht nach, dass Fremdverursachung gegeben ist.
+                                    </p>
+                                    <p>
+                                        Im Falle eines Unfalles und Beschädigung des Motorrades sehen die AGB der
+                                        Vermieter
+                                        vor, dass kein
+                                        Ersatzmotorrad gestellt wird und der Vertrag damit ohne Rückerstattung
+                                        abgewickelt
+                                        ist, es sei denn der Mieter weist durch den Unfallaufnahmebericht nach, dass
+                                        Fremdverursachung gegeben ist.
+                                    </p>
+                                </div>
+                                <button class="faq-toggle">
+                                    <i class="fa-solid fa-plus"></i>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                            </div>
+
+                            <div class="faq">
+                                <h3 class="faq-title">
+                                    Fahrgebiet Einschränkungen
+                                </h3>
+                                <div class="faq-text">
+                                    <p>
+                                        you need to fill your text inside p-paragraph
+                                        in order to get space between texts
+                                    </p>
+
+                                </div>
+                                <button class="faq-toggle">
+                                    <i class="fa-solid fa-plus"></i>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                            </div>
+
+                            <h2 class="faqs-title AvenirDemi">Führerschein Informationen</h2>
+                            <div class="faq">
+                                <h3 class="faq-title">
+                                    Motorrad-Wunschverfahren
+                                </h3>
+                                <div class="faq-text">
+                                    <p>
+                                        you need to fill your text inside p-paragraph
+                                        in order to get space between texts
+                                    </p>
+                                </div>
+                                <button class="faq-toggle">
+                                    <i class="fa-solid fa-plus"></i>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                            </div>
+
+                            <div class="faq">
+                                <h3 class="faq-title">
+                                    Gibt es Einschränkungen, welches Leihmotorrad ich fahren darf?
+                                </h3>
+                                <div class="faq-text">
+                                    <p>
+                                        you need to fill your text inside p-paragraph
+                                        in order to get space between texts
+                                    </p>
+                                </div>
+                                <button class="faq-toggle">
+                                    <i class="fa-solid fa-plus"></i>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                            </div>
+                            <div class="faq">
+                                <h3 class="faq-title">
+                                    Welchen Führerschein muss ich als Fahrer vorweisen?
+                                </h3>
+                                <div class="faq-text">
+                                    <p>
+                                        you need to fill your text inside p-paragraph
+                                        in order to get space between texts
+                                    </p>
+                                </div>
+                                <button class="faq-toggle">
+                                    <i class="fa-solid fa-plus"></i>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                            </div>
+                            <h2 class="faqs-title AvenirDemi">Zusatzversicherung Mietmotorrad</h2>
+                            <div class="faq">
+                                <h3 class="faq-title">
+                                    Lorem ipsum dolor remmy
+                                </h3>
+                                <div class="faq-text">
+                                    <p>
+                                        you need to fill your text inside p-paragraph
+                                        in order to get space between texts
+                                    </p>
+                                </div>
+                                <button class="faq-toggle">
+                                    <i class="fa-solid fa-plus"></i>
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                            <!-- ================ -->
+                    </div>
+                    <div class="tabPanel1">Tab 2:Content is empty, need content to fill</div>
+                    <div class="tabPanel1">Tab 3:Content is empty, need content to fill</div>
+
+                </div>
+            </div>
+        </section>
+        <section class="fanartical-section">
+            <div class="fanartical-container">
+                <div class="fanartical-bg-img"></div>
+                <div class="fanartical-card">
+                    <p class="fanartical-type">Merchandising</p>
+                    <h3 class="fanartical-title">MR Bike Tours Fanartikel</h3>
+                    <p class="fanartical-paragraph">Entdecken Sie attraktive Mode und Accessoires für eine perfekte
+                        Erinnerung an Ihre Motoradreisen</p>
+                    <button class="fanartical-button">
+                        <a href="./index.html">Jetzt entdecken</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <a href="#" class="image-box1">
+                <h1>USA</h1>
+                <hr>
+                <img src="./assets/images/svgs/Path 11659.svg" alt="motorbike-svg">
+            </a>
+            <div href="#" class="image-box2">
+            </div>
+            <a href="#" class="image-box3">
+                <h1>Mexiko</h1>
+                <hr>
+                <img src="./assets/images/svgs/Path 11659.svg" alt="motorbike-svg">
+            </a>
+            <a href="#" class="image-box4">
+            </a>
+        </section>
+    </main>
+    <!--FOOTER -->
+    <footer class="bikes-footer">
+        <div class="footer-mainpart">
+            <div class="footer-info-container">
+                <div class="footer-leftside">
+                    <div class="footer-kundensupport">
+                        <h2>KUNDENSUPPORT</h2>
+                        <p>+49 (0) 571 882 86</p>
+                        <p>info@mr-biketours.de</p>
+                        <p>Katalog anfordem</p>
+                    </div>
+                    <div class="footer-uberuns">
+                        <h2>Über uns</h2>
+                        <p>Über MR Biketours</p>
+                        <p>Unser Team</p>
+                    </div>
+                </div>
+                <div class="footer-rightside">
+                    <div class="footer-newsletter">
+                        <h1>Newsletter abonnieren</h1>
+                        <div class="footer-input">
+                            <input type="text" placeholder="Ihre E-Mail-Adresse">
+                            <a href="#"><img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-group-image">
+                <img src="./assets/images/Group 42.png" alt="group">
+            </div>
+        </div>
+
+        <div class="footer-Impressum-container">
+            <div class="footer-impressum">
+                <h3>© 2022 MR Biketours, Obermarktstr. 28-30, D 32423 Minden</h3>
+                <h4>Impressum</h4>
+                <hr class="footer-vertical">
+                <h4>DatenSchutz</h4>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon-holder">
+                    <img src="./assets/images/svgs/facebook.svg" alt="Facebook">
+                </div>
+                <div class="icon-holder">
+                    <img src="./assets/images/svgs/instagram.svg" alt="Instagram">
+                </div>
+                <div class="icon-holder">
+                    <img src="./assets/images/svgs/youtube.svg" alt="youtube">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="./assets/Javascript/main.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+</body>
+
+</html>

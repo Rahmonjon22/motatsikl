@@ -1,0 +1,272 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Bars WP Theme\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: POINTDIGITAL\n"
+"MIME-Version: 1.0\n"
+"Language: de_DE\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Text in function
+#: po/404.php:19
+msgid "404 Error"
+msgstr "404 Error"
+
+#. Text in function
+#: po/404.php:21
+msgid "Page not found."
+msgstr "Seite wurde nicht gefunden."
+
+#. Text in function
+#: po/404.php:23
+msgid "Back to home"
+msgstr "Zurück zur Startseite"
+
+#. Text in echo
+#: po/modal-contact.php:35
+msgid "Required field"
+msgstr "Pflichtfeld"
+
+#. Text in echo
+#: po/modal-contact.php:40
+msgid "Message sent"
+msgstr "Anfrage gesendet"
+
+#. Text in echo
+#: po/modal-contact.php:38
+msgid "Send message"
+msgstr "Anfrage versenden"
+
+#. Text in echo
+#: po/modal-contact.php:39
+msgid "Sending message"
+msgstr "Anfrage wird gesendet"
+
+#. Text in echo
+#: po/form_fields.php:7
+msgid "Please contact us"
+msgstr "Wir freuen uns auf Ihre Nachricht"
+
+#. Text in echo
+#: po/form_fields.php:22
+msgid "Title"
+msgstr "Anrede"
+
+#. Text in echo
+#: po/form_fields.php:19
+msgid "Mrs"
+msgstr "Frau"
+
+#. Text in echo
+#: po/form_fields.php:20
+msgid "Mr"
+msgstr "Herr"
+
+#. Text in echo
+#: po/form_fields.php:30
+msgid "Firstname"
+msgstr "Vorname"
+
+#. Text in echo
+#: po/form_fields.php:30
+msgid "Lastname"
+msgstr "Nachname"
+
+#. Text in echo
+#: po/form_fields.php:11
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#. Text in echo
+#: po/form_fields.php:36
+msgid "Company"
+msgstr "Firma"
+
+#. Text in echo
+#: po/form_fields.php:41
+msgid "Phone"
+msgstr "Telefon"
+
+#. Text in echo
+#: po/form_fields.php:46
+msgid "Your message"
+msgstr "Ihre Nachricht"
+
+msgid "Brand"
+msgstr "Marke"
+
+#. Text in echo
+#: po/page-events.php:78
+msgid "No events found"
+msgstr "Es wurden keine Veranstaltungen gefunden"
+
+#. Text in echo
+#: po/footer.php:118
+msgid "Information"
+msgstr "Information"
+
+#. Text in echo
+#: po/footer.php:26 po/modal-contact.php:20
+msgid "Contact"
+msgstr "Kontakt"
+
+#. Text in echo
+#: po/modal-contact.php:28
+msgid "Contact request"
+msgstr "Kontaktanfrage"
+
+#. Text in echo
+#: po/o-cards.php:50
+msgid "Read more"
+msgstr "Mehr erfahren"
+
+#. Text in echo
+#: po/footer.php:55
+msgid "Locations"
+msgstr "Standorte"
+
+#. Text in echo
+#: po/footer.php:144
+msgid "We are qualified"
+msgstr "Wir sind qualifiziert"
+
+#. Text in echo
+#: po/card.php:32 po/card-activity.php:25 po/card-news.php:25
+#: po/page-news.php:68 po/terms-slider.php:27
+msgid "more"
+msgstr "mehr"
+
+#. Text in echo
+#: po/single.php:19
+msgid "back"
+msgstr "zurück"
+
+
+#. Text in echo
+msgid "Contact person"
+msgstr "Ansprechpartner"
+
+#. Text in echo
+msgid "Add Contact person"
+msgstr "Ansprechpartner hinzufügen"
+
+#. Text in echo
+msgid "Edit Contact person"
+msgstr "Ansprechpartner bearbeiten"
+
+#. Text in echo
+msgid "Show Contact person"
+msgstr "Ansprechpartner anzeigen"
+
+#. Text in echo
+msgid "Search Contact person"
+msgstr "Ansprechpartner suchen"
+
+#. Text in echo
+msgid "No contact person found"
+msgstr "Keine Ansprechpartner gefunden"
+
+#. Text in echo
+msgid "All contact persons"
+msgstr "Alle Ansprechpartner"
+
+#. Text in echo
+msgid "No contact person found in trash"
+msgstr "Keine Ansprechpartner im Papierkorb gefunden"
+
+
+#. Text in echo
+msgid "News"
+msgstr "News"
+
+#. Text in echo
+msgid "Add News"
+msgstr "News hinzufügen"
+
+#. Text in echo
+msgid "News Tags"
+msgstr "News Tags"
+
+#. Text in echo
+msgid "Edit News"
+msgstr "News bearbeiten"
+
+#. Text in echo
+msgid "View News"
+msgstr "News anzeigen"
+
+#. Text in echo
+msgid "Search News"
+msgstr "News suchen"
+
+#. Text in echo
+msgid "No News found"
+msgstr "Keine News gefunden"
+
+#. Text in echo
+msgid "No News found in Trash"
+msgstr "Keine News im Papierkorb gefunden"
+
+#. Text in echo
+msgid "All News"
+msgstr "Alle News"
+
+
+#. Text in echo
+msgid "Services"
+msgstr "Leistungen"
+
+#. Text in echo
+msgid "Service"
+msgstr "Leistung"
+
+
+#. Text in echo
+msgid "References"
+msgstr "Referenzen"
+
+#. Text in echo
+msgid "Reference"
+msgstr "Referenz"
+
+#. Text in echo
+msgid "Add Reference"
+msgstr "Referenz hinzufügen"
+
+#. Text in echo
+msgid "Edit Reference"
+msgstr "Referenz bearbeiten"
+
+#. Text in echo
+msgid "Show Reference"
+msgstr "Referenz anzeigen"
+
+#. Text in echo
+msgid "Search References"
+msgstr "Referenzen suchen"
+
+#. Text in echo
+msgid "No References found"
+msgstr "Keine Referenzen gefunden"
+
+#. Text in echo
+msgid "No References found in trash"
+msgstr "Keine Referenzen im Papierkorb gefunden"
+
+#. Text in echo
+msgid "All References"
+msgstr "Alle Referenzen"
+
+msgid "Confirm E-Mail"
+msgstr "E-Mail bestätigen"
+
+msgid "Earliest entry date"
+msgstr "Frühester Eintrittstermin"
+
+msgid "Salary requirement"
+msgstr "Gehaltsvorstellung"

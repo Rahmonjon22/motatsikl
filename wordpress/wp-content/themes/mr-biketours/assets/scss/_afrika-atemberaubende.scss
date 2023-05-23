@@ -1,0 +1,749 @@
+.atemberaubende-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 5rem 0 15rem 0;
+
+    .left-afrika {
+        float: left;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+
+        h1 {
+            margin-left: 5rem;
+            text-align: center;
+            color: var(--color-black);
+            font-size: 42px;
+            letter-spacing: 0px;
+            line-height: 57px;
+        }
+
+        p {
+            margin: 1rem 2rem 0 5rem;
+            font-size: 21px;
+            letter-spacing: -0.42px;
+            line-height: 34px;
+            color: var(--color-black);
+        }
+    }
+
+    .right-afrika {
+        float: right;
+        width: 50%;
+        position: relative;
+
+        .afrika-card {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 648px;
+            position: absolute;
+            margin-top: -25rem;
+
+            .destination-tourism-box {
+                overflow: hidden;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 0 2rem;
+                height: 347px;
+                width: 648px;
+                opacity: 1;
+                background: #19202c 0% 0% no-repeat padding-box;
+
+                .destination-country {
+                    color: var(--color-orange);
+                    text-transform: uppercase;
+                    font-family: "Avenir Next LT W01 Bold Cond";
+                    font-size: 21px;
+                    letter-spacing: -0.42px;
+                    line-height: 29px;
+                    opacity: 1;
+                }
+
+                .discovery {
+                    padding: 0.3em 0 0.3em 0;
+                    text-transform: uppercase;
+                    font-family: "Avenir Next LT W01 Demi Cond";
+                    letter-spacing: -0.72px;
+                    opacity: 1;
+                    font-size: 36px;
+                    line-height: 49px;
+                }
+
+                .start-termin {
+                    padding-bottom: 1em;
+                    text-align: left;
+                    font-family: "Avenir Next LT W01 Condensed";
+                    line-height: 29px;
+                    letter-spacing: -0.42px;
+                    font-size: 21px;
+                }
+
+                .p-neu {
+                    padding-bottom: 1.5em;
+                    letter-spacing: -0.36px;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: var(--color-white);
+                    font-family: "Avenir Next LT W01 Condensed";
+
+                    span {
+                        background-color: #FCD44F;
+                        border-radius: 5px;
+                        padding: 2px 4px;
+                        margin-right: 5px;
+                        text-transform: uppercase;
+                        color: var(--color-black);
+                        width: 40px;
+                        height: 24px;
+                        letter-spacing: -0.36px;
+                        font-size: 18px;
+                        line-height: 25px;
+                        font-family: "Avenir Next LT W01 Condensed";
+                    }
+                }
+
+                .tourismInKm {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .days {
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        padding: 0 3rem 0 0;
+
+                        img {
+                            margin-bottom: 5px;
+                            width: 24px;
+                            height: 28px;
+                        }
+
+                        h2 {
+                            letter-spacing: -0.42px;
+                            font-size: 21px;
+                            line-height: 29px;
+                            opacity: 1;
+                            font-family: "Avenir Next LT W01 Medium Cond";
+                        }
+                    }
+                }
+            }
+
+            .afrika-options {
+                background-color: #F4F4F4;
+                box-shadow: 0px 3px 6px #00000029;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 1rem 0;
+
+                .option {
+                    background-color: var(--color-white);
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-direction: row;
+                    margin: .8rem 0;
+                    width: 585px;
+                    height: 89px;
+                    border: 1px solid #CCCCCC;
+                    padding: 2rem 2rem;
+
+                    .option-info {
+                        display: grid;
+                        grid-template-columns: auto auto auto;
+                        justify-content: flex-start;
+                        align-items: flex-end;
+                        column-gap: 40px;
+
+                        p {
+                            img {
+                                align-self: center;
+                                align-content: center;
+                                width: 25px;
+                                height: 16px;
+                            }
+
+                            svg {
+                                width: 25px;
+                                height: 16px;
+                            }
+
+                            padding-left: 3px;
+                            color: var(--color-black);
+                            font-size: 18px;
+                            letter-spacing: -0.36px;
+                            line-height: 25px;
+                        }
+
+                        .option-price {
+                            color: var(--color-black);
+                            font-size: 32px;
+                            line-height: 44px;
+                            letter-spacing: -0.64px;
+
+                            span {
+                                font-size: 18px;
+                                line-height: 25px;
+                                letter-spacing: -0.36px;
+                                color: var(--color-black);
+                            }
+                        }
+
+                        .inclusive {
+                            font-size: 18px;
+                            line-height: 25px;
+                            letter-spacing: -0.36px;
+                            color: var(--color-black);
+                        }
+                    }
+
+                    button {
+                        width: 108px;
+                        height: 36px;
+                        text-align: center;
+                        border-radius: 100px;
+                        background-color: #666666;
+                        font-size: 18px;
+                        line-height: 25px;
+                        letter-spacing: -0.36px;
+                        font-family: "Avenir Next LT W01 Medium Cond";
+                        opacity: 1;
+                        color: var(--color-white);
+                        cursor: pointer;
+                        &:hover{
+                            transition: .4s ease-in-out;
+                            background-color: var(--color-orange);
+                        }
+                    }
+                }
+
+                button {
+                    background-color: #43B6BC;
+                    width: 585px;
+                    height: 50px;
+                    border-radius: 100px;
+                    font-size: 21px;
+                    line-height: 29px;
+                    letter-spacing: -0.42px;
+                    text-align: center;
+                    color: var(--color-white);
+                    border: none;
+                    cursor: pointer;
+                    &:hover{
+                        transition: .4s ease-in-out;
+                        background-color: var(--color-orange);
+                    }
+                }
+
+                .merkliste {
+                    color: var(--color-black);
+                    letter-spacing: -0.42px;
+                    font-size: 21px;
+                    line-height: 29px;
+                    margin: 2rem 0;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 100%;
+                    cursor: pointer;
+
+                    svg {
+                        width: 22px;
+                        height: 20px;
+                        margin-right: 20px;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+}
+
+
+/* === laptop  === */
+@media screen and (max-width: 1350px) {
+    .atemberaubende-section {
+        .left-afrika {
+            width: 40%;
+        }
+
+        .right-afrika {
+            width: 60%;
+
+        }
+
+    }
+}
+
+/* === bigger Tablets === */
+@media screen and (max-width: 1100px) {
+    .atemberaubende-section {
+
+        .left-afrika {
+            width: 50%;
+
+            h1 {
+                margin-left: 2rem;
+                text-align: left;
+                font-size: 32px;
+            }
+
+            p {
+                margin: 1rem 1rem 0 2rem;
+                font-size: 20px;
+            }
+        }
+
+        .right-afrika {
+            width: 50%;
+
+            .afrika-card {
+                width: 400px;
+
+                .destination-tourism-box {
+                    padding: 0 2rem;
+                    height: 307px;
+                    width: 400px;
+
+                    .destination-country {
+                        font-size: 16px;
+                    }
+
+                    .discovery {
+                        font-size: 26px;
+                    }
+
+                    .start-termin {
+                        line-height: 22px;
+                    }
+
+                    .p-neu {
+                        padding-bottom: 1rem;
+                        font-size: 16px;
+                        line-height: none;
+
+                        span {
+                            font-size: 16px;
+                            line-height: none;
+                        }
+                    }
+
+                    .tourismInKm {
+                        .days {
+                            padding: 0 2rem 0 0;
+
+                            h2 {
+                                font-size: 16px;
+                                line-height: none;
+                            }
+                        }
+                    }
+                }
+
+                .afrika-options {
+                    .option {
+                        margin: .6rem 0;
+                        width: 380px;
+                        padding: 2px 2px;
+
+                        .option-info {
+                            justify-content: center;
+                            align-items: center;
+                            padding: 2px 2px;
+                            column-gap: 5px;
+                            height: 89px;
+
+                            p {
+                                img {
+                                    width: 20px;
+                                    height: 14px;
+                                }
+
+                                svg {
+                                    width: 20px;
+                                    height: 14px;
+                                }
+
+                                padding-left: 1px;
+                                font-size: 14px;
+                                letter-spacing: normal;
+                                line-height: normal;
+                            }
+
+                            .option-price {
+                                font-size: 18px;
+                                letter-spacing: normal;
+                                line-height: normal;
+
+                                span {
+                                    font-size: 14px;
+                                    letter-spacing: normal;
+                                    line-height: normal;
+                                }
+                            }
+
+                            .inclusive {
+                                font-size: 14px;
+                                line-height: none;
+
+                            }
+                        }
+
+                        button {
+                            width: auto;
+                            height: auto;
+                            font-size: 14px;
+                            padding: 5px 15px;
+                            line-height: none;
+                            letter-spacing: normal;
+                        }
+                    }
+
+                    button {
+                        width: 350px;
+                        height: 50px;
+                        font-size: 16px;
+                        line-height: none;
+                    }
+
+                    .merkliste {
+                        font-size: 18px;
+                        margin: 1rem 0;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+}
+
+/* === Tablets === */
+@media screen and (max-width: 800px) {
+    .atemberaubende-section {
+        flex-direction: column;
+        margin: 2rem 0 0 0;
+
+        .left-afrika {
+            float: none;
+            width: 100%;
+            align-items: center;
+
+
+            h1 {
+                margin-left: 0;
+                font-size: 32px;
+                line-height: normal;
+            }
+
+            p {
+                margin: 2rem 1rem;
+                font-size: 20px;
+
+            }
+        }
+
+        .right-afrika {
+            float: none;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .afrika-card {
+                width: 400px;
+                position: relative;
+                margin-top: 0;
+
+                .destination-tourism-box {
+                    height: 307px;
+                    width: 400px;
+
+                    .destination-country {
+                        font-size: 16px;
+                    }
+
+                    .discovery {
+                        font-size: 26px;
+
+                    }
+
+                    .start-termin {
+                        line-height: 22px;
+                    }
+
+                    .p-neu {
+                        padding-bottom: 1rem;
+                        font-size: 16px;
+                        line-height: none;
+
+                        span {
+                            width: 40px;
+                            height: 24px;
+                            font-size: 16px;
+                            line-height: none;
+                        }
+                    }
+
+                    .tourismInKm {
+
+                        .days {
+                            padding: 0 2rem 0 0;
+
+                            h2 {
+                                font-size: 16px;
+                                line-height: none;
+                            }
+                        }
+                    }
+                }
+
+                .afrika-options {
+                    .option {
+                        margin: .6rem 0;
+                        width: 380px;
+                        height: 89px;
+                        padding: 2px 2px;
+
+                        .option-info {
+                            justify-content: center;
+                            align-items: center;
+                            padding: 2px 2px;
+                            column-gap: 5px;
+                            height: 89px;
+
+                            p {
+                                img {
+                                    width: 20px;
+                                    height: 14px;
+                                }
+
+                                padding-left: 1px;
+                                font-size: 14px;
+                                letter-spacing: normal;
+                                line-height: normal;
+                            }
+
+                            .option-price {
+                                font-size: 18px;
+                                letter-spacing: normal;
+                                line-height: normal;
+
+                                span {
+                                    font-size: 14px;
+                                    letter-spacing: normal;
+                                    line-height: normal;
+                                }
+                            }
+
+                            .inclusive {
+                                font-size: 14px;
+                                line-height: none;
+                                letter-spacing: -0.36px;
+                            }
+                        }
+
+                        button {
+                            width: auto;
+                            height: auto;
+                            font-size: 14px;
+                            padding: 5px 15px;
+                            line-height: none;
+                            letter-spacing: normal;
+                        }
+                    }
+
+                    button {
+                        width: 350px;
+                        height: 50px;
+                        font-size: 16px;
+                        line-height: none;
+                    }
+
+                    .merkliste {
+                        font-size: 18px;
+                        margin: 1rem 0;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+}
+
+/* === Mobile === */
+@media screen and (max-width: 500px) {
+    .atemberaubende-section {
+        .left-afrika {
+            h1 {
+                font-size: 26px;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                margin: 1rem 1rem;
+                font-size: 18px;
+                letter-spacing: normal;
+                line-height: normal;
+            }
+        }
+
+        .right-afrika {
+            .afrika-card {
+                width: 310px;
+
+                .destination-tourism-box {
+                    padding: 0 1rem;
+                    height: 307px;
+                    width: 310px;
+
+                    .destination-country {
+                        font-size: 16px;
+                        letter-spacing: normal;
+                        line-height: normal;
+
+                    }
+
+                    .discovery {
+                        letter-spacing: normal;
+                        line-height: normal;
+                        font-size: 20px;
+
+                    }
+
+                    .start-termin {
+                        letter-spacing: normal;
+                        line-height: normal;
+                        font-size: 16px;
+                    }
+
+                    .p-neu {
+                        letter-spacing: normal;
+                        font-size: 16px;
+
+                        span {
+                            width: auto;
+                            height: auto;
+                            letter-spacing: normal;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .tourismInKm {
+                        display: grid;
+                        grid-template-columns: auto auto auto;
+
+                        .days {
+                            padding: 0 2rem 0 0;
+
+                            img {
+
+                                width: 20px;
+                                height: 24px;
+                            }
+
+                            h2 {
+                                letter-spacing: normal;
+                                font-size: 14px;
+                                line-height: none;
+                            }
+                        }
+                    }
+                }
+
+                .afrika-options {
+                    .option {
+                        margin: .6rem 0;
+                        width: 300px;
+                        height: 89px;
+
+                        .option-info {
+                            display: grid;
+                            grid-template-columns: auto auto auto;
+
+                            p {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding-left: 1px;
+                                font-size: 12px;
+                                letter-spacing: normal;
+                                line-height: normal;
+
+                                img {
+                                    width: 18px;
+                                    height: 14px;
+                                }
+
+                                svg {
+                                    width: 18px;
+                                    height: 14px;
+                                }
+
+                            }
+
+                            .option-price {
+                                font-size: 14px;
+
+                                span {
+                                    font-size: 12px;
+                                }
+                            }
+
+                            .inclusive {
+                                font-size: 12px;
+                            }
+                        }
+
+                        button {
+                            font-size: 12px;
+                            padding: 2px 10px;
+                        }
+                    }
+
+                    button {
+
+                        width: 280px;
+                        height: 33px;
+                        font-size: 14px;
+                        letter-spacing: normal;
+
+                    }
+
+                    .merkliste {
+                        letter-spacing: normal;
+                        font-size: 14px;
+                        line-height: normal;
+                        margin: 1rem 0;
+
+                    }
+
+                }
+            }
+        }
+
+    }
+
+}

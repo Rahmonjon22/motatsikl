@@ -1,0 +1,254 @@
+/* === specialTrip-section === */
+
+.specialTrip-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--unnamed-color-19202c) 0% 0% no-repeat padding-box;
+    background: #19202c 0% 0% no-repeat padding-box;
+    padding: 2rem 0;
+
+    .ths-title {
+        font-size: 54px;
+        font-family: "Avenir Next LT W01 Bold Cond";
+    }
+
+    .ths-paragraph {
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-family: "Avenir Next LT W01 Condensed";
+    }
+
+    .ths-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+
+        .ths-card-container {
+            .destination-tourism-container {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                width: 526px;
+                height: 302px;
+
+                .destination-country {
+                    color: var(--color-orange);
+                    text-transform: uppercase;
+                    font-size: 21px;
+                    font-family: "Avenir Next LT W01 Bold Cond";
+                }
+
+                .discovery {
+                    font-weight: 400;
+                    letter-spacing: -0.72px;
+                    padding: 0.3em 0 0.3em 0;
+                    font-size: 36px;
+                    text-transform: uppercase;
+                    font-family: "Avenir Next LT W01 Bold Cond";
+                }
+
+                .lorem {
+                    padding-bottom: 1em;
+                    text-align: left;
+                    font-size: 21px;
+                    font-family: "Avenir Next LT W01 Condensed";
+                    letter-spacing: -0.42px;
+                }
+
+                .tourismInKm {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .days {
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        padding: 0 1rem 1rem 0;
+
+                        img {
+                            padding-bottom: 1rem;
+                        }
+
+                        h2 {
+                            letter-spacing: -0.42px;
+                            font-size: 21px;
+                            font-weight: 200;
+                            font-family: "Avenir Next LT W01 Medium Cond";
+                        }
+                    }
+                }
+
+                .price-order {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: row;
+                    width: 100%;
+
+                    .price-info {
+                        .properson {
+                            opacity: 0.7;
+                            font-family: "Avenir Next LT W01 Condensed";
+                            font-size: 16px;
+                        }
+
+                        p:last-child {
+                            font-size: 16px;
+                            font-family: "Avenir Next LT W01 Bold Cond";
+
+                        }
+
+                        .priceflight {
+                            font-size: 32px;
+                            letter-spacing: -0.64px;
+                            font-family: "Avenir Next LT W01 Bold Cond";
+                            padding-left: 5px;
+                        }
+                    }
+
+                    .order-button {
+                        border: none;
+                        border-radius: 100px;
+                        background-color: var(--color-orange);
+                        padding: 0.5em 2em 0.5em 2em;
+                        font-size: 21px;
+                        letter-spacing: -0.42px;
+                        font-family: "Avenir Next LT W01 Medium Cond";
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .ths-image-container {
+            img {
+                width: 526px;
+                height: 302px;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+/* === Tablets === */
+@media screen and (max-width: 1200px) {
+    .specialTrip-section {
+        .ths-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            flex-direction: column;
+
+            .ths-card-container {
+                display: flex;
+                justify-content: flex-start;
+                width: 100%;
+                // margin-bottom: 3rem;
+                padding: 0 0 15px 20px;
+            }
+
+            .ths-image-container {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+                margin: 20px;
+
+                img {
+                    width: 526px;
+                    height: 302px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+/* === Mobile === */
+@media screen and (max-width: 600px) {
+
+    .specialTrip-section {
+        flex-direction: column;
+
+        .ths-title {
+            font-size: 34px;
+        }
+
+        .ths-paragraph {
+            font-size: 18px;
+        }
+
+        .ths-container {
+            flex-direction: column;
+
+            .ths-card-container {
+                .destination-tourism-container {
+                    width: auto;
+                    height: auto;
+
+
+                    .discovery {
+                        font-size: 26px;
+                    }
+
+                    .lorem {
+                        font-size: 18px;
+                    }
+
+                    .tourismInKm {
+                        .days {
+                            h2 {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    .price-order {
+                        justify-content: center;
+                        align-items: flex-start;
+                        flex-direction: column;
+
+                        .price-info {
+                            .properson {
+                                font-size: 16px;
+                            }
+
+                            p:last-child {
+                                font-size: 16px;
+
+                            }
+
+                            .priceflight {
+                                font-size: 32px;
+                            }
+                        }
+
+                        .order-button {
+                            align-self: center;
+                            margin-top: 2rem;
+
+                        }
+                    }
+                }
+            }
+
+            .ths-image-container {
+                img {
+                    width: auto;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+}

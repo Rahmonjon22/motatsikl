@@ -1,0 +1,354 @@
+.specialoffer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8rem;
+
+    .offer-info-texts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .offer-title {
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+            font-family: "Avenir Next LT W01 Bold Cond";
+            text-align: center;
+            font-size: 54px;
+            color: var(--color-black);
+            letter-spacing: -0.54px;
+            opacity: 1;
+        }
+
+        .offer-subtitle {
+            font-family: "Avenir Next LT W01 Condensed";
+            text-align: center;
+            font-size: 24px;
+            letter-spacing: -0.48px;
+            color: var(--color-black);
+            opacity: 1;
+            margin-bottom: 2rem;
+            width: 67%;
+        }
+    }
+
+
+    .offer-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 301px;
+        width: 1170px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        margin: 1rem 0 1rem 0;
+
+        img {
+            width: 400px;
+            height: 100%;
+        }
+
+        .offer-info {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            padding: 10px 2rem 1rem 1.5rem;
+
+            h2 {
+                text-transform: uppercase;
+                letter-spacing: -0.42px;
+                font-size: 21px;
+                font-family: "Avenir Next LT W01 Bold Cond";
+                color: var(--color-orange);
+                margin-bottom: 1rem;
+            }
+
+            h1 {
+                letter-spacing: -0.72px;
+                text-transform: uppercase;
+                opacity: 1;
+                font-size: 36px;
+                font-family: "Avenir Next LT W01 Bold Cond";
+                color: var(--color-black);
+                margin-bottom: 1rem;
+            }
+
+            .info-paragraph {
+                font-size: 21px;
+                letter-spacing: -0.42px;
+                font-family: "Avenir Next LT W01 Condensed";
+                color: var(--color-black);
+                margin-bottom: 1rem;
+            }
+
+            .offer-length {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+                width: 100%;
+
+                p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: var(--color-black);
+                    font-size: 18px;
+                    letter-spacing: -0.36px;
+                    font-family: "Avenir Next LT W01 Medium Cond";
+
+                    svg {
+                        margin-right: 5px;
+                        letter-spacing: 0px;
+                        width: 35px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+
+        .offer-price {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 300px;
+            height: 303px;
+            background-color: var(--color-softCyan);
+
+            .inclusive {
+                font-size: 16px;
+                letter-spacing: -0.32px;
+                font-family: "Avenir Next LT W01 Condensed";
+                color: var(--color-black);
+            }
+
+            .price {
+                text-align: center;
+                font-size: 42px;
+                letter-spacing: -0.84px;
+                font-family: "Avenir Next LT W01 Bold Cond";
+                color: var(--color-black);
+                padding: 10px 0 20px 0;
+            }
+
+            button {
+                width: 180px;
+                height: 42px;
+                // padding: 0.5rem 1rem;
+                text-align: center;
+                border-radius: 100px;
+                font-size: 21px;
+                letter-spacing: -0.42px;
+                font-family: "Avenir Next LT W01 Medium Cond";
+                color: var(--color-white);
+                background-color: var(--color-black);
+            }
+
+            .markliste {
+                padding-top: 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                letter-spacing: -0.36px;
+                color: var(--color-orange);
+                font-family: "Avenir Next LT W01 Medium Cond";
+                letter-spacing: -0.42px;
+
+                svg {
+                    width: 35px;
+                    height: 27px;
+                }
+            }
+        }
+    }
+}
+
+/* === Tablets === */
+@media screen and (max-width: 1200px) {
+    .specialoffer-section {
+        margin-bottom: 6rem;
+
+        .offer-info-texts {
+            .offer-title {
+                margin-top: 3rem;
+                margin-bottom: 1rem;
+                font-size: 44px;
+            }
+
+            .offer-subtitle {
+                font-size: 22px;
+                margin-bottom: 1rem;
+                width: 70%;
+            }
+        }
+
+
+        .offer-card {
+            height: 201px;
+            width: 750px;
+            margin: 1rem 0 1rem 0;
+
+            img {
+                width: 250px;
+            }
+
+            .offer-info {
+                h2 {
+                    font-size: 18px;
+                }
+
+                h1 {
+                    font-size: 24px;
+                }
+
+                .info-paragraph {
+                    font-size: 16px;
+                }
+
+                .offer-length {
+                    p {
+                        font-size: 15px;
+
+                        svg {
+                            width: 25px;
+                            height: 15px;
+                        }
+                    }
+                }
+            }
+
+            .offer-price {
+                height: 100%;
+
+                .inclusive {
+                    font-size: 14px;
+                }
+
+                .price {
+                    font-size: 22px;
+                    padding: 10px 0 10px 0;
+                }
+
+                button {
+                    width: 120px;
+                    height: 32px;
+                    border-radius: 80px;
+                    font-size: 16px;
+                }
+
+                .markliste {
+                    padding-top: .5rem;
+                    font-size: 16px;
+
+                    svg {
+                        margin-right: .5rem;
+                        width: 25px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/* === Mobile === */
+@media screen and (max-width: 760px) {
+    .specialoffer-section {
+        margin-bottom: 6rem;
+
+        .offer-info-texts {
+            .offer-title {
+                margin-top: 3rem;
+                margin-bottom: 1rem;
+                font-size: 34px;
+                width: 90%;
+            }
+
+            .offer-subtitle {
+                font-size: 18px;
+                margin-bottom: 1rem;
+                width: 90%;
+            }
+        }
+
+
+        .offer-card {
+            height: auto;
+            width: 320px;
+            margin: 1rem 0 1rem 0;
+            display: flex;
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            img {
+                // display: none;
+                width: 320px;
+            }
+
+            .offer-info {
+                h2 {
+                    font-size: 18px;
+                }
+
+                h1 {
+                    font-size: 24px;
+                }
+
+                .info-paragraph {
+                    font-size: 16px;
+                }
+
+                .offer-length {
+                    p {
+                        font-size: 15px;
+
+                        svg {
+                            width: 25px;
+                            height: 15px;
+                        }
+                    }
+                }
+            }
+
+            .offer-price {
+                height: auto;
+                width: 320px;
+
+                .inclusive {
+                    margin-top: .8rem;
+                    font-size: 14px;
+                }
+
+                .price {
+                    font-size: 22px;
+                    padding: 10px 0 10px 0;
+                }
+
+                button {
+                    width: 120px;
+                    height: 36px;
+                    border-radius: 80px;
+                    font-size: 16px;
+                }
+
+                .markliste {
+                    padding-top: 0;
+                    margin: 1rem 0;
+                    font-size: 16px;
+
+                    svg {
+                        margin-right: .5rem;
+                        width: 25px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+}

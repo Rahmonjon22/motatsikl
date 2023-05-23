@@ -1,0 +1,26 @@
+.afrika-section{
+    background-color: #F4F4F4;
+    .afrika-title-box{
+        padding: 4rem 0 2rem 0;
+        .afrika-title{
+            text-align: center;
+            color: var(--color-black);
+            font-size: 36px;
+            letter-spacing: -0.36px;
+            opacity: 1;
+        }
+    }
+    .card-tourisim{
+       .card-container{
+        background-color: var(--color-white);
+        cursor: pointer;
+        &:hover {
+            transition: .7s ease-in-out;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            -ms-transform: scale(1.04); /* IE 9 */
+            -webkit-transform: scale(1.04); /* Safari 3-8 */
+            transform: scale(1.04); 
+        }
+       }
+    }
+}

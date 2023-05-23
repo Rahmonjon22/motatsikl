@@ -1,0 +1,354 @@
+.fanartical-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white);
+
+    .fanartical-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        position: relative;
+        margin: 112px 0;
+        width: 1170px;
+
+        .fanartical-bg-img {
+            background-image: url("../images/bikes-tshirt.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 670px;
+            height: 503px;
+        }
+
+        .fanartical-card {
+            width: 729px;
+            height: 362px;
+            background-color: var(--color-lightBlack);
+            display: flex;
+            justify-content: start;
+            align-items: flex-start;
+            flex-direction: column;
+            position: absolute;
+            top: 70px;
+            right: 0;
+            padding: 47px 75px 75px 59px;
+
+            .fanartical-type {
+                font-size: 21px;
+                color: #F4F4F4;
+                letter-spacing: 0px;
+                line-height: 28px;
+                font-family: "Avenir Next LT W01 Demi Cond";
+                padding-bottom: 11px;
+            }
+
+            .fanartical-title {
+                font-size: 48px;
+                color: #FFFFFF;
+                letter-spacing: 0px;
+                line-height: 58px;
+                font-family: "Avenir Next LT W01 Bold Cond";
+                padding-bottom: 11px;
+            }
+
+            .fanartical-paragraph {
+                font-size: 24px;
+                color: #FFFFFF;
+                letter-spacing: -0.48px;
+                line-height: 33px;
+                font-family: "Avenir Next LT W01 Condensed";
+                padding-bottom: 20px;
+            }
+
+            .fanartical-button {
+                width: 183px;
+                height: 42px;
+                background-color: var(--color-orange);
+                border-radius: 100px;
+                border: none;
+                cursor: pointer;
+
+                a {
+                    font-size: 21px;
+                    color: #FFFFFF;
+                    letter-spacing: -0.42px;
+                    line-height: 29px;
+                    font-family: "Avenir Next LT W01 Medium Cond";
+                    text-align: center;
+
+                }
+            }
+
+        }
+    }
+}
+
+/* === Tablets === */
+@media screen and (max-width: 1250px) {
+    .fanartical-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-white);
+
+        .fanartical-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: row;
+            position: relative;
+            margin: 80px 0;
+            width: 870px;
+
+            .fanartical-bg-img {
+                background-image: url("../images/bikes-tshirt.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 600px;
+                height: 503px;
+            }
+
+            .fanartical-card {
+                width: 629px;
+                height: 362px;
+                background-color: var(--color-lightBlack);
+                display: flex;
+                justify-content: start;
+                align-items: flex-start;
+                flex-direction: column;
+                position: absolute;
+                top: 70px;
+                right: 0;
+                padding: 47px 25px 75px 59px;
+
+                .fanartical-type {
+                    font-size: 21px;
+                    color: #F4F4F4;
+                    letter-spacing: 0px;
+                    line-height: 28px;
+                    font-family: "Avenir Next LT W01 Demi Cond";
+                    padding-bottom: 11px;
+                }
+
+                .fanartical-title {
+                    font-size: 48px;
+                    color: #FFFFFF;
+                    letter-spacing: 0px;
+                    line-height: 58px;
+                    font-family: "Avenir Next LT W01 Bold Cond";
+                    padding-bottom: 11px;
+                }
+
+                .fanartical-paragraph {
+                    font-size: 24px;
+                    color: #FFFFFF;
+                    letter-spacing: -0.48px;
+                    line-height: 33px;
+                    font-family: "Avenir Next LT W01 Condensed";
+                    padding-bottom: 20px;
+                }
+
+                .fanartical-button {
+                    width: 183px;
+                    height: 42px;
+                    background-color: var(--color-orange);
+                    border-radius: 100px;
+                    border: none;
+                    cursor: pointer;
+
+                    a {
+                        font-size: 21px;
+                        color: #FFFFFF;
+                        letter-spacing: -0.42px;
+                        line-height: 29px;
+                        font-family: "Avenir Next LT W01 Medium Cond";
+                        text-align: center;
+
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+/* === SM-Tablets === */
+@media screen and (max-width: 900px) {
+    .fanartical-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-white);
+
+        .fanartical-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column-reverse;
+            position: relative;
+            margin: 10px 0 ;
+            width: 560px;
+
+            .fanartical-bg-img {
+                background-image: url("../images/bikes-tshirt.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 560px;
+                height: 503px;
+            }
+
+            .fanartical-card {
+                width: auto;
+                height: 362px;
+                background-color: var(--color-lightBlack);
+                display: flex;
+                justify-content: start;
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 47px 25px;
+                margin-bottom: 50px;
+                position: relative;
+
+                .fanartical-type {
+                    font-size: 21px;
+                    color: #F4F4F4;
+                    letter-spacing: 0px;
+                    line-height: 28px;
+                    font-family: "Avenir Next LT W01 Demi Cond";
+                    padding-bottom: 11px;
+                }
+
+                .fanartical-title {
+                    font-size: 48px;
+                    color: #FFFFFF;
+                    letter-spacing: 0px;
+                    line-height: 58px;
+                    font-family: "Avenir Next LT W01 Bold Cond";
+                    padding-bottom: 11px;
+                }
+
+                .fanartical-paragraph {
+                    font-size: 24px;
+                    color: #FFFFFF;
+                    letter-spacing: -0.48px;
+                    line-height: 33px;
+                    font-family: "Avenir Next LT W01 Condensed";
+                    padding-bottom: 20px;
+                }
+
+                .fanartical-button {
+                    width: 183px;
+                    height: 42px;
+                    background-color: var(--color-orange);
+                    border-radius: 100px;
+                    border: none;
+                    cursor: pointer;
+
+                    a {
+                        font-size: 21px;
+                        color: #FFFFFF;
+                        letter-spacing: -0.42px;
+                        line-height: 29px;
+                        font-family: "Avenir Next LT W01 Medium Cond";
+                        text-align: center;
+
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+/* === Mobile === */
+@media screen and (max-width: 600px) {
+    .fanartical-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-white);
+
+        .fanartical-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+            position: relative;
+            margin: 10px 0 ;
+            width: initial;
+
+            .fanartical-bg-img {
+                background-image: url("../images/bikes-tshirt.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                max-width: 360px;
+                height: 360px;
+            }
+
+            .fanartical-card {
+                width: auto;
+                height: initial;
+                background-color: var(--color-lightBlack);
+                display: flex;
+                justify-content: start;
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 47px 25px;
+                margin-bottom: 100px;
+                position: relative;
+
+                .fanartical-type {
+                    font-size: 21px;
+                    color: #F4F4F4;
+                    letter-spacing: 0px;
+                    line-height: 28px;
+                    font-family: "Avenir Next LT W01 Demi Cond";
+                    padding-bottom: 11px;
+                }
+
+                .fanartical-title {
+                    font-size: 38px;
+                    color: #FFFFFF;
+                    letter-spacing: 0px;
+                    line-height: 58px;
+                    font-family: "Avenir Next LT W01 Bold Cond";
+                    padding-bottom: 11px;
+                }
+
+                .fanartical-paragraph {
+                    font-size: 20px;
+                    color: #FFFFFF;
+                    letter-spacing: -0.48px;
+                    line-height: 33px;
+                    font-family: "Avenir Next LT W01 Condensed";
+                    padding-bottom: 20px;
+                }
+
+                .fanartical-button {
+                    width: 183px;
+                    height: 42px;
+                    background-color: var(--color-orange);
+                    border-radius: 100px;
+                    border: none;
+                    cursor: pointer;
+
+                    a {
+                        font-size: 21px;
+                        color: #FFFFFF;
+                        letter-spacing: -0.42px;
+                        line-height: 29px;
+                        font-family: "Avenir Next LT W01 Medium Cond";
+                        text-align: center;
+
+                    }
+                }
+
+            }
+        }
+    }
+}

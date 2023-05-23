@@ -1,0 +1,166 @@
+/* === gallery-section === */
+.gallery-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .image-box1 {
+        background-image: url(../images/kanada.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 533px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &:hover {
+            transition: .7s ease-in-out;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            -ms-transform: scale(1.04); /* IE 9 */
+            -webkit-transform: scale(1.04); /* Safari 3-8 */
+            transform: scale(1.04); 
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: var(--color-white);
+            text-align: center;
+            font-family: "Avenir Next Condensed";
+            font-size: 43px;
+            font-weight: 300;
+        }
+
+        hr {
+            width: 30%;
+            text-align: left;
+            margin-left: 0;
+        }
+
+        img {
+            padding-top: 1rem;
+            width: 45px;
+        }
+    }
+
+    .image-box2 {
+        background-image: url(../images/USA.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 533px;
+    }
+
+    .image-box3 {
+        background-image: url(../images/kanada.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 533px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            color: var(--color-white);
+            text-align: center;
+            font-family: "Avenir Next Condensed";
+            font-size: 43px;
+            font-weight: 300;
+        }
+
+        hr {
+            width: 30%;
+            text-align: left;
+            margin-left: 0;
+        }
+
+        img {
+            padding-top: 1rem;
+            width: 45px;
+        }
+    }
+
+    .image-box4 {
+        background-image: url(../images/USA.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 533px;
+    }
+}
+
+/* === Tablets === */
+@media screen and (max-width: 1200px) {
+    .gallery-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+
+        .image-box1 {
+            width: auto;
+
+            h1 {
+                font-size: 33px;
+            }
+        }
+
+        .image-box2 {
+            background-image: url(../images/USA.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: auto;
+            height: 533px;
+        }
+
+        .image-box3 {
+            width: auto;
+
+            h1 {
+                font-size: 33px;
+            }
+        }
+
+        .image-box4 {
+            width: auto;
+        }
+    }
+}
+
+/* === MOBILE === */
+@media screen and (max-width: 550px) {
+    .gallery-section {
+        grid-template-columns: 1fr;
+
+        .image-box1 {
+            width: auto;
+            height: 250px;
+        }
+
+        .image-box2 {
+            width: auto;
+            height: 250px;
+        }
+
+        .image-box3 {
+            width: auto;
+            height: 250px;
+
+            h1 {
+                font-size: 33px;
+            }
+        }
+
+        .image-box4 {
+            width: auto;
+            height: 250px;
+        }
+    }
+}

@@ -1,0 +1,935 @@
+.bikes-body {
+    background-color: #F4F4F4;
+
+    .bikes-header {
+        .navbar {
+            background-color: var(--color-black);
+        }
+    }
+}
+
+.bikes {
+    background-color: #F4F4F4;
+
+    .section-rental {
+        margin-top: 10rem;
+        display: flex;
+        justify-content: center;
+
+        .bike-rental-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 1217px;
+
+            .bike-title {
+                color: var(--color-black);
+                font-size: 54px;
+                line-height: 74px;
+                letter-spacing: 0px;
+            }
+
+            .bike-subtitle {
+                color: var(--color-black);
+                font-size: 24px;
+                line-height: 33px;
+                letter-spacing: -0.48px;
+                text-align: center;
+            }
+
+            .tabContainer {
+                width: 100%;
+                height: auto;
+
+                .btnContainer {
+                    display: flex;
+                    justify-content: center;
+                    height: 33px;
+                    margin-top: 28px;
+
+                    .btnContainer-btn {
+                        width: 25%;
+                        float: left;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        background-color: transparent;
+
+                        .btn-span {
+                            letter-spacing: -0.48px;
+                            line-height: 33px;
+                            color: var(--color-black);
+                            font-size: 24px;
+                            display: inline-block;
+                            border-bottom: 4px solid var(--color-orange);
+                            padding-bottom: 1px;
+                            width: 100%;
+                            text-transform: uppercase;
+
+                            &:hover {
+                                color: #f7a178;
+                            }
+                        }
+
+                    }
+
+                }
+
+                .tabPanel {
+                    display: flex;
+                    justify-content: start;
+                    align-items: flex-start;
+                    margin: 43px 0 100px 0;
+
+
+                    .bikeTP-title {
+                        font-size: 36px;
+                        line-height: 49px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: var(--color-black);
+                        font-family: "Avenir Next LT W01 Bold Cond";
+                    }
+
+                    .bikeTP-subtitle {
+                        font-size: 24px;
+                        line-height: 33px;
+                        letter-spacing: -0.48px;
+                        text-align: left;
+                        color: var(--color-black);
+
+                        .bikeTP-subtitle-span {
+                            font-family: "Avenir Next LT W01 Bold Cond";
+
+                        }
+                    }
+
+                    .bikeTP-motors-container {
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: flex-start;
+                        flex-direction: row;
+                        position: relative;
+
+                        .bikeTP-bg-img {
+                            position: relative;
+
+                            .bg-img-bikeTP {
+                                background-image: url("../images/bg-bike-mt.png");
+                                background-color: transparent;
+                                background-position: top;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                position: absolute;
+                                width: 639px;
+                                height: 495px;
+                                right: -240px;
+                                top: 25px;
+                            }
+                        }
+
+                        .bikeTP-motors-bg-image {
+                            width: 914px;
+                            height: 914px;
+                            background-image: url('../images/bg-bikes.png');
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            position: absolute;
+                            bottom: -70px;
+                            right: -390px;
+                            mix-blend-mode: multiply;
+                        }
+
+                        .bikeTP-grid-motors {
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr;
+                            row-gap: 49px;
+                            column-gap: 30px;
+                            z-index: 10;
+                            margin-top: 82px;
+                            margin-left: 15px;
+                            margin-bottom: 50px;
+                            position: relative;
+                            // **** here the card starts ***///
+                            .motors-container {
+
+                                .motorsssss {
+                                    background-color: var(--color-white);
+                                    width: 270px;
+                                    height: 250px;
+                                    padding: 8px 0 18px 16px;
+                                    box-shadow: 0px 0px 6px #00000029;
+                                    &:hover{
+                                        transition: .7s ease-in-out;
+                                        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+                                    }
+                                    .motor-box {
+                                        letter-spacing: -0.42px;
+                                        font-size: 18px;
+                                        line-height: 29px;
+                                        color: var(--color-black);
+                                        font-family: "Avenir Next LT W01 Demi Cond";
+
+                                        .motors-img {
+                                            background-image: url("../images/bike1.png");
+                                            background-position: center;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            height: 154px;
+                                            position: relative;
+
+                                            .mt-size-class {
+                                                line-height: 49px;
+                                                font-size: 36px;
+                                                letter-spacing: -0.72px;
+                                                color: var(--color-lightGray);
+                                                padding-right: 10px;
+
+                                                .size-class-svg {
+                                                    width: 10px;
+                                                    height: 25px;
+                                                }
+                                            }
+
+                                            .most-asked-motors {
+                                                position: absolute;
+                                                color: var(--color-white);
+                                                top: -8px;
+                                                right: 0;
+                                                background-color: var(--color-orange);
+                                                border-bottom-left-radius: 10px;
+                                                width: 89px;
+                                                height: 29px;
+                                                text-align: center;
+                                                padding: 5px 0 0 0;
+                                                font-family: "Avenir Next LT W01 Medium Cond";
+                                                font-size: 15px;
+                                                line-height: 20px;
+                                                letter-spacing: 0px;
+                                            }
+                                        }
+
+                                        .bike2 {
+                                            background-image: url("../images/bike2.png");
+                                        }
+
+                                        .bike3 {
+                                            background-image: url("../images/bike3.png");
+                                        }
+
+                                        .bike4 {
+                                            background-image: url("../images/bike4.png");
+                                        }
+
+                                        .bike5 {
+                                            background-image: url("../images/bike5.png");
+                                        }
+
+                                        .bike6 {
+                                            background-image: url("../images/bike6.png");
+                                        }
+
+                                        .bike7 {
+                                            background-image: url("../images/bike7.png");
+                                        }
+
+                                        .bike8 {
+                                            background-image: url("../images/bike8.png");
+                                        }
+
+                                        .mt-type-class {
+                                            margin-top: 16px;
+                                            font-size: 23px;
+                                            line-height: 31px;
+                                            letter-spacing: -0.46px;
+                                            color: var(--color-black);
+                                        }
+
+
+                                    }
+
+                                    .motor-hidden-box {
+                                        display: none;
+                                    }
+
+                                    .hide-show {
+                                        cursor: pointer;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        font-size: 16px;
+                                        padding: 0;
+                                        background-color: transparent;
+                                        border: none;
+
+                                        .fa-x {
+                                            display: none;
+                                        }
+
+                                        .mt-more-info {
+                                            margin-top: 3px;
+                                            margin-bottom: 18px;
+                                            font-size: 15px;
+                                            line-height: 20px;
+                                            letter-spacing: 0px;
+                                            color: var(--color-black);
+                                            display: flex;
+                                            align-items: center;
+                                            cursor: pointer;
+
+
+                                            svg {
+                                                margin-left: 5px;
+                                                width: 6px;
+                                                height: 11px;
+                                            }
+                                        }
+
+
+                                        &:focus {
+                                            outline: none;
+                                        }
+                                    }
+                                }
+
+                                .motorsssss.active {
+                                    background-color: var(--color-white);
+                                    width: 569px;
+                                    left: 1px;
+                                    height: 551px;
+                                    padding: 8px 0 18px 16px;
+                                    box-shadow: 0px 0px 6px #00000029;
+                                    position: absolute;
+                                    z-index: 9999;
+                                    &:hover{
+                                        transition: initial;
+                                        box-shadow: 0px 0px 6px #00000029;
+                                    }
+
+                                    .motor-box {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        flex-direction: column;
+
+                                        .motors-img {
+                                            background-position: center;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            width: 482px;
+                                            height: 275px;
+                                            position: relative;
+
+                                            .mt-size-class {
+                                                line-height: 49px;
+                                                font-size: 36px;
+                                                letter-spacing: -0.72px;
+                                                color: var(--color-lightGray);
+                                                position: absolute;
+                                                left: -35px;
+                                                top: 0;
+
+                                                .size-class-svg {
+                                                    width: 10px;
+                                                    height: 25px;
+                                                }
+                                            }
+
+                                            .most-asked-motors {
+                                                position: absolute;
+                                                color: var(--color-white);
+                                                top: -8px;
+                                                right: 0;
+                                                background-color: var(--color-orange);
+                                                border-bottom-left-radius: 10px;
+                                                width: 89px;
+                                                height: 29px;
+                                                text-align: center;
+                                                padding: 5px 0 0 0;
+                                                font-family: "Avenir Next LT W01 Medium Cond";
+                                                font-size: 15px;
+                                                line-height: 20px;
+                                                letter-spacing: 0px;
+                                            }
+                                        }
+
+
+                                        .mt-type-class {
+                                            margin-top: 16px;
+                                            font-size: 48px;
+                                            line-height: 66px;
+                                            letter-spacing: -0.96px;
+                                            color: var(--color-black);
+                                            text-align: left;
+                                            width: 100%;
+                                        }
+
+
+                                    }
+
+                                    .motor-hidden-box {
+                                        display: flex;
+                                        justify-content: start;
+                                        align-items: flex-start;
+                                        flex-direction: column;
+
+                                        .hidden-paragraph {
+                                            color: var(--color-black);
+                                            font-size: 18px;
+                                            line-height: 28px;
+                                            letter-spacing: 0px;
+                                            font-family: "Avenir Next LT W01 Medium Cond";
+
+                                        }
+
+                                        .hidden-button {
+                                            background-color: var(--color-orange);
+                                            border-radius: 100px;
+                                            border: none;
+                                            width: 357px;
+                                            height: 42px;
+                                            margin-top: 36px;
+
+                                            .hidden-hypertext {
+                                                font-size: 21px;
+                                                line-height: 29px;
+                                                letter-spacing: -0.42px;
+                                                font-family: "Avenir Next LT W01 Medium Cond";
+                                                color: var(--color-white);
+                                            }
+                                        }
+                                    }
+
+                                    .hide-show {
+                                        .fa-x {
+                                            top: 16px;
+                                            right: 18px;
+                                            position: absolute;
+                                            display: block;
+                                            color: black;
+                                            font-size: 20px;
+                                        }
+
+                                        .mt-more-info {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+
+
+                }
+            }
+        }
+
+    }
+}
+
+/* === Tablets === */
+@media screen and (max-width: 1250px) {
+    .bikes-body {
+        .bikes-header {
+            .navbar {
+                background-color: transparent;
+            }
+        }
+    }
+    .bikes {
+        .section-rental {
+            .bike-rental-container {
+                width: auto;
+
+                .tabContainer {
+                    .tabPanel {
+                        justify-content: center;
+                        align-items: center;
+
+                        .bikeTP-title {
+                            text-align: center;
+                        }
+
+                        .bikeTP-subtitle {
+                            text-align: center;
+                        }
+
+                        .bikeTP-motors-container {
+                            justify-content: center;
+                            align-items: center;
+
+
+                            .bikeTP-bg-img {
+                                .bg-img-bikeTP {
+                                    left: 310px;
+                                    top: -180px;
+                                }
+                            }
+
+                        }
+
+
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+/* === Tablets === */
+@media screen and (max-width: 900px) {
+
+    .bikes {
+        .section-rental {
+
+            .bike-rental-container {
+                width: auto;
+
+                .bike-title {
+                    font-size: 34px; // 54px
+                }
+
+                .bike-subtitle {
+                    font-size: 20px;
+                }
+
+                .tabContainer {
+                    .btnContainer {
+                        .btnContainer-btn {
+                            width: 45%;
+
+                            span {
+                                font-size: 20px;
+                                border-bottom: 3px solid var(--color-orange);
+                            }
+                        }
+
+                    }
+
+                    .tabPanel {
+
+                        .bikeTP-title {
+                            font-size: 26px;
+                        }
+
+                        .bikeTP-subtitle {
+                            font-size: 24px;
+                        }
+
+                        .bikeTP-motors-container {
+                            .bikeTP-bg-img {
+                                display: none;
+                            }
+
+
+
+                            .bikeTP-grid-motors {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                                row-gap: 30px;
+                                column-gap: 20px;
+                                z-index: 10;
+                                margin-top: 82px;
+                                margin-left: 15px;
+                                margin-bottom: 50px;
+
+                                // .motorstype-hidden {
+                                //     display: none;
+                                // }
+                                .motors-container{
+                                    .motorsssss.active {
+                                    background-color: var(--color-white);
+                                    width: 560px;
+                                    left: 1px;
+                                    height: 551px;
+                                    padding: 8px 0 18px 16px;
+                                    box-shadow: 0px 0px 6px #00000029;
+                                    position: absolute;
+                                    z-index: 9999;
+                                    &:hover{
+                                        transition: initial;
+                                        box-shadow: 0px 0px 6px #00000029;
+                                    }
+
+                                    .motor-box {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        flex-direction: column;
+
+                                        .motors-img {
+                                            background-position: center;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                            width: 482px;
+                                            height: 275px;
+                                            position: relative;
+
+                                            .mt-size-class {
+                                                line-height: 49px;
+                                                font-size: 36px;
+                                                letter-spacing: -0.72px;
+                                                color: var(--color-lightGray);
+                                                position: absolute;
+                                                left: -35px;
+                                                top: 0;
+
+                                                .size-class-svg {
+                                                    width: 10px;
+                                                    height: 25px;
+                                                }
+                                            }
+
+                                            .most-asked-motors {
+                                                position: absolute;
+                                                color: var(--color-white);
+                                                top: -8px;
+                                                right: 0;
+                                                background-color: var(--color-orange);
+                                                border-bottom-left-radius: 10px;
+                                                width: 89px;
+                                                height: 29px;
+                                                text-align: center;
+                                                padding: 5px 0 0 0;
+                                                font-family: "Avenir Next LT W01 Medium Cond";
+                                                font-size: 15px;
+                                                line-height: 20px;
+                                                letter-spacing: 0px;
+                                            }
+                                        }
+
+
+                                        .mt-type-class {
+                                            margin-top: 16px;
+                                            font-size: 48px;
+                                            line-height: 66px;
+                                            letter-spacing: -0.96px;
+                                            color: var(--color-black);
+                                            text-align: left;
+                                            width: 100%;
+                                        }
+
+
+                                    }
+
+                                    .motor-hidden-box {
+                                        display: flex;
+                                        justify-content: start;
+                                        align-items: flex-start;
+                                        flex-direction: column;
+
+                                        .hidden-paragraph {
+                                            color: var(--color-black);
+                                            font-size: 18px;
+                                            line-height: 28px;
+                                            letter-spacing: 0px;
+                                            font-family: "Avenir Next LT W01 Medium Cond";
+
+                                        }
+
+                                        .hidden-button {
+                                            background-color: var(--color-orange);
+                                            border-radius: 100px;
+                                            border: none;
+                                            width: 357px;
+                                            height: 42px;
+                                            margin-top: 36px;
+
+                                            .hidden-hypertext {
+                                                font-size: 21px;
+                                                line-height: 29px;
+                                                letter-spacing: -0.42px;
+                                                font-family: "Avenir Next LT W01 Medium Cond";
+                                                color: var(--color-white);
+                                            }
+                                        }
+                                    }
+
+                                    .hide-show {
+                                        .fa-x {
+                                            top: 16px;
+                                            right: 18px;
+                                            position: absolute;
+                                            display: block;
+                                            color: black;
+                                            font-size: 20px;
+                                        }
+
+                                        .mt-more-info {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                }
+                              
+
+                            }
+                        }
+
+
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+/* === Tablets === */
+@media screen and (max-width: 600px) {
+    .bikes {
+        .section-rental {
+            margin-top: 10rem;
+            display: flex;
+            justify-content: center;
+
+            .bike-rental-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                width: auto;
+                padding: 0 15px;
+
+                .bike-title {
+                    font-size: 28px;
+                    line-height: initial;
+                    text-align: center;
+
+                }
+
+                .bike-subtitle {
+                    font-size: 20px;
+                    line-height: initial;
+                    text-align: center;
+                }
+
+                .tabContainer {
+                    width: 100%;
+                    height: auto;
+
+                    .btnContainer {
+                        display: flex;
+                        justify-content: center;
+                        height: 33px;
+                        margin-top: 28px;
+
+                        .btnContainer-btn {
+                            width: 100%;
+                            float: none;
+                            border: none;
+                            outline: none;
+                            cursor: pointer;
+                            background-color: transparent;
+
+                            span {
+                                letter-spacing: -0.48px;
+                                line-height: 33px;
+                                color: var(--color-black);
+                                font-size: 16px;
+                                display: inline-block;
+                                border-bottom: 4px solid var(--color-orange);
+                                padding-bottom: 1px;
+                                width: 100%;
+                                text-transform: uppercase;
+                            }
+                        }
+
+                    }
+
+                    .tabPanel {
+                        display: flex;
+                        justify-content: start;
+                        align-items: flex-start;
+                        margin: 43px 0 100px 0;
+
+
+                        .bikeTP-title {
+                            font-size: 36px;
+                            line-height: 49px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: var(--color-black);
+                            font-family: "Avenir Next LT W01 Bold Cond";
+                        }
+
+                        .bikeTP-subtitle {
+                            font-size: 24px;
+                            line-height: 33px;
+                            letter-spacing: -0.48px;
+                            text-align: left;
+                            color: var(--color-black);
+
+                            .bikeTP-subtitle-span {
+                                font-family: "Avenir Next LT W01 Bold Cond";
+
+                            }
+                        }
+
+                        .bikeTP-motors-container {
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            position: relative;
+
+                            .bikeTP-bg-img {
+                                position: relative;
+
+                                .bg-img-bikeTP {
+                                    background-image: url("../images/bg-bike-mt.png");
+                                    background-color: transparent;
+                                    background-position: top;
+                                    background-size: contain;
+                                    background-repeat: no-repeat;
+                                    position: absolute;
+                                    width: 639px;
+                                    height: 495px;
+                                    right: -240px;
+                                    top: 25px;
+                                }
+                            }
+
+                            .bikeTP-motors-bg-image {
+                                width: 914px;
+                                height: 914px;
+                                background-image: url('../images/bg-bikes.png');
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                position: absolute;
+                                bottom: -70px;
+                                right: -390px;
+                                mix-blend-mode: multiply;
+                            }
+
+                            .bikeTP-grid-motors {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                                row-gap: 20px;
+                                column-gap: none;
+                                z-index: 10;
+                                margin-top: 82px;
+                                margin-left: auto;
+                                margin-bottom: 50px;
+                                width: 100%;
+                                place-items: center;
+
+                                .motors-container {
+                                    width: 90%;
+                                    .mobilenone{
+                                        display: none;
+                                    }
+                                    .motorsssss {
+                                        width: 100%;
+                                      
+                                    }
+    
+                                    .motorsssss.active {
+                                    width: 100%;
+                                    left: 0;
+                                    height: auto;
+                                    padding: 10px;
+                                    box-shadow: 0px 0px 6px #00000029;
+                                    position: relative;
+                                    z-index: 9999;
+                                        .motor-box {
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            align-items: flex-start;
+                                            flex-direction: column;
+    
+                                            .motors-img {
+                                                background-position: center;
+                                                background-size: contain;
+                                                background-repeat: no-repeat;
+                                                width: 320px;
+                                                height: 100px;
+                                                position: relative;
+    
+                                                .mt-size-class {
+                                                    line-height: 49px;
+                                                    font-size: 36px;
+                                                    letter-spacing: -0.72px;
+                                                    color: var(--color-lightGray);
+                                                    position: absolute;
+                                                    left: 0;
+                                                    top: 0;
+    
+                                                    .size-class-svg {
+                                                        width: 10px;
+                                                        height: 25px;
+                                                    }
+                                                }
+    
+                                            }
+    
+    
+                                            .mt-type-class {
+                                                margin-top: 16px;
+                                                font-size: 28px;
+                                                line-height: 66px;
+                                                letter-spacing: -0.96px;
+                                                color: var(--color-black);
+                                                text-align: left;
+                                                width: auto;
+                                            }
+    
+    
+                                        }
+    
+                                        .motor-hidden-box {
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            align-items: flex-start;
+                                            flex-direction: column;
+    
+                                            .hidden-paragraph {
+                                                color: var(--color-black);
+                                                font-size: 16px;
+                                                line-height: 28px;
+                                                letter-spacing: 0px;
+                                                font-family: "Avenir Next LT W01 Medium Cond";
+    
+                                            }
+    
+                                            .hidden-button {
+                                                background-color: var(--color-orange);
+                                                border-radius: 100px;
+                                                border: none;
+                                                width: 100%;
+                                                padding: 0 15px;
+                                                height: 42px;
+                                                margin-top: 26px;
+                                                margin-bottom: 26px;
+                                                .hidden-hypertext {
+                                                    font-size: 18px;
+                                                }
+                                            }
+                                        }
+    
+                                        .hide-show {
+                                         
+                                            .fa-x {
+                                                margin-top: 5px;
+                                                font-size: 18px;
+                                            }
+    
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+            }
+
+        }
+    }
+}

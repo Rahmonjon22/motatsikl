@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Anmelden</title>
+    <!-- Fonts are here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Css & Js -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+</head>
+
+<body class="anmelden-body">
+    <main class="anmelden-main">
+        <div class="anmelden-img-container"><img class="anmelden-img" src="./assets/images/svgs/Logo.svg" alt="logo">
+        </div>
+        <div class="anmelden-container">
+            <div class="anmelden-left">
+                <h2 class="anmelden-title AvenirBold">Entdecken MR Biketours FahrerPlus <i class="fa-solid fa-plus"></i></h2>
+                <p class="anmelden-paragpraph">
+                    <i class="fa-solid fa-check"></i> Aktuelle personalisierte Reiseinformationen
+                </p>
+                <p class="anmelden-paragpraph">
+                    <i class="fa-solid fa-check"></i> Exklusives Rewards für MR Biketours Stammfahrer
+                </p>
+                <p class="anmelden-paragpraph">
+                    <i class="fa-solid fa-check"></i> Profitieren Sie von besonderen Konditionen
+                </p>
+                <p class="anmelden-paragpraph">
+                    <i class="fa-solid fa-check"></i> Lorem ipsum dolor remmy
+                </p>
+            </div>
+            <form class="form anmelden-right js--validate-form" id="form">
+                <h2 class="form-title">Anmelden</h2>
+                <div class="form-control mb15">
+                    <input class="input error-input regular" type="email" placeholder="E-Mail*" name="email"
+                        id="email" required>
+                        <!-- <i class="fa-solid fa-check success-icon normal-icon"></i> -->
+                </div>
+                <div class="form-control">
+                    <input class="input error-input regular" type="password" placeholder="Passwort*" name="psw"
+                        id="psw" required>
+                        <!-- <i class="fa-solid fa-check success-icon normal-icon "></i> -->
+                    <i class="fa-sharp fa-solid fa-eye-slash" id="eye" onclick="ShowHidePassword()"></i>
+                    <!-- <div class="warning-texts">
+                        <small class="normal error success stayhidden">6 Zeichen</small>
+                        <small class="success error normal stayhidden">1 Zahl</small>
+                        <small class="success error normal stayhidden">1 Großbuchstaben</small>
+                        <small class="success error normal stayhidden">1 Kleinbuchstaben</small>
+                        <small class="success error normal stayhidden">Sonderzeichen</small>
+                    </div> -->
+                </div> 
+                <a class="psw-vergessen" href="#">Passwort vergessen?</a>
+                <input class="submit-btn" type="submit" value="Einloggen">
+               <p class="keinKonto">Kein Konto? <a class="underlineonHoverHyper" href="#">Profile erstellen</a></p>
+            </form>
+
+        </div>
+    </main>
+
+    <script src="./assets/Javascript/form.js" defer></script>
+    <script src="./assets/Javascript/jquery-3.1.0.min.js"></script>
+    <script src="./assets/Javascript/jbvalidator.min.js"></script>
+</body>
+
+</html>

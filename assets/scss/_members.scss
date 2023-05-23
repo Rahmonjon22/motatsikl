@@ -1,0 +1,1250 @@
+// ===== header section in members starts here =====///
+.members-header {
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(../images/background_login.jpg);
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+
+    .navbar {
+        background-color: var(--color-black);
+    }
+
+    .members-header-content {
+        position: absolute;
+        top: 197px;
+        left: 209px;
+        width: 570px;
+        height: 143px;
+
+        .members-title {
+            font-size: 48px;
+            line-height: 66px;
+            letter-spacing: -0.48px;
+            font-family: "Avenir Next LT W01 Demi Cond";
+            color: var(--color-white);
+
+            span {
+                color: var(--color-orange);
+            }
+        }
+    }
+
+}
+
+/* === Tablets & Mobile === */
+@media screen and (max-width: 1400px) {
+    .members-header {
+        height: 600px;
+
+        .navbar {
+            background-color: initial;
+        }
+    }
+}
+
+/* === Tablets & Mobile === */
+@media screen and (max-width: 1000px) {
+    .members-header {
+        .members-header-content {
+            position: absolute;
+            top: initial;
+            bottom: 150px;
+            left: initial;
+            width: initial;
+            height: initial;
+        }
+
+    }
+}
+
+
+// ===== header section in members  end here =====///
+
+
+
+
+// ===== members-booking-section in members  stars here =====///
+
+.members-booking-section {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+    background: #D5D5D5 0% 0% no-repeat padding-box;
+
+    .members-booking-container {
+        width: 1170px;
+        position: relative;
+
+        .members-profile {
+            position: absolute;
+            width: 145px;
+            height: 145px;
+            background-color: var(--color-orange);
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            top: -70px;
+            border: 3px solid #FFFFFF;
+
+            .stars-box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+
+                svg {
+                    width: 22px;
+                    height: 21px;
+                }
+            }
+
+            .profile-title,
+            p {
+                font-size: 24px;
+                line-height: 33px;
+                letter-spacing: -0.24px;
+                font-family: "Avenir Next LT W01 Demi Cond";
+            }
+
+            p {
+                font-size: 18px;
+                color: var(--color-black);
+                letter-spacing: -0.18px;
+                line-height: 25px;
+            }
+        }
+
+        .members-title-greeting {
+            width: 100%;
+            color: var(--color-black);
+            font-size: 24px;
+            line-height: 33px;
+            letter-spacing: 0px;
+            font-family: "Avenir Next LT W01 Demi Cond";
+            padding-left: 177px;
+            padding-top: 20px;
+
+        }
+
+        .reminder-container {
+            border-radius: 10px;
+            width: 100%;
+            height: 109px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 0px 6px #00000029;
+            color: var(--color-black);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 60px;
+
+            .reminder {
+                position: relative;
+                background: #ffe2d4;
+                width: 65px;
+                height: 65px;
+                border-radius: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 27px;
+                cursor: pointer;
+
+                .numberofreminder {
+                    position: absolute;
+                    top: 0px;
+                    right: 4px;
+                    background-color: red;
+                    border-radius: 100%;
+                    width: 21px;
+                    height: 21px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    color: var(--color-white);
+
+                }
+
+                svg {
+                    color: var(--color-orange);
+                    width: 32px;
+                    height: 37px;
+                    opacity: 1;
+                }
+            }
+
+            .reminder-infos {
+                .info-title {
+                    font-size: 24px;
+                    line-height: 33px;
+                    letter-spacing: 0px;
+                    font-family: "Avenir Next LT W01 Demi Cond";
+                    color: var(--color-black);
+                }
+
+                .info-texts {
+                    font-size: 21px;
+                    line-height: 29px;
+                    letter-spacing: 0px;
+                    font-family: "Avenir Next LT W01 Condensed";
+                    color: var(--color-black);
+                }
+            }
+
+            .reminder-button {
+                background-color: transparent;
+                width: 33px;
+                height: 33px;
+                border: none;
+                margin-right: 25px;
+                cursor: pointer;
+            }
+
+        }
+
+        .booking-title {
+            font-size: 42px;
+            line-height: 57px;
+            letter-spacing: -0.84px;
+            font-family: "Avenir Next LT W01 Bold Cond";
+            text-align: center;
+            width: 100%;
+            color: var(--color-black);
+            margin-top: 81px;
+            margin-bottom: 11px;
+        }
+
+        .booking-container {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 0px 6px #00000029;
+            border-radius: 10px;
+            width: 100%;
+            height: 71px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            margin-bottom: 15px;
+
+            p {
+                color: var(--color-black);
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: 0px;
+                font-family: "Avenir Next LT W01 Medium Cond";
+            }
+
+            .country {
+                color: var(--color-orange);
+                margin-left: 34px;
+
+                .travel-destination {
+                    padding-left: 5px;
+                    color: var(--color-black);
+                }
+            }
+
+            .booking-time {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+                width: 35%;
+            }
+
+            .pricelist {
+                .priceAmount {
+                    font-family: "Avenir Next LT W01 Bold Cond";
+
+                }
+
+                .booking-arrow-btn {
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                    margin-right: 22px;
+                    margin-left: 15px;
+
+                    svg {
+                        width: 11px;
+                        height: 23px;
+                    }
+                }
+            }
+
+
+
+
+        }
+
+        .archive-btn {
+            background-color: transparent;
+            margin-bottom: 68px;
+            border: none;
+            cursor: pointer;
+
+            a {
+                text-align: left;
+                color: var(--color-orange);
+                font-size: 21px;
+                line-height: 28px;
+                letter-spacing: 0px;
+                font-family: "Avenir Next LT W01 Medium Cond";
+            }
+        }
+    }
+}
+
+/* === Tablets & Mobile === */
+@media screen and (max-width: 1200px) {
+    .members-booking-section {
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        flex-direction: column;
+        background: #D5D5D5 0% 0% no-repeat padding-box;
+
+        .members-booking-container {
+            width: 90%;
+            position: relative;
+
+            .members-profile {
+                position: absolute;
+                width: 145px;
+                height: 145px;
+                background-color: var(--color-orange);
+                border-radius: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                top: -70px;
+                border: 3px solid #FFFFFF;
+
+                .stars-box {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
+
+                    svg {
+                        width: 22px;
+                        height: 21px;
+                    }
+                }
+
+                .profile-title,
+                p {
+                    font-size: 24px;
+                    line-height: 33px;
+                    letter-spacing: -0.24px;
+                    font-family: "Avenir Next LT W01 Demi Cond";
+                }
+
+                p {
+                    font-size: 18px;
+                    color: var(--color-black);
+                    letter-spacing: -0.18px;
+                    line-height: 25px;
+                }
+            }
+
+            .members-title-greeting {
+                width: 100%;
+                color: var(--color-black);
+                font-size: 24px;
+                line-height: 33px;
+                letter-spacing: 0px;
+                font-family: "Avenir Next LT W01 Demi Cond";
+                padding-left: 177px;
+                padding-top: 20px;
+
+            }
+
+            .reminder-container {
+                border-radius: 10px;
+                width: 100%;
+                height: auto;
+                padding: 20px 0;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 0px 6px #00000029;
+                color: var(--color-black);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 60px;
+                position: relative;
+
+                .reminder {
+                    position: absolute;
+                    background: #ffe2d4;
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 27px;
+                    cursor: pointer;
+                    left: 10px;
+
+                    .numberofreminder {
+                        position: absolute;
+                        top: 0px;
+                        right: 4px;
+                        background-color: red;
+                        border-radius: 100%;
+                        width: 21px;
+                        height: 21px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        color: var(--color-white);
+
+                    }
+
+                    svg {
+                        color: var(--color-orange);
+                        width: 32px;
+                        height: 37px;
+                        opacity: 1;
+                    }
+                }
+
+                .reminder-infos {
+                    margin-top: 85px;
+                    padding: 0 35px;
+
+                    .info-title {
+                        font-size: 24px;
+                        line-height: 33px;
+                        letter-spacing: 0px;
+                        font-family: "Avenir Next LT W01 Demi Cond";
+                        color: var(--color-black);
+                    }
+
+                    .info-texts {
+                        font-size: 21px;
+                        line-height: 29px;
+                        letter-spacing: 0px;
+                        font-family: "Avenir Next LT W01 Condensed";
+                        color: var(--color-black);
+                    }
+                }
+
+                .reminder-button {
+                    position: absolute;
+                    right: 10px;
+                    top: 35px;
+                    background-color: transparent;
+                    width: 33px;
+                    height: 33px;
+                    border: none;
+                    margin-right: 25px;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .members-booking-section {
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        flex-direction: column;
+        background: #D5D5D5 0% 0% no-repeat padding-box;
+
+        .members-booking-container {
+            position: relative;
+
+            .booking-container {
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 0px 6px #00000029;
+                border-radius: 10px;
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin-bottom: 15px;
+                padding: 25px;
+
+                p {
+                    color: var(--color-black);
+                    font-size: 24px;
+                    line-height: 28px;
+                    letter-spacing: 0px;
+                    font-family: "Avenir Next LT W01 Medium Cond";
+                }
+
+                .country {
+                    color: var(--color-orange);
+                    margin-left: 0px;
+
+
+                    .travel-destination {
+                        padding-left: 5px;
+                        color: var(--color-black);
+                    }
+                }
+
+                .booking-time {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    width: auto;
+                    padding: 15px 0px;
+                }
+
+            }
+        }
+    }
+}
+/* === Tablets & Mobile === */
+@media screen and (max-width: 550px) {
+    .members-booking-section {
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        flex-direction: column;
+        background: #D5D5D5 0% 0% no-repeat padding-box;
+
+        .members-booking-container {
+            .members-title-greeting {
+                width: 100%;
+                color: var(--color-black);
+                font-size: 24px;
+                line-height: 33px;
+                letter-spacing: 0px;
+                font-family: "Avenir Next LT W01 Demi Cond";
+                padding-left: 0px;
+                padding-top: 20px;
+                margin-top: 70px;
+                text-align: left;
+
+            }
+
+           
+
+        }
+    }
+}
+// ===== members-booking-section in members  ends here =====///
+
+
+// ===== driverPlus-section in members  stars here =====///
+.driverPlus-section {
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .driverPlus-container {
+        width: 1173px;
+
+        .driverPlus-title {
+            font-size: 42px;
+            line-height: 57px;
+            letter-spacing: -0.84px;
+            font-family: "Avenir Next LT W01 Bold Cond";
+            text-align: center;
+            width: 100%;
+            color: var(--color-black);
+            margin-top: 49px;
+            margin-bottom: 24px;
+        }
+
+        .driverPlus-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 35px;
+            column-gap: 30px;
+            width: 100%;
+
+            .driverPlus-box {
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow: 0px 0px 6px #00000029;
+                border-radius: 10px;
+                width: 570px;
+                height: 127px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                svg {
+                    width: 45px;
+                    height: 53px;
+                    // color: var(--color-orange);
+                    margin-right: 26px;
+                    margin-left: 32px;
+                }
+
+                .driver-infos {
+                    .driver-title {
+                        font-size: 24px;
+                        line-height: 33px;
+                        letter-spacing: 0px;
+                        font-family: "Avenir Next LT W01 Demi Cond";
+                        color: var(--color-black);
+                    }
+
+                    .driver-paragraph {
+                        font-size: 21px;
+                        line-height: 29px;
+                        letter-spacing: 0px;
+                        font-family: "Avenir Next LT W01 Condensed";
+                        color: var(--color-black);
+                    }
+                }
+            }
+        }
+
+        .contact-infos-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: row;
+            width: 951px;
+
+            .customerservice-left {
+                display: flex;
+                flex-direction: row;
+
+                .service-messenger {
+                    width: 98px;
+                    height: 89px;
+                    margin-right: 32px;
+                }
+
+                .curstomerservice-box {
+                    width: 352px;
+
+                    .service-paragraph {
+                        color: var(--color-black);
+                        font-family: "Avenir Next LT W01 Condensed";
+                        font-size: 21px;
+                        line-height: 29px;
+                        letter-spacing: -0.42px;
+                        margin-bottom: 32px;
+                    }
+
+                    .service-timeline {
+                        color: var(--color-black);
+                        font-family: "Avenir Next LT W01 Demi Cond";
+                        font-size: 21px;
+                        line-height: 29px;
+                        letter-spacing: -0.42px;
+                        margin-bottom: 32px;
+
+                    }
+
+
+                    .service-btn {
+                        background-color: var(--color-orange);
+                        background: #F05409 0% 0% no-repeat padding-box;
+                        border-radius: 100px;
+                        margin-bottom: 100px;
+                        border: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        a {
+                            padding: 7px 35px;
+                            text-align: center;
+                            font-size: 21px;
+                            line-height: 29px;
+                            letter-spacing: -0.42px;
+                            color: var(--color-white);
+                            font-family: "Avenir Next LT W01 Medium Cond";
+
+                        }
+                    }
+                }
+
+            }
+
+            .customerservice-right {
+                display: flex;
+                justify-content: start;
+                flex-direction: column;
+
+                .mobile-customerservice,
+                .email-customerservice,
+                .catalog-customerservice {
+                    display: flex;
+                    align-items: center;
+                    font-family: "Avenir Next LT W01 Condensed";
+                    font-size: 21px;
+                    line-height: 29px;
+                    letter-spacing: -0.42px;
+                    color: var(--color-orange);
+                    padding-bottom: 30px;
+
+                    svg,
+                    img {
+                        width: 32px;
+                        height: 36px;
+                        fill: #F05409;
+                        margin-right: 15px;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .driverPlus-section {
+        background: #F4F4F4 0% 0% no-repeat padding-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .driverPlus-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .driverPlus-grid {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+
+                .driverPlus-box {
+                    background: #FFFFFF 0% 0% no-repeat padding-box;
+                    box-shadow: 0px 0px 6px #00000029;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: auto;
+                    padding: 25px 26px 25px 0px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    svg {
+                        width: 45px;
+                        height: 53px;
+                        // color: var(--color-orange);
+                        margin-right: 26px;
+                        margin-left: 32px;
+                    }
+
+                    .driver-infos {
+                        .driver-title {
+                            font-size: 24px;
+                            line-height: 33px;
+                            letter-spacing: 0px;
+                            font-family: "Avenir Next LT W01 Demi Cond";
+                            color: var(--color-black);
+                        }
+
+                        .driver-paragraph {
+                            font-size: 21px;
+                            line-height: 29px;
+                            letter-spacing: 0px;
+                            font-family: "Avenir Next LT W01 Condensed";
+                            color: var(--color-black);
+                        }
+                    }
+                }
+            }
+
+            .contact-infos-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                width: auto;
+
+                .customerservice-left {
+                    display: flex;
+                    flex-direction: row;
+
+                    .service-messenger {
+                        width: 98px;
+                        height: 89px;
+                        margin-right: 32px;
+                    }
+
+                    .curstomerservice-box {
+                        width: 352px;
+
+                        .service-paragraph {
+                            color: var(--color-black);
+                            font-family: "Avenir Next LT W01 Condensed";
+                            font-size: 21px;
+                            line-height: 29px;
+                            letter-spacing: -0.42px;
+                            margin-bottom: 32px;
+                        }
+
+                        .service-timeline {
+                            color: var(--color-black);
+                            font-family: "Avenir Next LT W01 Demi Cond";
+                            font-size: 21px;
+                            line-height: 29px;
+                            letter-spacing: -0.42px;
+                            margin-bottom: 32px;
+
+                        }
+
+
+                        .service-btn {
+                            background-color: var(--color-orange);
+                            background: #F05409 0% 0% no-repeat padding-box;
+                            border-radius: 100px;
+                            margin-bottom: 100px;
+                            border: none;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            a {
+                                padding: 7px 35px;
+                                text-align: center;
+                                font-size: 21px;
+                                line-height: 29px;
+                                letter-spacing: -0.42px;
+                                color: var(--color-white);
+                                font-family: "Avenir Next LT W01 Medium Cond";
+
+                            }
+                        }
+                    }
+
+                }
+
+                .customerservice-right {
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-direction: column;
+
+                    .mobile-customerservice,
+                    .email-customerservice,
+                    .catalog-customerservice {
+                        display: flex;
+                        align-items: center;
+                        font-family: "Avenir Next LT W01 Condensed";
+                        font-size: 21px;
+                        line-height: 29px;
+                        letter-spacing: -0.42px;
+                        color: var(--color-orange);
+                        padding-bottom: 30px;
+
+                        svg,
+                        img {
+                            width: 32px;
+                            height: 36px;
+                            fill: #F05409;
+                            margin-right: 15px;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+    }
+}
+@media screen and (max-width: 760px) {
+    .driverPlus-section {
+        background: #F4F4F4 0% 0% no-repeat padding-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .driverPlus-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .driverPlus-grid {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+
+                .driverPlus-box {
+                    background: #FFFFFF 0% 0% no-repeat padding-box;
+                    box-shadow: 0px 0px 6px #00000029;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: auto;
+                    padding: 25px 26px 25px 0px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    svg {
+                        width: 45px;
+                        height: 53px;
+                        // color: var(--color-orange);
+                        margin-right: 26px;
+                        margin-left: 32px;
+                    }
+
+                    .driver-infos {
+                        .driver-title {
+                            font-size: 24px;
+                            line-height: 33px;
+                            letter-spacing: 0px;
+                            font-family: "Avenir Next LT W01 Demi Cond";
+                            color: var(--color-black);
+                        }
+
+                        .driver-paragraph {
+                            font-size: 21px;
+                            line-height: 29px;
+                            letter-spacing: 0px;
+                            font-family: "Avenir Next LT W01 Condensed";
+                            color: var(--color-black);
+                        }
+                    }
+                }
+            }
+
+            .contact-infos-container {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                width: auto;
+                padding-left: 25px;
+
+                .customerservice-left {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .service-messenger {
+                        width: 98px;
+                        height: 89px;
+                        margin-right: initial;
+                        margin-bottom: 35px;
+                    }
+
+                    .curstomerservice-box {
+                        width: initial;
+                      
+
+                        .service-paragraph {
+                            color: var(--color-black);
+                            font-family: "Avenir Next LT W01 Condensed";
+                            font-size: 21px;
+                            line-height: 29px;
+                            letter-spacing: -0.42px;
+                            margin-bottom: 32px;
+                        }
+
+                        .service-timeline {
+                            color: var(--color-black);
+                            font-family: "Avenir Next LT W01 Demi Cond";
+                            font-size: 21px;
+                            line-height: 29px;
+                            letter-spacing: -0.42px;
+                            margin-bottom: 32px;
+
+                        }
+
+
+                        .service-btn {
+                            background-color: var(--color-orange);
+                            background: #F05409 0% 0% no-repeat padding-box;
+                            border-radius: 100px;
+                            margin-bottom: 100px;
+                            border: none;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            a {
+                                padding: 7px 35px;
+                                text-align: center;
+                                font-size: 21px;
+                                line-height: 29px;
+                                letter-spacing: -0.42px;
+                                color: var(--color-white);
+                                font-family: "Avenir Next LT W01 Medium Cond";
+
+                            }
+                        }
+                    }
+
+                }
+
+                .customerservice-right {
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-direction: column;
+
+                    .mobile-customerservice,
+                    .email-customerservice,
+                    .catalog-customerservice {
+                        display: flex;
+                        align-items: center;
+                        font-family: "Avenir Next LT W01 Condensed";
+                        font-size: 21px;
+                        line-height: 29px;
+                        letter-spacing: -0.42px;
+                        color: var(--color-orange);
+                        padding-bottom: 30px;
+
+                        svg,
+                        img {
+                            width: 32px;
+                            height: 36px;
+                            fill: #F05409;
+                            margin-right: 15px;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+    }
+}
+
+
+
+// ===== driverPlus-section in members  ends here =====///
+
+.rewards-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 209px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+
+    .left-rewards {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        background-color: var(--color-orange);
+
+        .image-box {
+            background-color: var(--color-white);
+            width: 368px;
+            height: 430px;
+            background-image: url('../images/tshirt_grau.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 38px 102px 42px 0px;
+            position: relative;
+            display: flex;
+
+            .left-rewards-paragraph {
+                position: absolute;
+                bottom: 87px;
+                right: 51px;
+                width: 278px;
+                text-align: center;
+
+                span {
+                    background-color: var(--color-white);
+                    padding: 10px;
+                    color: var(--color-black);
+                    font-size: 24px;
+                    letter-spacing: 0px;
+                    line-height: 44px;
+                    font-family: "Avenir Next LT W01 Demi Cond I";
+
+                }
+            }
+        }
+    }
+
+    .right-rewards {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50%;
+        height: 509px;
+        background: #19202C 0% 0% no-repeat padding-box;
+        flex-direction: column;
+
+        .rewards-info {
+            font-size: 24px;
+            line-height: 33px;
+            letter-spacing: 2.4px;
+            color: var(--color-white);
+            margin-top: 77px;
+        }
+
+        .rewards-title {
+            font-size: 54px;
+            line-height: 74px;
+            letter-spacing: 0px;
+            color: var(--color-white);
+            margin-top: 51px;
+        }
+
+        .rewards-paragraph {
+            font-size: 24px;
+            line-height: 33px;
+            letter-spacing: -0.48px;
+            color: var(--color-white);
+        }
+
+        .rewards-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border-radius: 100px;
+            border: none;
+            margin-top: 56px;
+            cursor: pointer;
+
+            a {
+                padding: 7px 35px;
+                text-align: center;
+                font-size: 21px;
+                line-height: 29px;
+                letter-spacing: -0.42px;
+                color: var(--color-orange);
+            }
+
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .rewards-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 209px;
+        background: #F4F4F4 0% 0% no-repeat padding-box;
+    
+        .left-rewards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: var(--color-orange);
+    
+            .image-box {
+                width: 320px;
+                height: 430px;
+                margin: 38px 0px;
+       
+    
+                .left-rewards-paragraph {
+                    position: absolute;
+                    bottom: 87px;
+                    right: 51px;
+                    width: 278px;
+                    text-align: center;
+    
+                    span {
+                        background-color: var(--color-white);
+                        padding: 10px;
+                        color: var(--color-black);
+                        font-size: 24px;
+                        letter-spacing: 0px;
+                        line-height: 44px;
+                        font-family: "Avenir Next LT W01 Demi Cond I";
+    
+                    }
+                }
+            }
+        }
+    
+        .right-rewards {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: 509px;
+            background: #19202C 0% 0% no-repeat padding-box;
+            flex-direction: column;
+    
+            .rewards-info {
+                font-size: 24px;
+                line-height: 33px;
+                letter-spacing: 2.4px;
+                color: var(--color-white);
+                margin-top: 77px;
+            }
+    
+            .rewards-title {
+                font-size: 54px;
+                line-height: 74px;
+                letter-spacing: 0px;
+                color: var(--color-white);
+                margin-top: 51px;
+            }
+    
+            .rewards-paragraph {
+                font-size: 24px;
+                line-height: 33px;
+                letter-spacing: -0.48px;
+                color: var(--color-white);
+            }
+    
+            .rewards-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border-radius: 100px;
+                border: none;
+                margin-top: 56px;
+                cursor: pointer;
+    
+                a {
+                    padding: 7px 35px;
+                    text-align: center;
+                    font-size: 21px;
+                    line-height: 29px;
+                    letter-spacing: -0.42px;
+                    color: var(--color-orange);
+                }
+    
+            }
+        }
+    }
+}
+
+
+// ===== rewards-section in members  stars here =====///

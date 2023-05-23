@@ -1,0 +1,196 @@
+.beeindruckend-section {
+    background-color: var(--color-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 397px;
+
+    .left-beendruckend {
+        float: left;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        flex-direction: column;
+        height: 100%;
+
+        h1 {
+            width: 70%;
+            text-align: right;
+            padding: 0 30px 30px 0;
+            font-size: 48px;
+            font-family: "Avenir Next LT W01 Bold Cond";
+            letter-spacing: 0px;
+            opacity: 1;
+            color: var(--color-black);
+        }
+
+        p {
+
+            padding: 0 8rem;
+            font-size: 21px;
+            font-family: "Avenir Next LT W01 Condensed";
+            letter-spacing: -0.42px;
+            opacity: 1;
+            color: var(--color-black);
+        }
+    }
+
+    .right-beendruckend {
+        float: right;
+        width: 50%;
+
+        .beendruckend-image {
+            background-image: url(../images/usa-canyon.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 398px;
+            height: 307px;
+            transform: matrix(1, -0.05, 0.05, 1, 0, 0);
+        }
+
+        .beendruckend-image2 {
+            position: relative;
+
+            img {
+                bottom: -1rem;
+                right: 10rem;
+                position: absolute;
+                width: 331px;
+                height: 408px;
+                transform: matrix(0.99, 0.16, -0.16, 0.99, 0, 0);
+            }
+        }
+    }
+}
+/* === bigger screens === */
+// @media screen and (min-width: 1800px) {
+//     .beeindruckend-section {
+//         .left-beendruckend {
+//             align-items: flex-end;
+//             h1 {
+//                 width: auto;
+//                 text-align: right;
+//             }
+    
+//             p {
+//                 width: 60%;
+//                 text-align: right;
+//                 padding: 0 2rem ;
+//             }
+//         }
+    
+//         .right-beendruckend {
+//             display: flex;
+//             justify-content: flex-start;
+//             align-items: center;
+//             flex-direction: row;
+          
+//             .beendruckend-image2 {
+//                 position: relative;
+//                 img {
+//                     bottom: auto;
+//                     right: auto;
+//                     position: relative;
+                 
+//                 }
+//             }
+//         }
+//     }
+// }
+/* === smaller laptops === */
+@media screen and (max-width: 1450px){
+    .beeindruckend-section {
+        .right-beendruckend {
+            .beendruckend-image2 {
+                img {
+                    right: 2rem;
+                }
+            }
+        }
+    }
+}
+
+/* === Tablets === */
+@media screen and (max-width: 1200px) {
+
+    .beeindruckend-section {
+        flex-direction: column;
+        height: auto;
+
+        .left-beendruckend {
+            float: none;
+            width: 100%;
+            height: auto;
+            h1 {
+                text-align: center;
+                padding: 30px 30px 30px 0;
+            }
+        }
+
+        .right-beendruckend {
+            margin-top: 4rem;
+            width: 100%;
+            float: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .beendruckend-image {
+                flex-wrap: wrap;
+            }
+
+            .beendruckend-image2 {
+                img {
+                    bottom: 0;
+                    right: 0;
+                    position: relative;
+                }
+            }
+        }
+    }
+
+
+}
+
+/* === Mobile === */
+@media screen and (max-width: 600px) {
+
+    .beeindruckend-section {
+        .left-beendruckend {
+            width: 100%;
+            height: auto;
+
+            h1 {
+                width: auto;
+                padding: 30px 0 30px 0;
+                font-size: 38px;
+            }
+
+            p {
+                padding: 0 .8rem;
+                font-size: 18px;
+            }
+        }
+
+        .right-beendruckend {
+            flex-direction: column;
+
+            .beendruckend-image {
+                width: 298px;
+                height: 207px;
+            }
+
+            .beendruckend-image2 {
+                img {
+                    width: 231px;
+                    height: 308px;
+                }
+            }
+        }
+    }
+
+}

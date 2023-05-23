@@ -1,0 +1,427 @@
+.livethedream-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 6rem 0;
+
+    .livedream-title {
+        text-align: center;
+        font-family: "Avenir Next LT W01 Bold Cond";
+        font-size: 54px;
+        letter-spacing: -0.54px;
+        color: var(--color-black);
+        opacity: 1;
+        margin-bottom: 2rem;
+    }
+
+    .livedream-gallery {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem;
+        justify-content: center;
+        align-items: flex-start;
+
+        .lorem-texts {
+            width: 90%;
+            text-align: center;
+
+            span {
+                font-size: 24px;
+                font-family: "Avenir Next LT W01 Demi Cond I";
+                letter-spacing: 0px;
+                line-height: 35px;
+                color: var(--color-black);
+                opacity: 1;
+                padding: 5px 20px 5px 20px;
+                background-color: var(--color-white);
+            }
+        }
+
+        .first-grid {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 899px;
+
+            .image-box {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 369px;
+                height: 369px;
+                background: transparent url('../images/harley-davidson.png') 0% 0% no-repeat padding-box;
+                opacity: 1;
+            }
+
+            .image-box1 {
+                background: var(--color-peachOrange);
+                padding: 2rem 1rem;
+                width: 370px;
+                height: 492px;
+                border-radius: 10px;
+                opacity: 0.5;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+
+                .title-image {
+                    text-transform: uppercase;
+                    color: var(--color-black);
+                    letter-spacing: 0px;
+                    opacity: 1;
+                    font-size: 18px;
+                    font-family: "Avenir Next LT W01 Bold Cond";
+                    padding-bottom: 1.5rem;
+                }
+
+                .mustermann {
+                    font-family: "Avenir Next LT W01 Bold Cond";
+                    font-size: 21px;
+                    letter-spacing: 0px;
+                    color: var(--color-black);
+                    opacity: 1;
+                    padding-bottom: .8rem;
+                }
+
+                .country {
+                    font-family: "Avenir Next LT W01 Demi Cond I";
+                    font-size: 21px;
+                    letter-spacing: 0px;
+                    color: var(--color-black);
+                    opacity: 1;
+                    padding-bottom: .8rem;
+                }
+
+                .svg-stars {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+                    padding-bottom: 2.8rem;
+
+                    svg {
+                        width: 31px;
+                        height: 29px;
+                    }
+                }
+
+                .logo-bike-tour {
+                    padding-top: 2rem;
+                    width: 41px;
+                    height: 39px;
+                }
+            }
+        }
+
+        .second-grid {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 899px;
+
+            .image-box2 {
+                width: 371px;
+                height: 492px;
+                opacity: 1;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-color: var(--color-gray);
+                background-image: url(../images/t-shirt-red.png);
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                flex-direction: column;
+
+                button {
+                    margin: 2rem 0 3rem 0;
+                    border: none;
+                    width: 241px;
+                    height: 42px;
+                    border-radius: 100px;
+                    text-align: center;
+                    font-family: "Avenir Next LT W01 Medium Cond";
+                    font-size: 21px;
+                    background-color: var(--color-orange);
+                    color: var(--color-white);
+                    letter-spacing: -0.42px;
+                    opacity: 1;
+                }
+            }
+
+            .image-box3 {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 369px;
+                height: 369px;
+                background: transparent url('../images/usa-canyon.png') 0% 0% no-repeat padding-box;
+                opacity: 1;
+            }
+        }
+
+        .third-grid {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 899px;
+
+            .image-box4 {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 369px;
+                height: 369px;
+                background-image: url(../images/lasvegas-usa.jpeg);
+                opacity: 1;
+            }
+
+            .image-box5 {
+                width: 371px;
+                height: 492px;
+                opacity: 1;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-image: url(../images/usa-biker.png);
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                flex-direction: column;
+
+                .lorem-texts:last-of-type {
+                    padding-bottom: 3rem;
+
+                    span {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* === Tablet === */
+@media screen and (max-width: 1140px) {
+    .livethedream-section {
+        margin: 3rem 0;
+
+        .livedream-title {
+            font-size: 44px;
+        }
+
+        .livedream-gallery {
+            grid-template-columns: auto auto;
+            gap: .5rem;
+
+            .lorem-texts {
+                span {
+                    font-size: 20px;
+                }
+            }
+
+            .first-grid {
+                height: 730px;
+
+                .image-box {
+                    width: 300px;
+                    height: 300px;
+                }
+
+                .image-box1 {
+                    width: 300px;
+                    height: 400px;
+
+                    .title-image {
+                        font-size: 16px;
+                        padding-bottom: .6rem;
+                    }
+
+                    .mustermann {
+                        font-size: 16px;
+                        padding-bottom: .6rem;
+                    }
+
+                    .country {
+                        font-size: 16px;
+                        padding-bottom: .5rem;
+                    }
+
+                    .svg-stars {
+                        padding-bottom: .8rem;
+
+                        svg {
+                            width: 25px;
+                            height: 24px;
+                        }
+                    }
+
+                    .logo-bike-tour {
+                        padding-top: 1rem;
+                        width: 29px;
+                        height: 29px;
+                    }
+                }
+            }
+
+            .second-grid {
+                height: 730px;
+
+                .image-box2 {
+                    width: 300px;
+                    height: 400px;
+
+                    button {
+                        margin: 1.5rem 0 2rem 0;
+                        width: 200px;
+                        height: 35px;
+                        font-size: 16px;
+                    }
+                }
+
+                .image-box3 {
+                    width: 300px;
+                    height: 300px;
+
+                }
+            }
+
+            .third-grid {
+                height: 730px;
+
+                .image-box4 {
+                    width: 300px;
+                    height: 300px;
+                }
+
+                .image-box5 {
+                    width: 300px;
+                    height: 400px;
+
+                    .lorem-texts:last-of-type {
+                        padding-bottom: 3rem;
+
+                        span {
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* === Mobile === */
+@media screen and (max-width: 600px) {
+    .livethedream-section {
+        margin: 3rem 0;
+
+        .livedream-title {
+            font-size: 34px;
+        }
+
+        .livedream-gallery {
+            grid-template-columns: auto ;
+            gap: .5rem;
+
+            .lorem-texts {
+                span {
+                    font-size: 20px;
+                }
+            }
+
+            .first-grid {
+                height: 730px;
+
+                .image-box {
+                    width: 300px;
+                    height: 300px;
+                }
+
+                .image-box1 {
+                    width: 300px;
+                    height: 400px;
+
+                    .title-image {
+                        font-size: 16px;
+                        padding-bottom: .6rem;
+                    }
+
+                    .mustermann {
+                        font-size: 16px;
+                        padding-bottom: .6rem;
+                    }
+
+                    .country {
+                        font-size: 16px;
+                        padding-bottom: .5rem;
+                    }
+
+                    .svg-stars {
+                        padding-bottom: .8rem;
+
+                        svg {
+                            width: 25px;
+                            height: 24px;
+                        }
+                    }
+
+                    .logo-bike-tour {
+                        padding-top: 1rem;
+                        width: 29px;
+                        height: 29px;
+                    }
+                }
+            }
+
+            .second-grid {
+                height: 730px;
+
+                .image-box2 {
+                    width: 300px;
+                    height: 400px;
+
+                    button {
+                        margin: 1.5rem 0 2rem 0;
+                        width: 200px;
+                        height: 35px;
+                        font-size: 16px;
+                    }
+                }
+
+                .image-box3 {
+                    width: 300px;
+                    height: 300px;
+
+                }
+            }
+
+            .third-grid {
+                height: 730px;
+
+                .image-box4 {
+                    width: 300px;
+                    height: 300px;
+                }
+
+                .image-box5 {
+                    width: 300px;
+                    height: 400px;
+
+                    .lorem-texts:last-of-type {
+                        padding-bottom: 3rem;
+
+                        span {
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+/* === Header-container === */
+.usa-header {
+    background-image: url(../images/usa-motorradreise.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    .header-title-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        .header-title{
+            font-size: 80px;
+            text-transform: uppercase;
+            letter-spacing: 0px;
+            font-family: "Avenir Next LT W01 Medium Cond";
+            opacity: 1;
+        }
+    }
+}
+/* === Tablets === */
+@media screen and (max-width: 1140px) {
+    .usa-header {
+        height: 70vh;
+        .header-title-box{
+            height: 55vh;
+            .header-title{
+                font-size: 50px;
+            }
+        }
+    }
+}
+/* === Mobile === */
+@media screen and (max-width: 600px) {
+    .usa-header {
+        height: 60vh;
+        .header-title-box{
+            height: 45vh;
+            .header-title{
+                font-size: 39px;
+            }
+        }
+    }
+}

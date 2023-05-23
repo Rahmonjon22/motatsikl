@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>SüdAfrika-BikeTour</title>
+  <!-- Fonts are here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Css & Js -->
+<link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <a class="skip-to-content" href="#main">Skip to content</a>
+    <header class="afrika-header AvenirRegular">
+        <nav class="navbar">
+            <ul id="navbar" class="nav-links  ">
+                <div class="left-nav-links ">
+                    <li class="dropdown" data-dropdown>
+                        <a class="dropdownlink link" data-dropdown-button href="#">Motorradreisen
+                            <img class="arrowdown" data-dropdown-button src="./assets/images/svgs/arrow-down.svg"
+                                alt="arrow-down">
+                            <svg class="mobile-arrowdown" data-dropdown-button xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="none" stroke="#FE6B24" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-down">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-container">
+                                <div class="dropdown-travel">
+                                    <div class="mobile-dropdown-texts">
+                                        <a class="back-btn" href="#">
+                                            <svg class="back-btn-arrow" data-dropdown-button
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                                stroke="#f05409" stroke-width="3" stroke-linecap="round"
+                                                stroke-linejoin="round" class="feather feather-chevron-down">
+                                                <polyline points="6 9 12 15 18 9"></polyline>
+                                            </svg>
+                                            Zurück
+                                        </a>
+                                        <div class="vertical-line"></div>
+                                        <h2 class="dropdown-name">Motorradreisen</h2>
+                                    </div>
+
+                                    <a href="./usa-biketour.html">
+                                        <div class="dropdown-destination usa">
+                                            <p style="text-transform: uppercase;">Usa</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <a href="./index.html">
+                                        <div class="dropdown-destination kanada">
+                                            <p>Kanada</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <a href="#careers">
+                                        <div class="dropdown-destination mexiko">
+                                            <p>Mexiko</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <a href="./sudafrika-biketour.html">
+                                        <div class="dropdown-destination afrika">
+                                            <p>Südafrika</p>
+                                            <img class="arrow-submenu" src="./assets/images/svgs/arrow-right.svg"
+                                                alt="arrow-right" />
+                                        </div>
+                                    </a>
+                                    <div class="contact-dropdown">
+                                        <a href="mailto:info@mr-biketours.de" class="email-dropdown">
+                                            <div class="img-container">
+                                                <img src="./assets/images/svgs/phone-dropdown.svg" alt="">
+                                            </div>
+
+                                            info@mr-biketours.de
+                                        </a>
+                                        <a href="tel:+4957188286" class="phone-dropdown">
+                                            <div class="img-container">
+                                                <img src="./assets/images/svgs/email-dropdown.svg" alt="">
+                                            </div>
+                                            +49 (0) 571 882 86
+                                        </a>
+                                    </div>
+                                </div>
+                                <a href="#kalendar" class="dropdown-travelYear">Motorradreisen Kalendar 2022/23</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="mobile"><a href="#">Last minute</a></li>
+                    <li class="mobile"><a href="#">motorräder</a></li>
+                    <li class="mobile"><a class="dropdownlink" href="#">Gut zu wissen <img class="arrowdown "
+                                src="./assets/images/svgs/arrow-down.svg" alt="arrow-down">
+                            <svg class="mobile-arrowdown" data-dropdown-button xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="none" stroke="#FE6B24" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-down">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg></a></li>
+                </div>
+                <div class="middle-nav-logo">
+                    <a class="headerlogo" href="#"><img class="headerlogo-img" src="./assets/images/svgs/Logo.svg"
+                            alt="logo"></a>
+                </div>
+                <div class="right-nav-links">
+                    <li class="mobile"><a href="#">Gift Shop</a></li>
+                    <li class="mobile"><a href="#">Über uns</a></li>
+                    <li class="mobile"><a href="#">kontakt</a></li>
+                    <li class="mobile"><a href="#">
+                            <img class="arrowdown" src="./assets/images/svgs/heart.svg" alt="">
+                            <img class="heart" src="./assets/images/svgs/heart.svg" alt="">
+                            <span class="mobile-only">Kundenkonto</span>
+                        </a>
+                    </li>
+                    <li class="anmelden mobile"><a class="anmelden1" href="./anmelden.html">
+                            <svg class="user" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="white">
+                                <title />
+                                <g id="User">
+                                    <path
+                                        d="M41.2452,33.0349a16,16,0,1,0-18.49,0A26.0412,26.0412,0,0,0,4,58a2,2,0,0,0,2,2H58a2,2,0,0,0,2-2A26.0412,26.0412,0,0,0,41.2452,33.0349ZM20,20A12,12,0,1,1,32,32,12.0137,12.0137,0,0,1,20,20ZM8.09,56A22.0293,22.0293,0,0,1,30,36h4A22.0293,22.0293,0,0,1,55.91,56Z" />
+                                </g>
+                            </svg>
+                            <span>anmelden</span> </a>
+                    </li>
+                </div>
+            </ul>
+            <div class="mobile-menu-main">
+                <div class="burger-lines">
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <h2 class="burger-title AvenirRegular">Menü</h2>
+                </div>
+                <a class="mobilelogo" href="./index.html">
+                    <img src="./assets/images/svgs/Logo.svg" alt="logo">
+                </a>
+
+                <a class="userimg" href="./anmelden.html">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="white">
+                        <title />
+                        <g id="User">
+                            <path
+                                d="M41.2452,33.0349a16,16,0,1,0-18.49,0A26.0412,26.0412,0,0,0,4,58a2,2,0,0,0,2,2H58a2,2,0,0,0,2-2A26.0412,26.0412,0,0,0,41.2452,33.0349ZM20,20A12,12,0,1,1,32,32,12.0137,12.0137,0,0,1,20,20ZM8.09,56A22.0293,22.0293,0,0,1,30,36h4A22.0293,22.0293,0,0,1,55.91,56Z" />
+                        </g>
+                    </svg>
+                </a>
+            </div>
+
+        </nav>
+        <!-- header -->
+        <div class="header-title-box">
+            <h1 class="header-title">SÜD AFRIKA</h1>
+        </div>
+
+    </header>
+    <main>
+        <!-- Atemberaubende Natur-section -->
+        <section class="atemberaubende-section">
+            <div class="left-afrika">
+                <h1 class="AvenirDemi">Atemberaubende Natur</h1>
+                <p class="AvenirRegular">Fahren Sie mit uns entlang einer der schönsten Landschaften Südafrikas. Hier
+                    treffen Sie auf
+                    atemberaubende Natur, Wildnis und Weite. Sie können das Kap der Guten Hoffnung besuchen, den
+                    südlichste Punkt Südafrikas erleben und Tiere im Addo Elephant Park bei einer Safari bestaunen.
+                    Cruisen Sie entlang der Gebirgspässe und Täler und lassen Sie sich von wildromantischen
+                    Küstenstraßen und malerischen Orten verzaubern.</p>
+            </div>
+            <div class="right-afrika">
+                <div class="afrika-card">
+                    <div class="destination-tourism-box">
+                        <h3 class="destination-country">Süd Afrika</h3>
+                        <h2 class="discovery">Süd Afrika</h2>
+                        <p class="start-termin">
+                            Starttermin: 17.01.2023 - 02.02.2023
+                        </p>
+                        <p class="p-neu"><span>Neu!</span>Jetzt 1 Tag Länger!</p>
+                        <div class="tourismInKm">
+                            <div class="days">
+                                <img src="./assets/images/svgs/icon_clock.svg" alt="questionInBox">
+                                <h2>16 Tage</h2>
+                            </div>
+                            <div class="days">
+                                <img src="./assets/images/svgs/icon_road.svg" alt="questionInBox">
+                                <h2>3050km</h2>
+                            </div>
+                            <div class="days">
+                                <img src="./assets/images/svgs/Path 11659.svg" alt="questionInBox">
+                                <h2>Max 12 Bikes</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="afrika-options">
+                        <div class="option">
+                            <div class="option-info">
+                                <p class="AvenirRegular"><img src="./assets/images/svgs/person.svg" alt="person"> 2
+                                    Personen
+                                </p>
+                                <p class="AvenirRegular "><img src="./assets/images/svgs/sleeping-bed.svg"
+                                        alt="sleeping-bed"> DZ</p>
+                                <p class="AvenirRegular">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34.716" height="19.287"
+                                        viewBox="0 0 34.716 19.287">
+                                        <path id="Path_11659" data-name="Path 11659"
+                                            d="M34.669-7.533a6.543,6.543,0,0,1-.331,2.991,6.826,6.826,0,0,1-1.492,2.463,6.791,6.791,0,0,1-2.388,1.6A6.577,6.577,0,0,1,27.5-.015,6.551,6.551,0,0,1,23.286-1.9a6.462,6.462,0,0,1-2.027-4.128A6.558,6.558,0,0,1,21.674-9.2a6.761,6.761,0,0,1,1.785-2.569l-1.07-1.612a8.652,8.652,0,0,0-2.275,2.923,8.351,8.351,0,0,0-.829,3.676.983.983,0,0,1-.279.7.908.908,0,0,1-.686.294h-4.9A6.521,6.521,0,0,1,11.18-1.657,6.526,6.526,0,0,1,6.75,0,6.5,6.5,0,0,1,1.981-1.981,6.5,6.5,0,0,1,0-6.75a6.5,6.5,0,0,1,1.981-4.769A6.5,6.5,0,0,1,6.75-13.5a6.8,6.8,0,0,1,2.29.407l.362-.678a6.62,6.62,0,0,0-4.58-1.657H3.857a.927.927,0,0,1-.678-.286.927.927,0,0,1-.286-.678.927.927,0,0,1,.286-.678.927.927,0,0,1,.678-.286H5.786a11.063,11.063,0,0,1,2.185.2,6.923,6.923,0,0,1,1.755.58,11.857,11.857,0,0,1,1.077.6q.331.218.768.55h9.447l-1.281-1.929H16.393a.922.922,0,0,1-.738-.339.933.933,0,0,1-.211-.791.907.907,0,0,1,.347-.573,1.018,1.018,0,0,1,.648-.226H20.25a.936.936,0,0,1,.8.422L22.1-17.282,23.821-19a.944.944,0,0,1,.693-.286h1.522a.927.927,0,0,1,.678.286.927.927,0,0,1,.286.678v1.929a.927.927,0,0,1-.286.678.927.927,0,0,1-.678.286h-2.7l1.733,2.592a6.544,6.544,0,0,1,4.143-.542,6.494,6.494,0,0,1,3.676,2.027A6.606,6.606,0,0,1,34.669-7.533ZM6.75-1.929A4.671,4.671,0,0,0,9.809-3.021a4.729,4.729,0,0,0,1.672-2.765H6.75a.938.938,0,0,1-.829-.467A.921.921,0,0,1,5.906-7.2l2.215-4.174a5.135,5.135,0,0,0-1.371-.2,4.643,4.643,0,0,0-3.405,1.416A4.643,4.643,0,0,0,1.929-6.75,4.643,4.643,0,0,0,3.345-3.345,4.643,4.643,0,0,0,6.75-1.929ZM24.559-3.345a4.643,4.643,0,0,0,3.405,1.416,4.643,4.643,0,0,0,3.405-1.416A4.643,4.643,0,0,0,32.786-6.75a4.643,4.643,0,0,0-1.416-3.405,4.643,4.643,0,0,0-3.405-1.416,4.952,4.952,0,0,0-1.823.362l2.622,3.917a.971.971,0,0,1,.151.738.883.883,0,0,1-.407.6.892.892,0,0,1-.542.166.882.882,0,0,1-.8-.437L24.544-10.14a4.683,4.683,0,0,0-1.4,3.39A4.643,4.643,0,0,0,24.559-3.345Z"
+                                            transform="translate(0 19.286)" fill="black" />
+                                    </svg>
+                                    1 Motorrad
+                                </p>
+                                <h2 class="option-price AvenirDemi">€ 4.795 <span>p.P</span></h2>
+                                <h2 class="AvenirDemi inclusive">inkl.Flug</h2>
+                            </div>
+                            <button>Auswählen</button>
+                        </div>
+                        <div class="option">
+                            <div class="option-info">
+                                <p class="AvenirRegular"><img src="./assets/images/svgs/person.svg" alt="person">2
+                                    Personen
+                                </p>
+                                <p class="AvenirRegular"><img src="./assets/images/svgs/sleeping-bed.svg"
+                                        alt="sleeping-bed">DZ</p>
+                                <p class="AvenirRegular">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34.716" height="19.287"
+                                        viewBox="0 0 34.716 19.287">
+                                        <path id="Path_11659" data-name="Path 11659"
+                                            d="M34.669-7.533a6.543,6.543,0,0,1-.331,2.991,6.826,6.826,0,0,1-1.492,2.463,6.791,6.791,0,0,1-2.388,1.6A6.577,6.577,0,0,1,27.5-.015,6.551,6.551,0,0,1,23.286-1.9a6.462,6.462,0,0,1-2.027-4.128A6.558,6.558,0,0,1,21.674-9.2a6.761,6.761,0,0,1,1.785-2.569l-1.07-1.612a8.652,8.652,0,0,0-2.275,2.923,8.351,8.351,0,0,0-.829,3.676.983.983,0,0,1-.279.7.908.908,0,0,1-.686.294h-4.9A6.521,6.521,0,0,1,11.18-1.657,6.526,6.526,0,0,1,6.75,0,6.5,6.5,0,0,1,1.981-1.981,6.5,6.5,0,0,1,0-6.75a6.5,6.5,0,0,1,1.981-4.769A6.5,6.5,0,0,1,6.75-13.5a6.8,6.8,0,0,1,2.29.407l.362-.678a6.62,6.62,0,0,0-4.58-1.657H3.857a.927.927,0,0,1-.678-.286.927.927,0,0,1-.286-.678.927.927,0,0,1,.286-.678.927.927,0,0,1,.678-.286H5.786a11.063,11.063,0,0,1,2.185.2,6.923,6.923,0,0,1,1.755.58,11.857,11.857,0,0,1,1.077.6q.331.218.768.55h9.447l-1.281-1.929H16.393a.922.922,0,0,1-.738-.339.933.933,0,0,1-.211-.791.907.907,0,0,1,.347-.573,1.018,1.018,0,0,1,.648-.226H20.25a.936.936,0,0,1,.8.422L22.1-17.282,23.821-19a.944.944,0,0,1,.693-.286h1.522a.927.927,0,0,1,.678.286.927.927,0,0,1,.286.678v1.929a.927.927,0,0,1-.286.678.927.927,0,0,1-.678.286h-2.7l1.733,2.592a6.544,6.544,0,0,1,4.143-.542,6.494,6.494,0,0,1,3.676,2.027A6.606,6.606,0,0,1,34.669-7.533ZM6.75-1.929A4.671,4.671,0,0,0,9.809-3.021a4.729,4.729,0,0,0,1.672-2.765H6.75a.938.938,0,0,1-.829-.467A.921.921,0,0,1,5.906-7.2l2.215-4.174a5.135,5.135,0,0,0-1.371-.2,4.643,4.643,0,0,0-3.405,1.416A4.643,4.643,0,0,0,1.929-6.75,4.643,4.643,0,0,0,3.345-3.345,4.643,4.643,0,0,0,6.75-1.929ZM24.559-3.345a4.643,4.643,0,0,0,3.405,1.416,4.643,4.643,0,0,0,3.405-1.416A4.643,4.643,0,0,0,32.786-6.75a4.643,4.643,0,0,0-1.416-3.405,4.643,4.643,0,0,0-3.405-1.416,4.952,4.952,0,0,0-1.823.362l2.622,3.917a.971.971,0,0,1,.151.738.883.883,0,0,1-.407.6.892.892,0,0,1-.542.166.882.882,0,0,1-.8-.437L24.544-10.14a4.683,4.683,0,0,0-1.4,3.39A4.643,4.643,0,0,0,24.559-3.345Z"
+                                            transform="translate(0 19.286)" fill="black" />
+                                    </svg>
+                                    2 Motorräder
+                                </p>
+                                <h2 class="option-price AvenirDemi">€ 5.795 <span>p.P</span></h2>
+                                <h2 class="AvenirDemi inclusive">inkl.Flug</h2>
+                            </div>
+                            <button>Auswählen</button>
+                        </div>
+                        <div class="option">
+                            <div class="option-info">
+                                <p class="AvenirRegular"><img src="./assets/images/svgs/person.svg" alt="person">1
+                                    Person</p>
+                                <p class="uppercase AvenirRegular"><img src="./assets/images/svgs/sleeping-bed.svg"
+                                        alt="sleeping-bed">EZ</p>
+                                <p class="AvenirRegular">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34.716" height="19.287"
+                                        viewBox="0 0 34.716 19.287">
+                                        <path id="Path_11659" data-name="Path 11659"
+                                            d="M34.669-7.533a6.543,6.543,0,0,1-.331,2.991,6.826,6.826,0,0,1-1.492,2.463,6.791,6.791,0,0,1-2.388,1.6A6.577,6.577,0,0,1,27.5-.015,6.551,6.551,0,0,1,23.286-1.9a6.462,6.462,0,0,1-2.027-4.128A6.558,6.558,0,0,1,21.674-9.2a6.761,6.761,0,0,1,1.785-2.569l-1.07-1.612a8.652,8.652,0,0,0-2.275,2.923,8.351,8.351,0,0,0-.829,3.676.983.983,0,0,1-.279.7.908.908,0,0,1-.686.294h-4.9A6.521,6.521,0,0,1,11.18-1.657,6.526,6.526,0,0,1,6.75,0,6.5,6.5,0,0,1,1.981-1.981,6.5,6.5,0,0,1,0-6.75a6.5,6.5,0,0,1,1.981-4.769A6.5,6.5,0,0,1,6.75-13.5a6.8,6.8,0,0,1,2.29.407l.362-.678a6.62,6.62,0,0,0-4.58-1.657H3.857a.927.927,0,0,1-.678-.286.927.927,0,0,1-.286-.678.927.927,0,0,1,.286-.678.927.927,0,0,1,.678-.286H5.786a11.063,11.063,0,0,1,2.185.2,6.923,6.923,0,0,1,1.755.58,11.857,11.857,0,0,1,1.077.6q.331.218.768.55h9.447l-1.281-1.929H16.393a.922.922,0,0,1-.738-.339.933.933,0,0,1-.211-.791.907.907,0,0,1,.347-.573,1.018,1.018,0,0,1,.648-.226H20.25a.936.936,0,0,1,.8.422L22.1-17.282,23.821-19a.944.944,0,0,1,.693-.286h1.522a.927.927,0,0,1,.678.286.927.927,0,0,1,.286.678v1.929a.927.927,0,0,1-.286.678.927.927,0,0,1-.678.286h-2.7l1.733,2.592a6.544,6.544,0,0,1,4.143-.542,6.494,6.494,0,0,1,3.676,2.027A6.606,6.606,0,0,1,34.669-7.533ZM6.75-1.929A4.671,4.671,0,0,0,9.809-3.021a4.729,4.729,0,0,0,1.672-2.765H6.75a.938.938,0,0,1-.829-.467A.921.921,0,0,1,5.906-7.2l2.215-4.174a5.135,5.135,0,0,0-1.371-.2,4.643,4.643,0,0,0-3.405,1.416A4.643,4.643,0,0,0,1.929-6.75,4.643,4.643,0,0,0,3.345-3.345,4.643,4.643,0,0,0,6.75-1.929ZM24.559-3.345a4.643,4.643,0,0,0,3.405,1.416,4.643,4.643,0,0,0,3.405-1.416A4.643,4.643,0,0,0,32.786-6.75a4.643,4.643,0,0,0-1.416-3.405,4.643,4.643,0,0,0-3.405-1.416,4.952,4.952,0,0,0-1.823.362l2.622,3.917a.971.971,0,0,1,.151.738.883.883,0,0,1-.407.6.892.892,0,0,1-.542.166.882.882,0,0,1-.8-.437L24.544-10.14a4.683,4.683,0,0,0-1.4,3.39A4.643,4.643,0,0,0,24.559-3.345Z"
+                                            transform="translate(0 19.286)" fill="black" />
+                                    </svg>
+                                    1 Motorrad
+                                </p>
+                                <h2 class="option-price AvenirDemi">€ 4.795 <span>p.P</span></h2>
+                                <h2 class="AvenirDemi inclusive">inkl.Flug</h2>
+                            </div>
+                            <button>Auswählen</button>
+                        </div>
+                        <button class="uppercase AvenirDemi">Jetzt buchen</button>
+                        <p class="AvenirMedium merkliste">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
+                                style="enable-background:new 0 0 50 50;" xml:space="preserve" fill="black">
+                                <g id="Layer_1">
+                                    <path
+                                        d="M45.281,25.915c4.949-5.004,4.949-13.146,0-18.15C42.881,5.337,39.688,4,36.292,4c-0.001,0-0.001,0-0.001,0
+                               c-3.396,0-6.59,1.337-8.991,3.765L25,10.09l-2.3-2.325C20.299,5.337,17.106,4,13.709,4c-3.396,0-6.589,1.337-8.99,3.765
+                               c-4.949,5.004-4.949,13.146,0,18.15L25,46.422L45.281,25.915z M6.141,9.171C8.163,7.126,10.852,6,13.709,6
+                               c2.858,0,5.547,1.126,7.569,3.171L25,12.935l3.722-3.764C30.744,7.126,33.433,6,36.291,6c2.858,0,5.546,1.126,7.568,3.171
+                               c4.183,4.229,4.183,11.109,0,15.338L25,43.578L6.141,24.509C1.958,20.28,1.958,13.399,6.141,9.171z" />
+                                </g>
+                                <g>
+                                </g>
+                            </svg>
+                            Merkliste
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- Voraussichtlicher Reiseverlauf-section -->
+        <section class="voraussichtlicher-section">
+            <h1 class="AvenirDemi">Voraussichtlicher Reiseverlauf</h1>
+            <div class="voraussichtlicher-container">
+                <div class="left-voraussichtlicher"></div>
+                <div class="right-voraussichtlicher">
+                    <div class="back-img">
+                        <div class="left-texts">
+                            <p>Tag 1/16</p>
+                            <h2>Welcome to Las Vegas</h2>
+                        </div>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="34.716" height="19.287"
+                                viewBox="0 0 34.716 19.287">
+                                <path id="Path_11659" data-name="Path 11659"
+                                    d="M34.669-7.533a6.543,6.543,0,0,1-.331,2.991,6.826,6.826,0,0,1-1.492,2.463,6.791,6.791,0,0,1-2.388,1.6A6.577,6.577,0,0,1,27.5-.015,6.551,6.551,0,0,1,23.286-1.9a6.462,6.462,0,0,1-2.027-4.128A6.558,6.558,0,0,1,21.674-9.2a6.761,6.761,0,0,1,1.785-2.569l-1.07-1.612a8.652,8.652,0,0,0-2.275,2.923,8.351,8.351,0,0,0-.829,3.676.983.983,0,0,1-.279.7.908.908,0,0,1-.686.294h-4.9A6.521,6.521,0,0,1,11.18-1.657,6.526,6.526,0,0,1,6.75,0,6.5,6.5,0,0,1,1.981-1.981,6.5,6.5,0,0,1,0-6.75a6.5,6.5,0,0,1,1.981-4.769A6.5,6.5,0,0,1,6.75-13.5a6.8,6.8,0,0,1,2.29.407l.362-.678a6.62,6.62,0,0,0-4.58-1.657H3.857a.927.927,0,0,1-.678-.286.927.927,0,0,1-.286-.678.927.927,0,0,1,.286-.678.927.927,0,0,1,.678-.286H5.786a11.063,11.063,0,0,1,2.185.2,6.923,6.923,0,0,1,1.755.58,11.857,11.857,0,0,1,1.077.6q.331.218.768.55h9.447l-1.281-1.929H16.393a.922.922,0,0,1-.738-.339.933.933,0,0,1-.211-.791.907.907,0,0,1,.347-.573,1.018,1.018,0,0,1,.648-.226H20.25a.936.936,0,0,1,.8.422L22.1-17.282,23.821-19a.944.944,0,0,1,.693-.286h1.522a.927.927,0,0,1,.678.286.927.927,0,0,1,.286.678v1.929a.927.927,0,0,1-.286.678.927.927,0,0,1-.678.286h-2.7l1.733,2.592a6.544,6.544,0,0,1,4.143-.542,6.494,6.494,0,0,1,3.676,2.027A6.606,6.606,0,0,1,34.669-7.533ZM6.75-1.929A4.671,4.671,0,0,0,9.809-3.021a4.729,4.729,0,0,0,1.672-2.765H6.75a.938.938,0,0,1-.829-.467A.921.921,0,0,1,5.906-7.2l2.215-4.174a5.135,5.135,0,0,0-1.371-.2,4.643,4.643,0,0,0-3.405,1.416A4.643,4.643,0,0,0,1.929-6.75,4.643,4.643,0,0,0,3.345-3.345,4.643,4.643,0,0,0,6.75-1.929ZM24.559-3.345a4.643,4.643,0,0,0,3.405,1.416,4.643,4.643,0,0,0,3.405-1.416A4.643,4.643,0,0,0,32.786-6.75a4.643,4.643,0,0,0-1.416-3.405,4.643,4.643,0,0,0-3.405-1.416,4.952,4.952,0,0,0-1.823.362l2.622,3.917a.971.971,0,0,1,.151.738.883.883,0,0,1-.407.6.892.892,0,0,1-.542.166.882.882,0,0,1-.8-.437L24.544-10.14a4.683,4.683,0,0,0-1.4,3.39A4.643,4.643,0,0,0,24.559-3.345Z"
+                                    transform="translate(0 19.286)" fill="white" />
+                            </svg>
+                            Ca.260 km
+                        </p>
+                    </div>
+                    <div class="text-container">
+                        <p>Heute ist Anreisetag. Flug nach Las Vegas. Nach Erledigung der Zoll- und Einreiseformalitäten
+                            wirst du von unserem Reisebegleiter erwartet. Anschließend erfolgt der Transfer zum Hotel
+                            und
+                            Bezug der Hotelzimmer. Der Rest des Tages steht zur freien Verfügung. Durch die
+                            Zeitverschiebung
+                            werden dir ja ein paar Stunden geschenkt.
+                        </p>
+                        <div class="swiper">
+                            <p class="left-swipe">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 455 455"
+                                    style="enable-background:new 0 0 455 455;" xml:space="preserve">
+                                    <path
+                                        d="M227.5,0C101.855,0,0,101.855,0,227.5S101.855,455,227.5,455S455,353.145,455,227.5S353.145,0,227.5,0z M276.772,334.411
+                               l-21.248,21.178L127.852,227.5L255.524,99.411l21.248,21.178L170.209,227.5L276.772,334.411z" />
+                                </svg>
+
+                                Vorheriger Tag
+                            </p>
+                            <p class="right-swipe">
+                                Nächsten Tag
+                                <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+                                    style="enable-background:new 0 0 32 32;" xml:space="preserve">
+                                    <path d="M16,2C8.3,2,2,8.3,2,16s6.3,14,14,14s14-6.3,14-14S23.7,2,16,2z M18.9,16.7l-4.2,4.2c-0.2,0.2-0.5,0.3-0.7,0.3
+                               s-0.5-0.1-0.7-0.3c-0.4-0.4-0.4-1,0-1.4l3.5-3.5l-3.5-3.5c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l4.2,4.2C19.3,15.7,19.3,16.3,18.9,16.7z
+                               " />
+                                </svg>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Reiseübersicht-section -->
+        <section class="reiseübersicht-section">
+            <h1 class="AvenirDemi">Reiseübersicht</h1>
+            <div class="covid-info">
+                <svg width="37" height="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 22C10.0222 22 8.08879 21.4135 6.4443 20.3147C4.79981 19.2159 3.51809 17.6541 2.76121 15.8268C2.00433 13.9996 1.8063 11.9889 2.19215 10.0491C2.578 8.10929 3.53041 6.32746 4.92894 4.92894C6.32746 3.53041 8.10929 2.578 10.0491 2.19215C11.9889 1.8063 13.9996 2.00433 15.8268 2.76121C17.6541 3.51809 19.2159 4.79981 20.3147 6.4443C21.4135 8.08879 22 10.0222 22 12C21.9971 14.6513 20.9426 17.1931 19.0679 19.0679C17.1931 20.9426 14.6513 21.9971 12 22V22ZM12 4C10.4178 4 8.87104 4.4692 7.55544 5.34825C6.23985 6.2273 5.21447 7.47673 4.60897 8.93854C4.00347 10.4003 3.84504 12.0089 4.15372 13.5607C4.4624 15.1126 5.22433 16.538 6.34315 17.6569C7.46197 18.7757 8.88743 19.5376 10.4393 19.8463C11.9911 20.155 13.5997 19.9965 15.0615 19.391C16.5233 18.7855 17.7727 17.7602 18.6518 16.4446C19.5308 15.129 20 13.5823 20 12C19.9976 9.879 19.154 7.84556 17.6542 6.34578C16.1545 4.84601 14.121 4.00239 12 4V4ZM12 17C11.7348 17 11.4804 16.8946 11.2929 16.7071C11.1054 16.5196 11 16.2652 11 16V11C11 10.7348 11.1054 10.4804 11.2929 10.2929C11.4804 10.1054 11.7348 10 12 10C12.2652 10 12.5196 10.1054 12.7071 10.2929C12.8946 10.4804 13 10.7348 13 11V16C13 16.2652 12.8946 16.5196 12.7071 16.7071C12.5196 16.8946 12.2652 17 12 17ZM12 9C11.8022 9 11.6089 8.94136 11.4444 8.83147C11.28 8.72159 11.1518 8.56541 11.0761 8.38269C11.0004 8.19996 10.9806 7.9989 11.0192 7.80491C11.0578 7.61093 11.153 7.43275 11.2929 7.2929C11.4328 7.15305 11.6109 7.0578 11.8049 7.01922C11.9989 6.98063 12.2 7.00044 12.3827 7.07612C12.5654 7.15181 12.7216 7.27999 12.8315 7.44443C12.9414 7.60888 13 7.80222 13 8C13 8.26522 12.8946 8.51957 12.7071 8.70711C12.5196 8.89465 12.2652 9 12 9Z"
+                        fill="black" />
+                </svg>
+
+                <p class="AvenirRegular">Es bestehen aktuell keine <span>
+                        COVID-19-bedingten Einreisebeschränkungen.
+                    </span> COVID-Tests und Impfnachweise sind nicht mehr nachzuweisen (Stand 22.06.2022)</p>
+            </div>
+                        <!-- ================ -->
+            <div class="faqs-container">
+                <div class="faq active">
+                    <h3 class="faq-title">
+                        Motorrad-Wunschverfahren
+                    </h3>
+                    <div class="faq-text">
+                        <p>
+                            you need to fill your text inside p-paragraph
+                            in order to get space between texts
+                        </p>
+                    </div>
+                    <button class="faq-toggle">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                </div>
+
+                <div class="faq">
+                    <h3 class="faq-title">
+                        Im Falle eines Unfalles und Beschädigung
+                    </h3>
+                    <div class="faq-text">
+                        <p>
+                            Der Veranstalter übernimmt die Mietkosten für die Motorräder, für alle weiteren
+                            Ereignisse wie Beschädigung, Diebstahl, Verkehrsverstöße, Zusatzversicherungen
+                            usw.
+                            ist der Fahrer selbst verantwortlich. Bei Diebstahl und Schäden am Mietmotorrad,
+                            die
+                            durch Unfall, Vandalismus oder Feuer verursacht oder entstanden sind, haftet der
+                            Mieter selbst.
+                        </p>
+                        <p>
+                            Im Falle eines Unfalles und Beschädigung des Motorrades sehen die AGB
+                            der Vermieter vor, dass kein Ersatzmotorrad gestellt wird und der Vertrag damit
+                            ohne
+                            Rückerstattung abgewickelt ist, es sei denn der Mieter weist durch den
+                            Unfallaufnahmebericht nach, dass Fremdverursachung gegeben ist.
+                        </p>
+                        <p>
+                            Im Falle eines Unfalles und Beschädigung des Motorrades sehen die AGB der
+                            Vermieter
+                            vor, dass kein
+                            Ersatzmotorrad gestellt wird und der Vertrag damit ohne Rückerstattung
+                            abgewickelt
+                            ist, es sei denn der Mieter weist durch den Unfallaufnahmebericht nach, dass
+                            Fremdverursachung gegeben ist.
+                        </p>
+                    </div>
+                    <button class="faq-toggle">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                </div>
+
+                <div class="faq">
+                    <h3 class="faq-title">
+                        Fahrgebiet Einschränkungen
+                    </h3>
+                    <div class="faq-text">
+                        <p>
+                            you need to fill your text inside p-paragraph
+                            in order to get space between texts
+                        </p>
+
+                    </div>
+                    <button class="faq-toggle">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                </div>
+
+                 <div class="faq">
+                    <h3 class="faq-title">
+                        Motorrad-Wunschverfahren
+                    </h3>
+                    <div class="faq-text">
+                        <p>
+                            you need to fill your text inside p-paragraph
+                            in order to get space between texts
+                        </p>
+                    </div>
+                    <button class="faq-toggle">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                </div>
+
+                <div class="faq">
+                    <h3 class="faq-title">
+                        Gibt es Einschränkungen, welches Leihmotorrad ich fahren darf?
+                    </h3>
+                    <div class="faq-text">
+                        <p>
+                            you need to fill your text inside p-paragraph
+                            in order to get space between texts
+                        </p>
+                    </div>
+                    <button class="faq-toggle">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                </div>
+                <div class="faq">
+                    <h3 class="faq-title">
+                        Welchen Führerschein muss ich als Fahrer vorweisen?
+                    </h3>
+                    <div class="faq-text">
+                        <p>
+                            you need to fill your text inside p-paragraph
+                            in order to get space between texts
+                        </p>
+                    </div>
+                    <button class="faq-toggle">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                </div>
+                <div class="faq">
+                    <h3 class="faq-title">
+                        Lorem ipsum dolor remmy
+                    </h3>
+                    <div class="faq-text">
+                        <p>
+                            you need to fill your text inside p-paragraph
+                            in order to get space between texts
+                        </p>
+                    </div>
+                    <button class="faq-toggle">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <!-- Live the dream section -->
+        <section class="livethedream-section">
+            <h1 class="livedream-title">Live the dream.</h1>
+            <div class="livedream-gallery">
+                <div class="first-grid">
+                    <div class="image-box"></div>
+                    <div class="image-box1">
+                        <h2 class="title-image">WAS DIE REISENDEN SAGEN</h2>
+                        <h2 class="mustermann">Max Mustermann</h2>
+                        <h2 class="country">Süd Afrika</h2>
+                        <div class="svg-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29">
+                                <g id="star_icon" fill="none">
+                                    <path
+                                        d="M15,0l3.75,10.785L30,11.077l-8.932,6.958L24.271,29,15,22.515,5.729,29l3.2-10.965L0,11.077l11.25-.292Z"
+                                        stroke="none" />
+                                    <path
+                                        d="M 15 6.089624404907227 L 12.68475914001465 12.74804878234863 L 5.635158538818359 12.93124580383301 L 11.23299980163574 17.29153823852539 L 9.244047164916992 24.10088729858398 L 15 20.07468032836914 L 20.75595283508301 24.10088729858398 L 18.76700019836426 17.29154968261719 L 24.36482810974121 12.93124961853027 L 17.31525039672852 12.74804878234863 L 15 6.089624404907227 M 15 -1.9073486328125e-06 L 18.75 10.78465843200684 L 30 11.0770092010498 L 21.06763076782227 18.03466033935547 L 24.27050971984863 29 L 15 22.51539993286133 L 5.729490280151367 29 L 8.932369232177734 18.03466033935547 L 0 11.07701873779297 L 11.25 10.78465843200684 L 15 -1.9073486328125e-06 Z"
+                                        stroke="none" fill="#000" />
+                                </g>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29">
+                                <g id="star_icon" fill="none">
+                                    <path
+                                        d="M15,0l3.75,10.785L30,11.077l-8.932,6.958L24.271,29,15,22.515,5.729,29l3.2-10.965L0,11.077l11.25-.292Z"
+                                        stroke="none" />
+                                    <path
+                                        d="M 15 6.089624404907227 L 12.68475914001465 12.74804878234863 L 5.635158538818359 12.93124580383301 L 11.23299980163574 17.29153823852539 L 9.244047164916992 24.10088729858398 L 15 20.07468032836914 L 20.75595283508301 24.10088729858398 L 18.76700019836426 17.29154968261719 L 24.36482810974121 12.93124961853027 L 17.31525039672852 12.74804878234863 L 15 6.089624404907227 M 15 -1.9073486328125e-06 L 18.75 10.78465843200684 L 30 11.0770092010498 L 21.06763076782227 18.03466033935547 L 24.27050971984863 29 L 15 22.51539993286133 L 5.729490280151367 29 L 8.932369232177734 18.03466033935547 L 0 11.07701873779297 L 11.25 10.78465843200684 L 15 -1.9073486328125e-06 Z"
+                                        stroke="none" fill="#000" />
+                                </g>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29">
+                                <g id="star_icon" fill="none">
+                                    <path
+                                        d="M15,0l3.75,10.785L30,11.077l-8.932,6.958L24.271,29,15,22.515,5.729,29l3.2-10.965L0,11.077l11.25-.292Z"
+                                        stroke="none" />
+                                    <path
+                                        d="M 15 6.089624404907227 L 12.68475914001465 12.74804878234863 L 5.635158538818359 12.93124580383301 L 11.23299980163574 17.29153823852539 L 9.244047164916992 24.10088729858398 L 15 20.07468032836914 L 20.75595283508301 24.10088729858398 L 18.76700019836426 17.29154968261719 L 24.36482810974121 12.93124961853027 L 17.31525039672852 12.74804878234863 L 15 6.089624404907227 M 15 -1.9073486328125e-06 L 18.75 10.78465843200684 L 30 11.0770092010498 L 21.06763076782227 18.03466033935547 L 24.27050971984863 29 L 15 22.51539993286133 L 5.729490280151367 29 L 8.932369232177734 18.03466033935547 L 0 11.07701873779297 L 11.25 10.78465843200684 L 15 -1.9073486328125e-06 Z"
+                                        stroke="none" fill="#000" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <p class="lorem-texts">
+                            <span>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, diam nonumy eirmod tempor
+                                invidunt
+                                ut labore.
+                            </span>
+                        </p>
+                        <div class="logo-bike-tour">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="47.201" height="48.763" viewBox="0 0 47.201 48.763">
+                                <defs>
+                                    <clipPath id="clip-path">
+                                        <path id="Path_18" data-name="Path 18"
+                                            d="M27.1,48.423m19.33-19.66c-1.344-2.687-2.8-5.292-2.385-8.527a16.835,16.835,0,0,1,3.016-7.129L39.877,6.17a10.444,10.444,0,0,1-2.824,1.4,10.6,10.6,0,0,1-8.939-.521l-1.07-.631-1.014.631a10.7,10.7,0,0,1-8.939.521,11.306,11.306,0,0,1-2.824-1.4L7.084,13.134A16.835,16.835,0,0,1,10.1,20.264c.411,3.208-1.07,5.813-2.385,8.527-1.947,3.784-2.331,8.829-.082,12.585a9.465,9.465,0,0,0,5.73,4.469c4.5,1.481,10.118.384,13.573,4.223a.109.109,0,0,0,.109.055.209.209,0,0,0,.11-.055c3.482-3.839,9.1-2.742,13.572-4.223a9.663,9.663,0,0,0,5.731-4.469c2.3-3.811,1.919-8.856-.027-12.613"
+                                            transform="translate(-6.096 -6.17)" fill="#020506" clip-rule="evenodd" />
+                                    </clipPath>
+                                    <clipPath id="clip-path-2">
+                                        <rect id="Rectangle_3" data-name="Rectangle 3" width="46.419" height="48.763"
+                                            fill="none" />
+                                    </clipPath>
+                                </defs>
+                                <g id="mr-biketours_logo_bw" style="mix-blend-mode: multiply;isolation: isolate">
+                                    <path id="Path_20" data-name="Path 20"
+                                        d="M45.943,9.585,36.758.7c-3.071,2.248-7.348,3.153-10.913,1.371-.713-.357-1.508-.713-2.221-1.124-.686.411-1.481.768-2.221,1.124C17.866,3.854,13.588,2.949,10.517.7L1.3,9.585s3.1,4.442,3.373,7.239c.439,4.332-2.413,7.047-3.427,10.913C-.012,32.452.838,37.991,4.485,41.391c3.564,3.482,8.883,3.318,13.463,4.2A9.924,9.924,0,0,1,23.1,48.575a.6.6,0,0,0,.109.137.569.569,0,0,0,.823.027.933.933,0,0,0,.165-.165,9.818,9.818,0,0,1,5.155-2.989c4.552-.9,9.9-.74,13.463-4.2,3.619-3.4,4.442-8.939,3.235-13.655-1.179-4.085-3.729-6.388-3.482-10.885.165-2.824,3.373-7.266,3.373-7.266"
+                                        transform="translate(0.355 -0.427)" fill="#fff" fill-rule="evenodd" />
+                                    <g id="Group_8" data-name="Group 8" transform="translate(0)">
+                                        <g id="Group_4" data-name="Group 4">
+                                            <g id="Group_3" data-name="Group 3" clip-path="url(#clip-path-2)">
+                                                <path id="Path_5" data-name="Path 5"
+                                                    d="M28.047,85.827a.146.146,0,0,0-.165-.165h-.494v1.289h.548c.083,0,.11-.027.11-.11Zm-.686-2.413v1.426h.521a.13.13,0,0,0,.137-.137V83.523a.1.1,0,0,0-.11-.109Zm1.7,1.206c0,.274-.082.494-.384.548a.461.461,0,0,1,.439.494v1.426c0,.6-.219.85-.85.85H26.292V82.454h2.139a.605.605,0,0,1,.658.658V84.62Z"
+                                                    transform="translate(-15.228 -50.209)" fill="#020506" />
+                                            </g>
+                                        </g>
+                                        <rect id="Rectangle_5" data-name="Rectangle 5" width="1.097" height="5.484"
+                                            transform="translate(14.354 32.245)" fill="#020506" />
+                                        <path id="Path_6" data-name="Path 6"
+                                            d="M39.921,84.812l.548-2.358h1.152l-.658,2.523.658,2.961H40.415l-.439-2.248h-.219v2.248H38.633V82.454h1.124v2.358Z"
+                                            transform="translate(-22.743 -50.209)" fill="#020506" />
+                                        <path id="Path_7" data-name="Path 7"
+                                            d="M47.046,82.454h2.139l.192,1.014H48.171v1.289h.9v.932h-.9V86.9h1.151l-.192,1.015H47.046Z"
+                                            transform="translate(-27.866 -50.209)" fill="#020506" />
+                                        <path id="Path_8" data-name="Path 8"
+                                            d="M55.827,82.454l.274,1.014h-.74v4.469H54.237V83.469H53.5l.274-1.014Z"
+                                            transform="translate(-31.794 -50.209)" fill="#020506" />
+                                        <g id="Group_6" data-name="Group 6" transform="translate(0.782)">
+                                            <g id="Group_5" data-name="Group 5" clip-path="url(#clip-path-2)">
+                                                <path id="Path_9" data-name="Path 9"
+                                                    d="M62.064,83.414c-.082,0-.11.027-.11.109v3.345c0,.082.027.109.11.109h.411c.082,0,.109-.027.109-.109V83.524a.1.1,0,0,0-.109-.109Zm1.645,3.729c0,.411-.165.768-.8.768H61.653a.7.7,0,0,1-.8-.768V83.167a.646.646,0,0,1,.74-.713h1.371a.646.646,0,0,1,.74.713Z"
+                                                    transform="translate(-37.059 -50.209)" fill="#020506" />
+                                                <path id="Path_10" data-name="Path 10"
+                                                    d="M70.192,87.938c-.631,0-.85-.247-.85-.85V82.454h1.124v4.387c0,.083.027.11.11.11h.384c.083,0,.11-.027.11-.11V82.454h1.124v4.634c0,.6-.219.85-.85.85Z"
+                                                    transform="translate(-42.225 -50.209)" fill="#020506" />
+                                                <path id="Path_11" data-name="Path 11"
+                                                    d="M78.826,83.415v1.892h.548c.082,0,.11-.027.11-.109V83.524a.1.1,0,0,0-.11-.11Zm1.727,2.276a.474.474,0,0,1-.494.494l.576,1.755H79.511l-.521-1.755h-.137v1.755h-1.1V82.455H79.84a.646.646,0,0,1,.74.713V85.69Z"
+                                                    transform="translate(-47.348 -50.21)" fill="#020506" />
+                                                <path id="Path_12" data-name="Path 12"
+                                                    d="M86.374,87.938l-.192-1.014h1.179c.11,0,.137-.027.137-.11v-.987c0-.164-.055-.164-.192-.164h-.6c-.329,0-.6-.083-.6-.631V83.167a.646.646,0,0,1,.74-.713h1.508l.192,1.014H87.306c-.082,0-.137.028-.137.11v.987c0,.11.055.137.165.137h.686c.356,0,.548.137.548.548V87.06c0,.6-.219.823-.85.823H86.374Z"
+                                                    transform="translate(-52.429 -50.209)" fill="#020506" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <path id="Path_13" data-name="Path 13"
+                                        d="M46.376,39.484a9.225,9.225,0,0,1-6.8,5.484l-2.44.411c-3.565.74-7.239.384-10.035,3.044h-.055c-2.8-2.687-6.471-2.3-10.035-3.044l-2.441-.411a9.235,9.235,0,0,1-6.8-5.484c-.521-1.344-1.316-3.811-.137-8.089a23.656,23.656,0,0,1,1.289-3.181c1.892-4.113,1.837-4.744,2.056-5.758a7.488,7.488,0,0,0,0-2.852A14.918,14.918,0,0,0,8.1,13.272l6.389-6.06c7.1,4.168,12.585.247,12.613.247.027-.027,5.511,3.921,12.613-.247l6.389,6.06c-2.057,3.043-2.413,4.14-2.879,6.334a6.5,6.5,0,0,0,0,2.852c.219,1.014.164,1.617,2.056,5.758A20.944,20.944,0,0,1,46.568,31.4c1.124,4.277.329,6.745-.192,8.089m.055-10.721c-1.344-2.687-2.8-5.292-2.385-8.527a16.835,16.835,0,0,1,3.016-7.129L39.877,6.17a10.444,10.444,0,0,1-2.824,1.4,10.6,10.6,0,0,1-8.939-.521l-1.07-.631-1.014.631a10.7,10.7,0,0,1-8.939.521,11.306,11.306,0,0,1-2.824-1.4L7.084,13.134A16.835,16.835,0,0,1,10.1,20.264c.411,3.208-1.07,5.813-2.385,8.527-1.947,3.784-2.331,8.829-.082,12.585a9.465,9.465,0,0,0,5.73,4.469c4.5,1.481,10.118.384,13.573,4.223a.109.109,0,0,0,.109.055.209.209,0,0,0,.11-.055c3.482-3.839,9.1-2.742,13.572-4.223a9.663,9.663,0,0,0,5.731-4.469c2.3-3.811,1.919-8.856-.027-12.613"
+                                        transform="translate(-2.93 -3.757)" fill="#020506" fill-rule="evenodd" />
+                                    <path id="Path_16" data-name="Path 16"
+                                        d="M30.35,37.666v9.843H26.292V26.643h4.414l2.276,8.829,2.276-8.829H39.7V47.537H35.615V37.666l-2.66,8.363Z"
+                                        transform="translate(-15.228 -16.224)" fill="#020506" />
+                                    <path id="Path_19" data-name="Path 19"
+                                        d="M69.12,30.29V37.5h2.056c.329,0,.411-.11.411-.439V30.728c0-.247-.11-.438-.411-.438Zm6.553,8.747a1.791,1.791,0,0,1-1.865,1.837L76,47.536H71.67l-2.029-6.663h-.548v6.663H64.925V26.643h7.924a2.49,2.49,0,0,1,2.824,2.715Z"
+                                        transform="translate(-38.753 -16.224)" fill="#020506" />
+                                </g>
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="second-grid">
+                    <div class="image-box2">
+                        <p class="lorem-texts">
+                            <span>
+                                T-shirt lorem ipsum dolor sit consetetur sadipscing
+                            </span>
+                        </p>
+                        <button>Exklusiv Merchandising</button>
+                    </div>
+                    <div class="image-box3"></div>
+                </div>
+                <div class="third-grid">
+                    <div class="image-box4"></div>
+                    <div class="image-box5">
+                        <p class="lorem-texts">
+                            <span>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, invidunt ut labore.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- destination Section start -->
+        <section id="destination-section " class="destination-section afrika-section">
+            <div class="afrika-title-box">
+                <h1 class="afrika-title AvenirBold">
+                    Diese Touren könnten Ihnen auch gefallen
+                </h1>
+            </div>
+            <div href="usa-biketour.html" class="card-tourisim">
+                <a class="card-container">
+                    <img src="./assets/images/lasvegas.png" alt="lasvegas">
+                    <div class="card-text-container">
+                        <h2 class="uppercase">Usa</h2>
+                        <div class="card-firsttext">
+                            <h1 class="AvenirBold">North West Discovery</h1>
+                            <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                        </div>
+                        <div class="card-firsttext">
+                            <h3>Motorradreise USA</h3>
+                            <h3 class="tage">14 Tage</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="usa-biketour.html" class="card-container">
+                    <img src="./assets/images/desertCanyon.png" alt="desertCanyon">
+                    <div class="card-text-container">
+                        <h2 class="uppercase">Usa</h2>
+                        <div class="card-firsttext">
+                            <h1 class="AvenirBold">North West Discovery</h1>
+                            <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                        </div>
+                        <div class="card-firsttext">
+                            <h3>Motorradreise USA</h3>
+                            <h3 class="tage">14 Tage</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="sudafrika-biketour.html" class="card-container">
+                    <img src="./assets/images/sudafrika.png" alt="sudafrika">
+                    <div class="card-text-container">
+                        <h2 class="uppercase">SüdAfrika</h2>
+                        <div class="card-firsttext">
+                            <h1 class="AvenirBold">Johannesburg Discovery</h1>
+                            <img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow-black-right">
+                        </div>
+                        <div class="card-firsttext">
+                            <h3>Motorradreise SüdAfrika</h3>
+                            <h3 class="tage">14 Tage</h3>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+    </main>
+    <!--FOOTER -->
+    <footer>
+        <div class="footer-mainpart">
+            <div class="footer-info-container">
+                <div class="footer-leftside">
+                    <div class="footer-kundensupport">
+                        <h2>KUNDENSUPPORT</h2>
+                        <p>+49 (0) 571 882 86</p>
+                        <p>info@mr-biketours.de</p>
+                        <p>Katalog anfordem</p>
+                    </div>
+                    <div class="footer-uberuns">
+                        <h2>Über uns</h2>
+                        <p>Über MR Biketours</p>
+                        <p>Unser Team</p>
+                    </div>
+                </div>
+                <div class="footer-rightside">
+                    <div class="footer-newsletter">
+                        <h1>Newsletter abonnieren</h1>
+                        <div class="footer-input">
+                            <input type="text" placeholder="Ihre E-Mail-Adresse">
+                            <a href="#"><img src="./assets/images/svgs/arrow-black-right.svg" alt="arrow"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-group-image">
+                <img src="./assets/images/Group 42.png" alt="group">
+            </div>
+        </div>
+
+        <div class="footer-Impressum-container">
+            <div class="footer-impressum">
+                <h3>© 2022 MR Biketours, Obermarktstr. 28-30, D 32423 Minden</h3>
+                <h4>Impressum</h4>
+                <hr class="footer-vertical">
+                <h4>DatenSchutz</h4>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon-holder">
+                    <img src="./assets/images/svgs/facebook.svg" alt="Facebook">
+                </div>
+                <div class="icon-holder">
+                    <img src="./assets/images/svgs/instagram.svg" alt="Instagram">
+                </div>
+                <div class="icon-holder">
+                    <img src="./assets/images/svgs/youtube.svg" alt="youtube">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="./assets/Javascript/main.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+</body>
+
+</html>
